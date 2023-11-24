@@ -1,0 +1,20 @@
+FROM ubuntu:20.04
+
+ENV TZ="Europe/Rome"
+
+RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime
+
+RUN echo $TZ > /etc/timezone && rm -rf /var/lib/apt/lists/*
+
+RUN apt-get update -y
+RUN apt-get install -y locales curl wget tar sudo git apt-utils nano
+
+RUN apt-get install -y g++ python3 python3-pip automake make cmake flex bison
+
+RUN pip3 install numpy pandas matplotlib
+
+RUN cd ~ 
+
+RUN git clone https://necst/iMFAnt.git
+
+RUN cd iMFAnt/scripts/
