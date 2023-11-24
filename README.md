@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10204679.svg)](https://doi.org/10.5281/zenodo.10204679)
 # One Automaton To Rule Them All: Beyond Multiple Regular Expressions Execution
 
 This repository contains the source code of the paper ``One Automaton To Rule Them All: Beyond Multiple Regular Expressions Execution'' where we deal with the problem of efficient Regular Expressions (REs) matching.
