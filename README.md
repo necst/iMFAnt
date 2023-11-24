@@ -129,8 +129,8 @@ To reproduce Figs. 9 and 10 (ETA: 12 h with 15 reps)
 ```
 ./iMFAnt_performance.sh
 ```
-These results are expected to display different optimal merging factor according to your machine.
-Anyhow, the MFSA are expected to improve the simple multi-thread scaling. 
+Figure 9 and 10 are expected to display different optimal merging factor according to testing machine characteristics.
+Anyhow, the MFSAs are expected to improve the simple multi-thread scaling according to the trends in the paper.
 
 To visualize these results [go here](#viz)
 
