@@ -60,7 +60,7 @@ and navigate into the repo folder
 cd iMFAnt
 ```
 
-Please follow one of the two setups: 1) [native Ubuntu-based machine](#ubuntu-setup); 2) [any OS with Docker](#docker-setup) and then to the [results reproduction section](#run-exp).
+Please follow one of the two setups: 1) [native Ubuntu-based machine](#ubuntu-setup); 2) [any OS with Docker](#docker-setup) and then to the [Running the Experiments](#run-exp).
 
 ### 1) Native Ubuntu-based Machine <a name="ubuntu-setup"></a>
 
