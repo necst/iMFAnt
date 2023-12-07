@@ -15,6 +15,6 @@ RUN pip3 install numpy pandas matplotlib
 
 RUN cd ~ 
 
-RUN git clone https://necst/iMFAnt.git
+RUN git clone https://github.com/necst/iMFAnt.git
 
 RUN cd iMFAnt/scripts/
