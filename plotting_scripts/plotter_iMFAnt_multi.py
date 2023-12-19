@@ -223,7 +223,7 @@ for l in range(1, len(ls), len(names)*len(merging_factors)):
     ax.scatter(best_t_ut_t[idx],best_t_ut[idx], s=70, color=palette[best_t_ut_m[idx]%len(palette)], label='_nolegend_',
     marker = markers[best_t_ut_m[idx]%len(markers)], zorder=10)
 
-    ax.scatter(abs_min_t[idx],abs_min[idx], s=70, color=palette[best_t_ut_m[idx]%len(palette)], label='_nolegend_',
+    ax.scatter(abs_min_t[idx],abs_min[idx], s=70, color=palette[abs_min_m[idx]%len(palette)], label='_nolegend_',
     marker = markers[abs_min_m[idx]%len(markers)], zorder=10)
 
     ax.scatter(best_t_ut_t[idx],best_t_ut[idx], s=70, color='none', edgecolors="blue",linewidth=1.5,
