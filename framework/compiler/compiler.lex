@@ -98,6 +98,18 @@ backslash \\.
 	yylval.character = '\r';
 	return CHAR;
 } 
+
+<INITIAL,RANGE>\\f {
+	flag = 0;
+	yylval.character = '\f';
+	return CHAR;
+} 
+
+<INITIAL,RANGE>\\v {
+	flag = 0;
+	yylval.character = '\v';
+	return CHAR;
+} 
  
 <INITIAL>\. {
 	flag = 0;

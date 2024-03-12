@@ -10,7 +10,7 @@ all: $(NAME)
 
 $(NAME): $(HEADERS) $(LIBRARIES) $(NAME).cpp
 
-	$(CC) -fopenmp -o $@ $(NAME).cpp $(LIBRARIES) -O3 -DREPS=5
+	$(CC) -fopenmp -o $@ $(NAME).cpp $(LIBRARIES) -O3 -DREPS=1
 
 clean:
 	rm -f $(NAME)

@@ -74,12 +74,12 @@ int main(int argc, char *argv[]){
 
     for (int i=0; i<REPS; i++){
         vector<matching_path *> mps = vector<matching_path *>();
-        for(int i=0; i<mfsas->size(); i++){
+        for(int l=0; l<mfsas->size(); l++){
             // cout<<maximi[i]<<endl;
             matching_path *mp = new matching_path;
             mp->sv = new vector<int>;
             mp->active_re = new vector<vector<int> *>;
-            for(int j=0;j<maximi->at(i)+1;j++){
+            for(int j=0;j<maximi->at(l)+1;j++){
                 mp->sv->push_back(0);
                 vector<int> *v= new vector<int>;
                 mp->active_re->push_back(v);
@@ -128,6 +128,7 @@ int main(int argc, char *argv[]){
 
         int mm=0; 
         for(int j=0; j<matches->size(); j++){
+            output_file<<"RE "<<j<<": "<<matches->at(j)<<endl;
             mm+=matches->at(j);
         }
         

@@ -1,0 +1,8 @@
+<anml version="1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<automata-network id="merged">
+<state-transition-range-element id="0" symbol-set="[\x274\x224\x22e\x2a2\x273\x22f\x22d\x275]" start="0">
+	<activate-on-match element="1"/> <available-re="0"/>
+	<report-on-match reportcode="0,"/>
+</state-transition-range-element>
+</automata-network>
+</anml>

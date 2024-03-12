@@ -23,7 +23,7 @@
 #define HEX 16
 #define V 0
 #define ALPHA_SIZE 256
-#define REPS 1
+#define REPS 10
 
 using namespace std;
 
@@ -580,6 +580,7 @@ int findCommonRange_multi(mergedCOO* m, singleCOO* a, mergingSet *ms, int prevFo
             // compare all ranges in the FSA and MFSA
             if(a->ranges[j].neg==m->ranges[i].neg
             && a->ranges[j].len==m->ranges[i].len){
+
                 int cnt = 0;
                 int flag = 0;
                 vector<uint16_t> s1; 
@@ -619,23 +620,21 @@ int findCommonRange_multi(mergedCOO* m, singleCOO* a, mergingSet *ms, int prevFo
                         visited2.set(m->ranges[i].ref[k]);
                     }
                 }
-                    
-                for(int k=0; k<ALPHA_SIZE; k++){
-                    if(visited1[k] && visited2[k]){
-                        cnt++;
-                    }
-                }
 
-                if (cnt == m->ranges[i].len)
+                    
+                // for(int k=0; k<ALPHA_SIZE; k++){
+                //     if(visited1[k] && visited2[k]){
+                //         cnt++;
+                //     }
+                // }
+
+                if ((visited1 & visited2).count() == m->ranges[i].len)
                     flag = 1;
 
 
-                int cfrState = -1;
-                if (ms->size()>0){
-                    cfrState = ms->at(ms->size()-1).oldStates[ms->at(ms->size()-1).oldStates.size()-1];
-                }
+
                 
-                if(flag && !existsArc(a, cfrState, a->ranges[j].start)){
+                if(flag && !existsArc(a, a->ranges[j].start, ms)){
                     // if so, save starting and final states to merge the transition described by the character class
                     mergingTab mt;
                     mt.newStates.push_back(m->ranges[i].start);
@@ -871,12 +870,12 @@ int findCommonSub_multi(mergedCOO* m, singleCOO* a, mergingSet *ms, int tmpFound
 
                     int cfrState = -1;
                     
-                    if (ms->size()>0){
-                        cfrState = ms->at(ms->size()-1).oldStates[ms->at(ms->size()-1).oldStates.size()-1];
-                    }
+                    // if (ms->size()>0){
+                    //     cfrState = ms->at(ms->size()-1).oldStates[ms->at(ms->size()-1).oldStates.size()-1];
+                    // }
                     // std::cout<<"merging automata "<<a->id<<endl;
 
-                    if(!existsArc(a, cfrState, a->rowIdx[i])){
+                    if(!existsArc(a, a->rowIdx[i], ms)){
                         int flag=1;
                         // for(int j=0;j<ms->size();j++){
                         //     for(int k=0;k<ms->at(j).oldStates.size();k++){
@@ -946,12 +945,14 @@ int findCommonSub_multi(mergedCOO* m, singleCOO* a, mergingSet *ms, int tmpFound
  * @param a is the FSA
  * @return 1 if one such arc exists, 0 otherwise
  */  
-int existsArc(singleCOO* a, int state1, int state2){
-    if(state1 == -1) return 0;
-    for(int j=0;j<a->nonzeroValues.size();j++){
-        if(a->rowIdx[j]==state1&& a->colIdx[j]==state2){
-            return 1;
-            // std::cout<<"not compatible"<<endl;
+int existsArc(singleCOO* a, int state2, mergingSet *ms){
+    for(int j=0;j<ms->size();j++){
+        for(int k=0;k<ms->at(j).oldStates.size();k++){
+            for(int l=0;l<a->nonzeroValues.size();l++){
+                if(a->rowIdx[l]==ms->at(j).oldStates[k]&& a->colIdx[l]==state2){
+                    return 1;
+                }
+            }
         }
     }
     // std::cout<<"compatible"<<endl;

@@ -1,0 +1,17 @@
+<anml version="1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<automata-network id="merged">
+<state-transition-element id="0" symbol-set="[\x2e]" start="0">
+	<activate-on-match element="1"/> <available-re="0"/>
+</state-transition-element>
+<state-transition-element id="1" symbol-set="[\x70]" start="-1">
+	<activate-on-match element="2"/> <available-re="0"/>
+</state-transition-element>
+<state-transition-element id="2" symbol-set="[\x6c]" start="-1">
+	<activate-on-match element="3"/> <available-re="0"/>
+</state-transition-element>
+<state-transition-element id="3" symbol-set="[\x2e]" start="-1">
+	<activate-on-match element="4"/> <available-re="0"/>
+	<report-on-match reportcode="0,"/>
+</state-transition-element>
+</automata-network>
+</anml>

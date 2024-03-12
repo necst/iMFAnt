@@ -1,0 +1,47 @@
+<anml version="1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<automata-network id="merged">
+<state-transition-element id="0" symbol-set="[\x70]" start="0">
+	<activate-on-match element="1"/> <available-re="0"/>
+</state-transition-element>
+<state-transition-element id="1" symbol-set="[\x61]" start="-1">
+	<activate-on-match element="2"/> <available-re="0"/>
+</state-transition-element>
+<state-transition-element id="2" symbol-set="[\x73]" start="-1">
+	<activate-on-match element="3"/> <available-re="0"/>
+</state-transition-element>
+<state-transition-element id="3" symbol-set="[\x73]" start="-1">
+	<activate-on-match element="4"/> <available-re="0"/>
+</state-transition-element>
+<state-transition-element id="4" symbol-set="[\x77]" start="-1">
+	<activate-on-match element="5"/> <available-re="0"/>
+</state-transition-element>
+<state-transition-element id="5" symbol-set="[\x6f]" start="-1">
+	<activate-on-match element="6"/> <available-re="0"/>
+</state-transition-element>
+<state-transition-element id="6" symbol-set="[\x72]" start="-1">
+	<activate-on-match element="7"/> <available-re="0"/>
+</state-transition-element>
+<state-transition-element id="7" symbol-set="[\x64]" start="-1">
+	<activate-on-match element="8"/> <available-re="0"/>
+</state-transition-element>
+<state-transition-element id="8" symbol-set="[\x3d]" start="-1">
+	<activate-on-match element="9"/> <available-re="0"/>
+</state-transition-element>
+<state-transition-element id="9" symbol-set="[\x31]" start="-1">
+	<activate-on-match element="10"/> <available-re="0"/>
+</state-transition-element>
+<state-transition-element id="10" symbol-set="[\x32]" start="-1">
+	<activate-on-match element="11"/> <available-re="0"/>
+</state-transition-element>
+<state-transition-element id="11" symbol-set="[\x33]" start="-1">
+	<activate-on-match element="12"/> <available-re="0"/>
+</state-transition-element>
+<state-transition-element id="12" symbol-set="[\x34]" start="-1">
+	<activate-on-match element="13"/> <available-re="0"/>
+</state-transition-element>
+<state-transition-element id="13" symbol-set="[\x35]" start="-1">
+	<activate-on-match element="14"/> <available-re="0"/>
+	<report-on-match reportcode="0,"/>
+</state-transition-element>
+</automata-network>
+</anml>

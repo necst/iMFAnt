@@ -1,0 +1,35 @@
+<anml version="1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<automata-network id="merged">
+<state-transition-range-element id="0" symbol-set="[\x47\x58]" start="0">
+	<activate-on-match element="1"/> <available-re="0"/>
+</state-transition-range-element>
+<state-transition-range-element id="1" symbol-set="[\x4c\x49\x56\x4d\x58]" start="-1">
+	<activate-on-match element="2"/> <available-re="0"/>
+</state-transition-range-element>
+<state-transition-range-element id="2" symbol-set="[^\x0a]" start="-1">
+	<activate-on-match element="10"/> <available-re="0"/>
+</state-transition-range-element>
+<state-transition-range-element id="4" symbol-set="[\x45\x5a\x58]" start="-1">
+	<activate-on-match element="5"/> <available-re="0"/>
+</state-transition-range-element>
+<state-transition-range-element id="5" symbol-set="[\x4c\x49\x56\x58]" start="-1">
+	<activate-on-match element="6"/> <available-re="0"/>
+</state-transition-range-element>
+<state-transition-range-element id="6" symbol-set="[\x54\x58]" start="-1">
+	<activate-on-match element="7"/> <available-re="0"/>
+</state-transition-range-element>
+<state-transition-range-element id="7" symbol-set="[\x4c\x46\x58]" start="-1">
+	<activate-on-match element="8"/> <available-re="0"/>
+</state-transition-range-element>
+<state-transition-range-element id="8" symbol-set="[\x52\x58]" start="-1">
+	<activate-on-match element="9"/> <available-re="0"/>
+	<report-on-match reportcode="0,"/>
+</state-transition-range-element>
+<state-transition-range-element id="10" symbol-set="[^\x0a]" start="-1">
+	<activate-on-match element="12"/> <available-re="0"/>
+</state-transition-range-element>
+<state-transition-range-element id="12" symbol-set="[^\x0a]" start="-1">
+	<activate-on-match element="4"/> <available-re="0"/>
+</state-transition-range-element>
+</automata-network>
+</anml>

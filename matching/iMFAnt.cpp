@@ -570,7 +570,7 @@ void print_nfa(mfsa *nfa){
         if(nfa->alphabet->at(i).pointers_to_transition->size()>0){
             cout<<"character "<<hex<<i<<" enables the following transitions:"<<endl;
             for(int j=0;j<nfa->alphabet->at(i).pointers_to_transition->size();j++){
-                cout<<"from "<<nfa->alphabet->at(i).pointers_to_transition->at(j).src<<" to "<<nfa->alphabet->at(i).pointers_to_transition->at(j).dst<<endl;
+                cout<<"from "<<dec<<(int)nfa->alphabet->at(i).pointers_to_transition->at(j).src<<" to "<<dec<<(int)nfa->alphabet->at(i).pointers_to_transition->at(j).dst<<endl;
                 cout<<"final for: ";
                 for(int k=0;k<nfa->alphabet->at(i).pointers_to_transition->at(j).isFin.size();k++)
                     cout<<nfa->alphabet->at(i).pointers_to_transition->at(j).isFin[k]<<" ";
@@ -602,7 +602,7 @@ void print_nfa(mfsa *nfa){
 void print_mp(matching_path *mp){
     cout<<"---CURRENT MATCHING PATH---"<<endl; 
     for(int i=0;i<mp->sv->size();i++){
-        cout<<mp->sv->at(i)<<" [";
+        cout<<i<<": "<<mp->sv->at(i)<<" [";
         for(int j=0; j<mp->active_re->at(i)->size(); j++){
             cout<<mp->active_re->at(i)->at(j)<<",";
         }
@@ -726,6 +726,8 @@ int valid_transition(vector<int> *currently_active, vector<int> available){
  */
 int infant(matching_path *mp, mfsa *nfa, string& input){
 
+    // print_nfa(nfa);
+
 
     if(input.size()==0)
         return 0;
@@ -750,7 +752,7 @@ int infant(matching_path *mp, mfsa *nfa, string& input){
             print_mp(mp);
         unsigned char c = input[ic];
 
-        // cout<<"--- matching "<<(int)c<<" ---"<<endl;
+        // cout<<"--- matching "<<hex<<(int)c<<" ---"<<endl;
         
         int f = 0;
         if(nfa->alphabet->at((uint16_t)c).pointers_to_transition->size()>0){
@@ -839,6 +841,7 @@ int infant(matching_path *mp, mfsa *nfa, string& input){
                 }
             }
             if(!f){
+                // cout<<"no match for "<<hex<<c<<endl;
                 for(int n=0;n<mp->active_re->size();n++)
                     mp->active_re->at(n)->clear();
                 for(int i=0;i<mp->sv->size();i++)
