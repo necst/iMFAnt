@@ -1,0 +1,50 @@
+
+automata 13
++++ MATCH FOUND FOR matched: 0  +++
+ at 76965
+automata 17
++++ MATCH FOUND FOR matched: 0  +++
+ at 18868
++++ MATCH FOUND FOR matched: 0  +++
+ at 35801
++++ MATCH FOUND FOR matched: 0  +++
+ at 61681
++++ MATCH FOUND FOR matched: 0  +++
+ at 62013
++++ MATCH FOUND FOR matched: 0  +++
+ at 62071
++++ MATCH FOUND FOR matched: 0  +++
+ at 65133
++++ MATCH FOUND FOR matched: 0  +++
+ at 65488
++++ MATCH FOUND FOR matched: 0  +++
+ at 65534
++++ MATCH FOUND FOR matched: 0  +++
+ at 65731
++++ MATCH FOUND FOR matched: 0  +++
+ at 66157
++++ MATCH FOUND FOR matched: 0  +++
+ at 66175
++++ MATCH FOUND FOR matched: 0  +++
+ at 66241
++++ MATCH FOUND FOR matched: 0  +++
+ at 66268
++++ MATCH FOUND FOR matched: 0  +++
+ at 66331
++++ MATCH FOUND FOR matched: 0  +++
+ at 66663
++++ MATCH FOUND FOR matched: 0  +++
+ at 67707
++++ MATCH FOUND FOR matched: 0  +++
+ at 68359
+automata 18
++++ MATCH FOUND FOR matched: 0  +++
+ at 62074
++++ MATCH FOUND FOR matched: 0  +++
+ at 66666
++++ MATCH FOUND FOR matched: 0  +++
+ at 68362
+automata 19
++++ MATCH FOUND FOR matched: 0  +++
+ at 66669
+MFSA DIR: ../mfsa/bro_1/

@@ -125,12 +125,12 @@
 	<activate-on-match element="0"/> <available-re="3"/>
 </state-transition-element>
 <state-transition-element id="2" symbol-set="[\x6b]" start="-1">
+	<activate-on-match element="20"/> <available-re="3"/>
+</state-transition-element>
+<state-transition-element id="20" symbol-set="[\x52]" start="-1">
 	<activate-on-match element="39"/> <available-re="3"/>
 </state-transition-element>
-<state-transition-element id="39" symbol-set="[\x52]" start="-1">
-	<activate-on-match element="15"/> <available-re="3"/>
-</state-transition-element>
-<state-transition-element id="15" symbol-set="[\x7a]" start="-1">
+<state-transition-element id="39" symbol-set="[\x7a]" start="-1">
 	<activate-on-match element="40"/> <available-re="3"/>
 	<report-on-match reportcode="3,"/>
 </state-transition-element>

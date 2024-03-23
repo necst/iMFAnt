@@ -3,7 +3,7 @@
 <state-transition-range-element id="0" symbol-set="[\x78\x58]" start="0">
 	<activate-on-match element="1"/> <available-re="0"/>
 </state-transition-range-element>
-<state-transition-range-element id="1" symbol-set="[\x70\x50]" start="2">
+<state-transition-range-element id="1" symbol-set="[\x70\x50]" start="-1">
 	<activate-on-match element="2"/> <available-re="0,2"/>
 </state-transition-range-element>
 <state-transition-element id="2" symbol-set="[\x5f]" start="-1">
@@ -80,11 +80,8 @@
 	<activate-on-match element="27"/> <available-re="1"/>
 	<report-on-match reportcode="1,"/>
 </state-transition-element>
-<state-transition-range-element id="1" symbol-set="[^\x0a]" start="2">
+<state-transition-range-element id="28" symbol-set="[^\x0a]" start="2">
 	<activate-on-match element="54"/> <available-re="2"/>
-</state-transition-range-element>
-<state-transition-range-element id="28" symbol-set="[\x70\x50]" start="-1">
-	<activate-on-match element="2"/> <available-re="2"/>
 </state-transition-range-element>
 <state-transition-range-element id="2" symbol-set="[\x63\x43]" start="-1">
 	<activate-on-match element="29"/> <available-re="2"/>
@@ -171,6 +168,9 @@
 	<activate-on-match element="58"/> <available-re="2"/>
 	<report-on-match reportcode="2,"/>
 </state-transition-range-element>
+<state-transition-range-element id="28" symbol-set="[\x70\x50]" start="2">
+	<activate-on-match element="2"/> <available-re="2"/>
+</state-transition-range-element>
 <state-transition-range-element id="54" symbol-set="[^\x0a]" start="-1">
 	<activate-on-match element="55"/> <available-re="2"/>
 </state-transition-range-element>
@@ -190,7 +190,7 @@
 	<activate-on-match element="2"/> <available-re="2"/>
 </state-transition-range-element>
 <state-transition-range-element id="57" symbol-set="[^\x0a]" start="-1">
-	<activate-on-match element="28"/> <available-re="2"/>
+	<activate-on-match element="1"/> <available-re="2"/>
 </state-transition-range-element>
 <state-transition-range-element id="54" symbol-set="[\x70\x50]" start="-1">
 	<activate-on-match element="2"/> <available-re="2"/>

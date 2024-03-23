@@ -47,16 +47,16 @@
 	<report-on-match reportcode="0,"/>
 </state-transition-element>
 <state-transition-element id="7" symbol-set="[\x59]" start="-1">
-	<activate-on-match element="17"/> <available-re="1"/>
+	<activate-on-match element="11"/> <available-re="1"/>
 	<report-on-match reportcode="1,"/>
 </state-transition-element>
-<state-transition-element id="17" symbol-set="[\x4e]" start="-1">
+<state-transition-element id="11" symbol-set="[\x4e]" start="-1">
+	<activate-on-match element="17"/> <available-re="1"/>
+</state-transition-element>
+<state-transition-element id="17" symbol-set="[\x59]" start="-1">
 	<activate-on-match element="18"/> <available-re="1"/>
 </state-transition-element>
-<state-transition-element id="18" symbol-set="[\x59]" start="-1">
-	<activate-on-match element="11"/> <available-re="1"/>
-</state-transition-element>
-<state-transition-element id="11" symbol-set="[\x71]" start="-1">
+<state-transition-element id="18" symbol-set="[\x71]" start="-1">
 	<activate-on-match element="19"/> <available-re="1"/>
 	<report-on-match reportcode="1,"/>
 </state-transition-element>

@@ -1,0 +1,3035 @@
+RE 1: (?=(dH252dhBEG(7)?.*dfZHAv883BK99kp))
+iter #, position, match, exec time [us]
+0;3.778
+
+avg exec time [us], std exec time [us] #matches
+3.778;0.0;0
+RE 2: (?=(yg40z))
+iter #, position, match, exec time [us]
+0;2.808
+
+avg exec time [us], std exec time [us] #matches
+2.808;0.0;0
+RE 3: (?=(fLxqOL(3f|5X|mU)))
+iter #, position, match, exec time [us]
+0;2.944
+
+avg exec time [us], std exec time [us] #matches
+2.944;0.0;0
+RE 4: (?=(AkuCg(7yOr|sQCo|CnRi)no7ll))
+iter #, position, match, exec time [us]
+0;742146:742160;b'AkuCgsQCono7ll';2.687
+1;2.687
+
+avg exec time [us], std exec time [us] #matches
+2.687;0.0;1
+RE 5: (?=(p(TN|ln|mb)NAKaZiU))
+iter #, position, match, exec time [us]
+0;2.875
+
+avg exec time [us], std exec time [us] #matches
+2.875;0.0;0
+RE 6: (?=(3H(26E)?))
+iter #, position, match, exec time [us]
+0;33273:33275;b'3H';2.95
+0;33896:33898;b'3H';2.95
+0;35565:35567;b'3H';2.95
+0;36644:36646;b'3H';2.95
+0;37407:37409;b'3H';2.95
+0;37808:37810;b'3H';2.95
+0;38305:38307;b'3H';2.95
+0;39431:39433;b'3H';2.95
+0;39506:39508;b'3H';2.95
+0;39566:39568;b'3H';2.95
+0;40702:40704;b'3H';2.95
+0;51655:51657;b'3H';2.95
+0;77479:77481;b'3H';2.95
+0;96648:96650;b'3H';2.95
+0;147526:147528;b'3H';2.95
+0;152398:152400;b'3H';2.95
+0;189020:189022;b'3H';2.95
+0;193287:193289;b'3H';2.95
+0;215368:215370;b'3H';2.95
+0;216165:216167;b'3H';2.95
+0;216192:216194;b'3H';2.95
+0;216522:216524;b'3H';2.95
+0;217910:217912;b'3H';2.95
+0;218588:218590;b'3H';2.95
+0;219351:219353;b'3H';2.95
+0;221966:221968;b'3H';2.95
+0;222339:222341;b'3H';2.95
+0;225440:225442;b'3H';2.95
+0;225682:225684;b'3H';2.95
+0;227743:227745;b'3H';2.95
+0;229081:229083;b'3H';2.95
+0;229114:229116;b'3H';2.95
+0;229992:229994;b'3H';2.95
+0;230085:230087;b'3H';2.95
+0;230124:230126;b'3H';2.95
+0;231109:231111;b'3H';2.95
+0;231512:231514;b'3H';2.95
+0;232199:232201;b'3H';2.95
+0;232835:232837;b'3H';2.95
+0;233861:233863;b'3H';2.95
+0;238925:238927;b'3H';2.95
+0;239661:239663;b'3H';2.95
+0;240705:240707;b'3H';2.95
+0;244495:244497;b'3H';2.95
+0;278202:278204;b'3H';2.95
+0;278556:278558;b'3H';2.95
+0;279132:279134;b'3H';2.95
+0;279684:279686;b'3H';2.95
+0;281322:281324;b'3H';2.95
+0;281837:281839;b'3H';2.95
+0;281918:281920;b'3H';2.95
+0;282128:282130;b'3H';2.95
+0;282251:282253;b'3H';2.95
+0;282931:282933;b'3H';2.95
+0;284621:284623;b'3H';2.95
+0;284747:284749;b'3H';2.95
+0;296364:296366;b'3H';2.95
+0;297743:297745;b'3H';2.95
+0;297979:297981;b'3H';2.95
+0;298197:298199;b'3H';2.95
+0;299341:299343;b'3H';2.95
+0;299476:299478;b'3H';2.95
+0;299491:299493;b'3H';2.95
+0;299757:299759;b'3H';2.95
+0;299916:299918;b'3H';2.95
+0;300855:300857;b'3H';2.95
+0;301165:301167;b'3H';2.95
+0;302074:302076;b'3H';2.95
+0;302394:302396;b'3H';2.95
+0;302590:302592;b'3H';2.95
+0;303850:303852;b'3H';2.95
+0;304230:304232;b'3H';2.95
+0;304477:304479;b'3H';2.95
+0;305164:305166;b'3H';2.95
+0;305837:305839;b'3H';2.95
+0;305850:305852;b'3H';2.95
+0;328314:328316;b'3H';2.95
+0;328643:328645;b'3H';2.95
+0;328756:328758;b'3H';2.95
+0;332144:332146;b'3H';2.95
+0;332265:332267;b'3H';2.95
+0;332864:332866;b'3H';2.95
+0;333947:333949;b'3H';2.95
+0;334242:334244;b'3H';2.95
+0;334982:334984;b'3H';2.95
+0;346367:346369;b'3H';2.95
+0;398302:398304;b'3H';2.95
+0;398918:398920;b'3H';2.95
+0;399109:399111;b'3H';2.95
+0;399724:399726;b'3H';2.95
+0;401076:401078;b'3H';2.95
+0;401480:401482;b'3H';2.95
+0;401612:401614;b'3H';2.95
+0;401808:401810;b'3H';2.95
+0;403618:403620;b'3H';2.95
+0;407098:407100;b'3H';2.95
+0;407498:407500;b'3H';2.95
+0;407545:407547;b'3H';2.95
+0;407688:407690;b'3H';2.95
+0;414031:414033;b'3H';2.95
+0;414564:414566;b'3H';2.95
+0;419228:419230;b'3H';2.95
+0;430326:430328;b'3H';2.95
+0;439182:439184;b'3H';2.95
+0;440967:440969;b'3H';2.95
+0;442409:442411;b'3H';2.95
+0;442525:442527;b'3H';2.95
+0;443309:443311;b'3H';2.95
+0;444600:444602;b'3H';2.95
+0;444693:444695;b'3H';2.95
+0;446998:447000;b'3H';2.95
+0;451170:451172;b'3H';2.95
+0;452317:452319;b'3H';2.95
+0;452619:452621;b'3H';2.95
+0;455485:455487;b'3H';2.95
+0;456037:456039;b'3H';2.95
+0;456974:456976;b'3H';2.95
+0;457520:457522;b'3H';2.95
+0;470321:470323;b'3H';2.95
+0;470548:470550;b'3H';2.95
+0;474518:474520;b'3H';2.95
+0;474711:474713;b'3H';2.95
+0;475323:475325;b'3H';2.95
+0;476478:476480;b'3H';2.95
+0;476836:476838;b'3H';2.95
+0;478068:478070;b'3H';2.95
+0;490498:490500;b'3H';2.95
+0;490614:490616;b'3H';2.95
+0;492110:492112;b'3H';2.95
+0;492318:492320;b'3H';2.95
+0;492725:492727;b'3H';2.95
+0;492856:492858;b'3H';2.95
+0;493302:493304;b'3H';2.95
+0;494432:494434;b'3H';2.95
+0;494939:494941;b'3H';2.95
+0;495087:495089;b'3H';2.95
+0;495298:495300;b'3H';2.95
+0;495853:495855;b'3H';2.95
+0;496678:496680;b'3H';2.95
+0;497265:497267;b'3H';2.95
+0;498196:498198;b'3H';2.95
+0;498461:498463;b'3H';2.95
+0;498553:498555;b'3H';2.95
+0;499167:499169;b'3H';2.95
+0;499258:499260;b'3H';2.95
+0;499379:499381;b'3H';2.95
+0;499424:499426;b'3H';2.95
+0;508607:508609;b'3H';2.95
+0;509255:509257;b'3H';2.95
+0;511107:511109;b'3H';2.95
+0;512706:512708;b'3H';2.95
+0;515440:515442;b'3H';2.95
+0;516071:516073;b'3H';2.95
+0;519293:519295;b'3H';2.95
+0;519460:519462;b'3H';2.95
+0;520257:520259;b'3H';2.95
+0;520806:520808;b'3H';2.95
+0;542022:542024;b'3H';2.95
+0;544096:544098;b'3H';2.95
+0;544152:544154;b'3H';2.95
+0;544856:544858;b'3H';2.95
+0;547025:547027;b'3H';2.95
+0;547420:547422;b'3H';2.95
+0;547764:547766;b'3H';2.95
+0;548036:548038;b'3H';2.95
+0;548237:548239;b'3H';2.95
+0;549606:549608;b'3H';2.95
+0;550430:550432;b'3H';2.95
+0;550868:550870;b'3H';2.95
+0;550898:550900;b'3H';2.95
+0;593977:593979;b'3H';2.95
+0;594135:594137;b'3H';2.95
+0;594426:594428;b'3H';2.95
+0;594704:594706;b'3H';2.95
+0;595482:595484;b'3H';2.95
+0;596598:596600;b'3H';2.95
+0;597324:597326;b'3H';2.95
+0;597392:597394;b'3H';2.95
+0;598047:598049;b'3H';2.95
+0;599397:599399;b'3H';2.95
+0;599568:599570;b'3H';2.95
+0;599844:599846;b'3H';2.95
+0;600108:600110;b'3H';2.95
+0;601039:601041;b'3H';2.95
+0;602753:602755;b'3H';2.95
+0;602821:602823;b'3H';2.95
+0;603184:603186;b'3H';2.95
+0;603631:603633;b'3H';2.95
+0;603743:603745;b'3H';2.95
+0;605418:605420;b'3H';2.95
+0;607612:607614;b'3H';2.95
+0;610135:610137;b'3H';2.95
+0;610988:610990;b'3H';2.95
+0;611916:611918;b'3H';2.95
+0;632789:632791;b'3H';2.95
+0;634810:634812;b'3H';2.95
+0;635430:635432;b'3H';2.95
+0;635715:635717;b'3H';2.95
+0;635828:635830;b'3H';2.95
+0;635962:635964;b'3H';2.95
+0;636610:636612;b'3H';2.95
+0;637003:637005;b'3H';2.95
+0;637335:637337;b'3H';2.95
+0;637552:637554;b'3H';2.95
+0;637738:637740;b'3H';2.95
+0;638450:638452;b'3H';2.95
+0;639329:639331;b'3H';2.95
+0;639365:639367;b'3H';2.95
+0;640317:640319;b'3H';2.95
+0;640903:640905;b'3H';2.95
+0;642228:642230;b'3H';2.95
+0;642305:642307;b'3H';2.95
+0;642391:642393;b'3H';2.95
+0;642409:642411;b'3H';2.95
+0;642560:642562;b'3H';2.95
+0;642709:642711;b'3H';2.95
+0;643373:643375;b'3H';2.95
+0;643714:643716;b'3H';2.95
+0;644621:644623;b'3H';2.95
+0;644757:644759;b'3H';2.95
+0;646286:646288;b'3H';2.95
+0;647135:647137;b'3H';2.95
+0;647829:647831;b'3H';2.95
+0;648550:648552;b'3H';2.95
+0;650070:650072;b'3H';2.95
+0;650435:650437;b'3H';2.95
+0;650850:650852;b'3H';2.95
+0;651749:651751;b'3H';2.95
+0;668810:668812;b'3H';2.95
+0;684909:684911;b'3H';2.95
+0;685022:685024;b'3H';2.95
+0;687379:687381;b'3H';2.95
+0;687577:687579;b'3H';2.95
+0;687954:687956;b'3H';2.95
+0;688139:688141;b'3H';2.95
+0;688505:688507;b'3H';2.95
+0;688797:688799;b'3H';2.95
+0;689000:689002;b'3H';2.95
+0;692594:692596;b'3H';2.95
+0;703831:703833;b'3H';2.95
+0;704327:704329;b'3H';2.95
+0;704669:704671;b'3H';2.95
+0;704717:704719;b'3H';2.95
+0;707381:707383;b'3H';2.95
+0;710428:710430;b'3H';2.95
+0;712519:712521;b'3H';2.95
+0;712626:712628;b'3H';2.95
+0;713278:713280;b'3H';2.95
+0;726575:726577;b'3H';2.95
+0;735170:735172;b'3H';2.95
+0;736151:736153;b'3H';2.95
+0;737141:737143;b'3H';2.95
+0;737342:737344;b'3H';2.95
+0;741842:741844;b'3H';2.95
+0;742102:742104;b'3H';2.95
+0;743722:743724;b'3H';2.95
+0;744397:744399;b'3H';2.95
+0;751498:751500;b'3H';2.95
+0;755012:755014;b'3H';2.95
+0;786212:786214;b'3H';2.95
+0;786324:786326;b'3H';2.95
+0;786969:786971;b'3H';2.95
+0;786986:786988;b'3H';2.95
+0;787693:787695;b'3H';2.95
+0;787734:787736;b'3H';2.95
+0;788314:788316;b'3H';2.95
+0;788505:788507;b'3H';2.95
+0;788614:788616;b'3H';2.95
+0;788797:788799;b'3H';2.95
+0;788905:788907;b'3H';2.95
+0;789390:789392;b'3H';2.95
+0;789746:789748;b'3H';2.95
+0;790119:790121;b'3H';2.95
+0;790179:790181;b'3H';2.95
+0;790430:790432;b'3H';2.95
+0;791398:791400;b'3H';2.95
+0;791784:791786;b'3H';2.95
+0;792056:792058;b'3H';2.95
+0;792361:792363;b'3H';2.95
+0;792750:792752;b'3H';2.95
+0;792752:792754;b'3H';2.95
+0;792974:792976;b'3H';2.95
+0;794334:794336;b'3H';2.95
+0;795110:795112;b'3H';2.95
+0;795237:795239;b'3H';2.95
+0;795621:795623;b'3H';2.95
+0;850751:850753;b'3H';2.95
+0;869527:869529;b'3H';2.95
+0;946911:946913;b'3H';2.95
+0;953888:953890;b'3H';2.95
+0;960404:960406;b'3H';2.95
+0;961817:961819;b'3H';2.95
+0;962025:962027;b'3H';2.95
+0;962774:962776;b'3H';2.95
+0;962839:962841;b'3H';2.95
+0;963029:963031;b'3H';2.95
+0;963957:963959;b'3H';2.95
+0;964427:964429;b'3H';2.95
+0;964663:964665;b'3H';2.95
+0;964770:964772;b'3H';2.95
+0;966254:966256;b'3H';2.95
+0;968054:968056;b'3H';2.95
+0;968184:968186;b'3H';2.95
+0;968978:968980;b'3H';2.95
+0;970196:970198;b'3H';2.95
+0;970643:970645;b'3H';2.95
+0;970886:970888;b'3H';2.95
+0;975263:975265;b'3H';2.95
+0;977193:977195;b'3H';2.95
+0;977859:977861;b'3H';2.95
+0;982376:982378;b'3H';2.95
+0;983086:983088;b'3H';2.95
+0;983142:983144;b'3H';2.95
+0;984253:984255;b'3H';2.95
+0;984992:984994;b'3H';2.95
+0;985161:985163;b'3H';2.95
+0;985338:985340;b'3H';2.95
+0;987202:987204;b'3H';2.95
+0;989039:989041;b'3H';2.95
+319;2.95
+
+avg exec time [us], std exec time [us] #matches
+2.95;0.0;319
+RE 7: (?=(LWpoQhV1PrMKkY))
+iter #, position, match, exec time [us]
+0;3.189
+
+avg exec time [us], std exec time [us] #matches
+3.189;0.0;0
+RE 8: (?=(ay7Gmj5G7(NI)?))
+iter #, position, match, exec time [us]
+0;2.862
+
+avg exec time [us], std exec time [us] #matches
+2.862;0.0;0
+RE 9: (?=(IvPNKXCKXOrl(ybM)?))
+iter #, position, match, exec time [us]
+0;2.826
+
+avg exec time [us], std exec time [us] #matches
+2.826;0.0;0
+RE 10: (?=(bnZ69LpO.*9cahSgoI[^\n\r]*8vVwcb1QufCyJ))
+iter #, position, match, exec time [us]
+0;2.839
+
+avg exec time [us], std exec time [us] #matches
+2.839;0.0;0
+RE 11: (?=(^b1DYs0eYO))
+iter #, position, match, exec time [us]
+0;2.945
+
+avg exec time [us], std exec time [us] #matches
+2.945;0.0;0
+RE 12: (?=(d5f8J[a-z]UhImP))
+iter #, position, match, exec time [us]
+0;15.728
+
+avg exec time [us], std exec time [us] #matches
+15.728;0.0;0
+RE 13: (?=(DgHUCjsSMBAj.*Yg8Z8bjwRLrQ[^\n\r]*04d9rm))
+iter #, position, match, exec time [us]
+0;2.727
+
+avg exec time [us], std exec time [us] #matches
+2.727;0.0;0
+RE 14: (?=(cbPvd(WT)?))
+iter #, position, match, exec time [us]
+0;2.539
+
+avg exec time [us], std exec time [us] #matches
+2.539;0.0;0
+RE 15: (?=(O[A-Z]VWjQ.*c7E9YuXBzls8A))
+iter #, position, match, exec time [us]
+0;2.608
+
+avg exec time [us], std exec time [us] #matches
+2.608;0.0;0
+RE 16: (?=(vNu1H9CAk2GfpIY))
+iter #, position, match, exec time [us]
+0;2.946
+
+avg exec time [us], std exec time [us] #matches
+2.946;0.0;0
+RE 17: (?=(xfql5q7Ly(2zs)?))
+iter #, position, match, exec time [us]
+0;2.714
+
+avg exec time [us], std exec time [us] #matches
+2.714;0.0;0
+RE 18: (?=(Plwcyh[^\n\r]*Ww8(7o|sr|u1)[^\n\r]*srvfdbH8j0))
+iter #, position, match, exec time [us]
+0;2.907
+
+avg exec time [us], std exec time [us] #matches
+2.907;0.0;0
+RE 19: (?=(QftYIuzExTiT2))
+iter #, position, match, exec time [us]
+0;2.704
+
+avg exec time [us], std exec time [us] #matches
+2.704;0.0;0
+RE 20: (?=(GWRRZ13KwvlsEP))
+iter #, position, match, exec time [us]
+0;2.704
+
+avg exec time [us], std exec time [us] #matches
+2.704;0.0;0
+RE 21: (?=(^jVC6(Wj|zq|A7)vX[^\n\r]*3FFh3GAOz))
+iter #, position, match, exec time [us]
+0;2.624
+
+avg exec time [us], std exec time [us] #matches
+2.624;0.0;0
+RE 22: (?=(v15282IZdDE[^"]*"t6H973igXtEV))
+iter #, position, match, exec time [us]
+0;2.583
+
+avg exec time [us], std exec time [us] #matches
+2.583;0.0;0
+RE 23: (?=(fWumy9roHd))
+iter #, position, match, exec time [us]
+0;3.169
+
+avg exec time [us], std exec time [us] #matches
+3.169;0.0;0
+RE 24: (?=(HQMxDPMzeS.*o(Hda|qIn|IFu)kzmY))
+iter #, position, match, exec time [us]
+0;2.841
+
+avg exec time [us], std exec time [us] #matches
+2.841;0.0;0
+RE 25: (?=(x(asFM|fZMx|B2Uc)aL))
+iter #, position, match, exec time [us]
+0;2.872
+
+avg exec time [us], std exec time [us] #matches
+2.872;0.0;0
+RE 26: (?=(kWcdyCHgK4zqM5h.*mZMIoUe1NQMG.*E5l3bA5(eG3)?))
+iter #, position, match, exec time [us]
+0;3.492
+
+avg exec time [us], std exec time [us] #matches
+3.492;0.0;0
+RE 27: (?=(y(rUSw|lIvy|Y8bV)Nb))
+iter #, position, match, exec time [us]
+0;2.756
+
+avg exec time [us], std exec time [us] #matches
+2.756;0.0;0
+RE 28: (?=(lY(NYq)?))
+iter #, position, match, exec time [us]
+0;2481:2483;b'lY';2.734
+0;2953:2955;b'lY';2.734
+0;5315:5317;b'lY';2.734
+0;6814:6816;b'lY';2.734
+0;9288:9290;b'lY';2.734
+0;9323:9325;b'lY';2.734
+0;16687:16689;b'lY';2.734
+0;21463:21465;b'lY';2.734
+0;41137:41139;b'lY';2.734
+0;42089:42091;b'lY';2.734
+0;42154:42156;b'lY';2.734
+0;42596:42598;b'lY';2.734
+0;46429:46431;b'lY';2.734
+0;46433:46435;b'lY';2.734
+0;46556:46558;b'lY';2.734
+0;47364:47366;b'lY';2.734
+0;47901:47903;b'lY';2.734
+0;48257:48259;b'lY';2.734
+0;49762:49764;b'lY';2.734
+0;50536:50538;b'lY';2.734
+0;57207:57209;b'lY';2.734
+0;62557:62559;b'lY';2.734
+0;63125:63127;b'lY';2.734
+0;64322:64324;b'lY';2.734
+0;64585:64587;b'lY';2.734
+0;68308:68310;b'lY';2.734
+0;71452:71454;b'lY';2.734
+0;72714:72716;b'lY';2.734
+0;73533:73535;b'lY';2.734
+0;73890:73892;b'lY';2.734
+0;76430:76432;b'lY';2.734
+0;76641:76643;b'lY';2.734
+0;77072:77074;b'lY';2.734
+0;77288:77290;b'lY';2.734
+0;77878:77880;b'lY';2.734
+0;77936:77938;b'lY';2.734
+0;78116:78118;b'lY';2.734
+0;79477:79479;b'lY';2.734
+0;80336:80338;b'lY';2.734
+0;80573:80575;b'lY';2.734
+0;80810:80812;b'lY';2.734
+0;80916:80918;b'lY';2.734
+0;81512:81514;b'lY';2.734
+0;102797:102799;b'lY';2.734
+0;103209:103211;b'lY';2.734
+0;103364:103366;b'lY';2.734
+0;105369:105371;b'lY';2.734
+0;105516:105518;b'lY';2.734
+0;107315:107317;b'lY';2.734
+0;109135:109137;b'lY';2.734
+0;109854:109856;b'lY';2.734
+0;110188:110190;b'lY';2.734
+0;112454:112456;b'lY';2.734
+0;115334:115336;b'lY';2.734
+0;125571:125573;b'lY';2.734
+0;151836:151838;b'lY';2.734
+0;155895:155897;b'lY';2.734
+0;172847:172849;b'lY';2.734
+0;183953:183955;b'lY';2.734
+0;184412:184414;b'lY';2.734
+0;184622:184624;b'lY';2.734
+0;186412:186414;b'lY';2.734
+0;186710:186712;b'lY';2.734
+0;186899:186901;b'lY';2.734
+0;187938:187940;b'lY';2.734
+0;189690:189692;b'lY';2.734
+0;189835:189837;b'lY';2.734
+0;189926:189928;b'lY';2.734
+0;190071:190073;b'lY';2.734
+0;190397:190399;b'lY';2.734
+0;191053:191055;b'lY';2.734
+0;193200:193202;b'lY';2.734
+0;193556:193558;b'lY';2.734
+0;255671:255673;b'lY';2.734
+0;257975:257977;b'lY';2.734
+0;265709:265711;b'lY';2.734
+0;266368:266370;b'lY';2.734
+0;267096:267098;b'lY';2.734
+0;267358:267360;b'lY';2.734
+0;268019:268021;b'lY';2.734
+0;269758:269760;b'lY';2.734
+0;272110:272112;b'lY';2.734
+0;273814:273816;b'lY';2.734
+0;274328:274330;b'lY';2.734
+0;335078:335080;b'lY';2.734
+0;338911:338913;b'lY';2.734
+0;339895:339897;b'lY';2.734
+0;368996:368998;b'lY';2.734
+0;387815:387817;b'lY';2.734
+0;416095:416097;b'lY';2.734
+0;430791:430793;b'lY';2.734
+0;451416:451418;b'lY';2.734
+0;451909:451911;b'lY';2.734
+0;451982:451984;b'lY';2.734
+0;454904:454906;b'lY';2.734
+0;456472:456474;b'lY';2.734
+0;458727:458729;b'lY';2.734
+0;458951:458953;b'lY';2.734
+0;470700:470702;b'lY';2.734
+0;471299:471301;b'lY';2.734
+0;471997:471999;b'lY';2.734
+0;473577:473579;b'lY';2.734
+0;476052:476054;b'lY';2.734
+0;476813:476815;b'lY';2.734
+0;477384:477386;b'lY';2.734
+0;477972:477974;b'lY';2.734
+0;488623:488625;b'lY';2.734
+0;489960:489962;b'lY';2.734
+0;489995:489997;b'lY';2.734
+0;490502:490504;b'lY';2.734
+0;490618:490620;b'lY';2.734
+0;490995:490997;b'lY';2.734
+0;492729:492731;b'lY';2.734
+0;492860:492862;b'lY';2.734
+0;494436:494438;b'lY';2.734
+0;495857:495859;b'lY';2.734
+0;497269:497271;b'lY';2.734
+0;498557:498559;b'lY';2.734
+0;499171:499173;b'lY';2.734
+0;509613:509615;b'lY';2.734
+0;515523:515525;b'lY';2.734
+0;528863:528865;b'lY';2.734
+0;530319:530321;b'lY';2.734
+0;549207:549209;b'lY';2.734
+0;584943:584945;b'lY';2.734
+0;605095:605097;b'lY';2.734
+0;613106:613108;b'lY';2.734
+0;613210:613212;b'lY';2.734
+0;613315:613317;b'lY';2.734
+0;613492:613494;b'lY';2.734
+0;614234:614236;b'lY';2.734
+0;614997:614999;b'lY';2.734
+0;616142:616144;b'lY';2.734
+0;616279:616281;b'lY';2.734
+0;616805:616807;b'lY';2.734
+0;617061:617063;b'lY';2.734
+0;617270:617272;b'lY';2.734
+0;617451:617453;b'lY';2.734
+0;617640:617642;b'lY';2.734
+0;618040:618042;b'lY';2.734
+0;618098:618100;b'lY';2.734
+0;618304:618306;b'lY';2.734
+0;618944:618946;b'lY';2.734
+0;619669:619671;b'lY';2.734
+0;621916:621918;b'lY';2.734
+0;654638:654640;b'lY';2.734
+0;655105:655107;b'lY';2.734
+0;657119:657121;b'lY';2.734
+0;658104:658106;b'lY';2.734
+0;659357:659359;b'lY';2.734
+0;660131:660133;b'lY';2.734
+0;660211:660213;b'lY';2.734
+0;660281:660283;b'lY';2.734
+0;661269:661271;b'lY';2.734
+0;663665:663667;b'lY';2.734
+0;664556:664558;b'lY';2.734
+0;665058:665060;b'lY';2.734
+0;665672:665674;b'lY';2.734
+0;666247:666249;b'lY';2.734
+0;667524:667526;b'lY';2.734
+0;667539:667541;b'lY';2.734
+0;668933:668935;b'lY';2.734
+0;669804:669806;b'lY';2.734
+0;670626:670628;b'lY';2.734
+0;672354:672356;b'lY';2.734
+0;672660:672662;b'lY';2.734
+0;673422:673424;b'lY';2.734
+0;705239:705241;b'lY';2.734
+0;713973:713975;b'lY';2.734
+0;724605:724607;b'lY';2.734
+0;725933:725935;b'lY';2.734
+0;726117:726119;b'lY';2.734
+0;727280:727282;b'lY';2.734
+0;728811:728813;b'lY';2.734
+0;730846:730848;b'lY';2.734
+0;731189:731191;b'lY';2.734
+0;731430:731432;b'lY';2.734
+0;731496:731498;b'lY';2.734
+0;732672:732674;b'lY';2.734
+0;733492:733494;b'lY';2.734
+0;733821:733823;b'lY';2.734
+0;734401:734403;b'lY';2.734
+0;745416:745418;b'lY';2.734
+0;745534:745536;b'lY';2.734
+0;748121:748123;b'lY';2.734
+0;748530:748532;b'lY';2.734
+0;749032:749034;b'lY';2.734
+0;749408:749410;b'lY';2.734
+0;751542:751544;b'lY';2.734
+0;752525:752527;b'lY';2.734
+0;753378:753380;b'lY';2.734
+0;753966:753968;b'lY';2.734
+0;755502:755504;b'lY';2.734
+0;757613:757615;b'lY';2.734
+0;757677:757679;b'lY';2.734
+0;757748:757750;b'lY';2.734
+0;758531:758533;b'lY';2.734
+0;758794:758796;b'lY';2.734
+0;760983:760985;b'lY';2.734
+0;762394:762396;b'lY';2.734
+0;765355:765357;b'lY';2.734
+0;766416:766418;b'lY';2.734
+0;767986:767988;b'lY';2.734
+0;769873:769875;b'lY';2.734
+0;770412:770414;b'lY';2.734
+0;770884:770886;b'lY';2.734
+0;771130:771132;b'lY';2.734
+0;771806:771808;b'lY';2.734
+0;774733:774735;b'lY';2.734
+0;777987:777989;b'lY';2.734
+0;779925:779927;b'lY';2.734
+0;779974:779976;b'lY';2.734
+0;780526:780528;b'lY';2.734
+0;781864:781866;b'lY';2.734
+0;782348:782350;b'lY';2.734
+0;783529:783531;b'lY';2.734
+0;890181:890183;b'lY';2.734
+0;895772:895774;b'lY';2.734
+0;895986:895988;b'lY';2.734
+0;896022:896024;b'lY';2.734
+0;897584:897586;b'lY';2.734
+0;928588:928590;b'lY';2.734
+0;930021:930023;b'lY';2.734
+0;932788:932790;b'lY';2.734
+0;934551:934553;b'lY';2.734
+0;935817:935819;b'lY';2.734
+0;937070:937072;b'lY';2.734
+0;937199:937201;b'lY';2.734
+0;938664:938666;b'lY';2.734
+0;967383:967385;b'lY';2.734
+230;2.734
+
+avg exec time [us], std exec time [us] #matches
+2.734;0.0;230
+RE 29: (?=(VBwdF9u6p0cpKx))
+iter #, position, match, exec time [us]
+0;2.672
+
+avg exec time [us], std exec time [us] #matches
+2.672;0.0;0
+RE 30: (?=(orKYwpCF))
+iter #, position, match, exec time [us]
+0;247621:247629;b'orKYwpCF';2.904
+1;2.904
+
+avg exec time [us], std exec time [us] #matches
+2.904;0.0;1
+RE 31: (?=(HQMxDPMzeS[^"]*"G(pP|b2|qN)cFgmP))
+iter #, position, match, exec time [us]
+0;2.841
+
+avg exec time [us], std exec time [us] #matches
+2.841;0.0;0
+RE 32: (?=(^Sra2ptn))
+iter #, position, match, exec time [us]
+0;2.739
+
+avg exec time [us], std exec time [us] #matches
+2.739;0.0;0
+RE 33: (?=(t[A-Z]HXU))
+iter #, position, match, exec time [us]
+0;347861:347866;b'tVHXU';2.713
+1;2.713
+
+avg exec time [us], std exec time [us] #matches
+2.713;0.0;1
+RE 34: (?=(CIAoCpq(MSW|kYx|mGL)x8))
+iter #, position, match, exec time [us]
+0;2.686
+
+avg exec time [us], std exec time [us] #matches
+2.686;0.0;0
+RE 35: (?=(1lz8aYd85(KH|1L|G9)))
+iter #, position, match, exec time [us]
+0;2.822
+
+avg exec time [us], std exec time [us] #matches
+2.822;0.0;0
+RE 36: (?=(9nBc37SQ54))
+iter #, position, match, exec time [us]
+0;2.659
+
+avg exec time [us], std exec time [us] #matches
+2.659;0.0;0
+RE 37: (?=(F7IqgnLW))
+iter #, position, match, exec time [us]
+0;2.713
+
+avg exec time [us], std exec time [us] #matches
+2.713;0.0;0
+RE 38: (?=(ORypElMH(uH|Xu|Ma)))
+iter #, position, match, exec time [us]
+0;642971:642981;b'ORypElMHuH';2.79
+1;2.79
+
+avg exec time [us], std exec time [us] #matches
+2.79;0.0;1
+RE 39: (?=(PTvmWpkzGXIqla))
+iter #, position, match, exec time [us]
+0;2.699
+
+avg exec time [us], std exec time [us] #matches
+2.699;0.0;0
+RE 40: (?=(0A7QSgLb[^\n\r]*Jv3svKLb(gAV|xsQ|PcJ)t))
+iter #, position, match, exec time [us]
+0;2.7
+
+avg exec time [us], std exec time [us] #matches
+2.7;0.0;0
+RE 41: (?=(Qm(4qyU|B3Oq|MZF2)C))
+iter #, position, match, exec time [us]
+0;407478:407485;b'Qm4qyUC';2.721
+1;2.721
+
+avg exec time [us], std exec time [us] #matches
+2.721;0.0;1
+RE 42: (?=(SNZyoVLV))
+iter #, position, match, exec time [us]
+0;2.778
+
+avg exec time [us], std exec time [us] #matches
+2.778;0.0;0
+RE 43: (?=(Fl1BEHxyTM7LX))
+iter #, position, match, exec time [us]
+0;2.763
+
+avg exec time [us], std exec time [us] #matches
+2.763;0.0;0
+RE 44: (?=(VycuklFDM(L)?))
+iter #, position, match, exec time [us]
+0;150827:150836;b'VycuklFDM';2.678
+1;2.678
+
+avg exec time [us], std exec time [us] #matches
+2.678;0.0;1
+RE 45: (?=(AGfGo6))
+iter #, position, match, exec time [us]
+0;2.636
+
+avg exec time [us], std exec time [us] #matches
+2.636;0.0;0
+RE 46: (?=(65tXnVaDCgEXG))
+iter #, position, match, exec time [us]
+0;2.581
+
+avg exec time [us], std exec time [us] #matches
+2.581;0.0;0
+RE 47: (?=(7NPI4Pn))
+iter #, position, match, exec time [us]
+0;2.737
+
+avg exec time [us], std exec time [us] #matches
+2.737;0.0;0
+RE 48: (?=(lKQn9))
+iter #, position, match, exec time [us]
+0;109080:109085;b'lKQn9';2.765
+0;752596:752601;b'lKQn9';2.765
+2;2.765
+
+avg exec time [us], std exec time [us] #matches
+2.765;0.0;2
+RE 49: (?=(^SCEEfCf4F(WR6)?))
+iter #, position, match, exec time [us]
+0;2.657
+
+avg exec time [us], std exec time [us] #matches
+2.657;0.0;0
+RE 50: (?=(2xQTk8goV6a))
+iter #, position, match, exec time [us]
+0;2.531
+
+avg exec time [us], std exec time [us] #matches
+2.531;0.0;0
+RE 51: (?=(7y(VoB|2ku|RZk)V4fFxOkZh))
+iter #, position, match, exec time [us]
+0;3.156
+
+avg exec time [us], std exec time [us] #matches
+3.156;0.0;0
+RE 52: (?=(^7ONCz))
+iter #, position, match, exec time [us]
+0;2.69
+
+avg exec time [us], std exec time [us] #matches
+2.69;0.0;0
+RE 53: (?=(SctVQAneJt4l8NT.*X7VKrwEk))
+iter #, position, match, exec time [us]
+0;2.685
+
+avg exec time [us], std exec time [us] #matches
+2.685;0.0;0
+RE 54: (?=(xS(qB|B2|NP)I4F))
+iter #, position, match, exec time [us]
+0;2.597
+
+avg exec time [us], std exec time [us] #matches
+2.597;0.0;0
+RE 55: (?=(7pD20(P9q|o1I|Alo)X7))
+iter #, position, match, exec time [us]
+0;2.675
+
+avg exec time [us], std exec time [us] #matches
+2.675;0.0;0
+RE 56: (?=(KKF5htXc(G6Q)?))
+iter #, position, match, exec time [us]
+0;2.699
+
+avg exec time [us], std exec time [us] #matches
+2.699;0.0;0
+RE 57: (?=(vLWZIccXTDXIeaS))
+iter #, position, match, exec time [us]
+0;2.812
+
+avg exec time [us], std exec time [us] #matches
+2.812;0.0;0
+RE 58: (?=(^gnBvUeZYd))
+iter #, position, match, exec time [us]
+0;2.48
+
+avg exec time [us], std exec time [us] #matches
+2.48;0.0;0
+RE 59: (?=(5jzxbVxhm6l))
+iter #, position, match, exec time [us]
+0;2.719
+
+avg exec time [us], std exec time [us] #matches
+2.719;0.0;0
+RE 60: (?=(fH5LXvyJAjdjCkJ))
+iter #, position, match, exec time [us]
+0;2.634
+
+avg exec time [us], std exec time [us] #matches
+2.634;0.0;0
+RE 61: (?=(^Gpuj1dpIz))
+iter #, position, match, exec time [us]
+0;2.572
+
+avg exec time [us], std exec time [us] #matches
+2.572;0.0;0
+RE 62: (?=(cPPD(6hY)?))
+iter #, position, match, exec time [us]
+0;79778:79782;b'cPPD';2.614
+0;92316:92320;b'cPPD';2.614
+0;565028:565032;b'cPPD';2.614
+3;2.614
+
+avg exec time [us], std exec time [us] #matches
+2.614;0.0;3
+RE 63: (?=(UWOP4Yzl(oj)?))
+iter #, position, match, exec time [us]
+0;2.67
+
+avg exec time [us], std exec time [us] #matches
+2.67;0.0;0
+RE 64: (?=(FCyy21ykvxAPtK2[^ ]*rTnPXDMwLf(d8K)?))
+iter #, position, match, exec time [us]
+0;2.613
+
+avg exec time [us], std exec time [us] #matches
+2.613;0.0;0
+RE 65: (?=(lA37Z366Bm))
+iter #, position, match, exec time [us]
+0;2.631
+
+avg exec time [us], std exec time [us] #matches
+2.631;0.0;0
+RE 66: (?=(KIWCorxvXnS))
+iter #, position, match, exec time [us]
+0;2.883
+
+avg exec time [us], std exec time [us] #matches
+2.883;0.0;0
+RE 67: (?=(7eNYb265u))
+iter #, position, match, exec time [us]
+0;345542:345551;b'7eNYb265u';2.65
+1;2.65
+
+avg exec time [us], std exec time [us] #matches
+2.65;0.0;1
+RE 68: (?=(65z(PC)?))
+iter #, position, match, exec time [us]
+0;249637:249640;b'65z';2.537
+0;324932:324935;b'65z';2.537
+2;2.537
+
+avg exec time [us], std exec time [us] #matches
+2.537;0.0;2
+RE 69: (?=(Bzb9PaLP0s))
+iter #, position, match, exec time [us]
+0;2.954
+
+avg exec time [us], std exec time [us] #matches
+2.954;0.0;0
+RE 70: (?=(nKWHYi6E4.*g7vgtBmO.*x(677|J48|Apu)WPlCJt))
+iter #, position, match, exec time [us]
+0;2.861
+
+avg exec time [us], std exec time [us] #matches
+2.861;0.0;0
+RE 71: (?=(^dqWcsps))
+iter #, position, match, exec time [us]
+0;2.662
+
+avg exec time [us], std exec time [us] #matches
+2.662;0.0;0
+RE 72: (?=(abjMc4dC))
+iter #, position, match, exec time [us]
+0;2.703
+
+avg exec time [us], std exec time [us] #matches
+2.703;0.0;0
+RE 73: (?=(IrJVJUFRUcJ.*E51jipMw(gir)?))
+iter #, position, match, exec time [us]
+0;2.661
+
+avg exec time [us], std exec time [us] #matches
+2.661;0.0;0
+RE 74: (?=(vmKmBY1.c(XyUx|pMws|cHIS)8e80Q))
+iter #, position, match, exec time [us]
+0;2.56
+
+avg exec time [us], std exec time [us] #matches
+2.56;0.0;0
+RE 75: (?=(VJMIGBoR[^\n\r]*ifHHCvsWq))
+iter #, position, match, exec time [us]
+0;2.852
+
+avg exec time [us], std exec time [us] #matches
+2.852;0.0;0
+RE 76: (?=(nKWHYi6E4[^"]*"nZvGjif0))
+iter #, position, match, exec time [us]
+0;2.699
+
+avg exec time [us], std exec time [us] #matches
+2.699;0.0;0
+RE 77: (?=(eGY6gO.*R(CwU4|C15B|awHp)X))
+iter #, position, match, exec time [us]
+0;483294:483306;b'eGY6gORawHpX';2.627
+1;2.627
+
+avg exec time [us], std exec time [us] #matches
+2.627;0.0;1
+RE 78: (?=(^o2e1(Per|non|9PV)7Fg0ck))
+iter #, position, match, exec time [us]
+0;2.742
+
+avg exec time [us], std exec time [us] #matches
+2.742;0.0;0
+RE 79: (?=(x8jGpx8o73))
+iter #, position, match, exec time [us]
+0;2.57
+
+avg exec time [us], std exec time [us] #matches
+2.57;0.0;0
+RE 80: (?=(gsfowhHIVRw))
+iter #, position, match, exec time [us]
+0;2.634
+
+avg exec time [us], std exec time [us] #matches
+2.634;0.0;0
+RE 81: (?=(5O0ceyom9EXVf7t))
+iter #, position, match, exec time [us]
+0;2.434
+
+avg exec time [us], std exec time [us] #matches
+2.434;0.0;0
+RE 82: (?=(EuwPm))
+iter #, position, match, exec time [us]
+0;2.648
+
+avg exec time [us], std exec time [us] #matches
+2.648;0.0;0
+RE 83: (?=(U1(un5|v2I|jtC)Q))
+iter #, position, match, exec time [us]
+0;770935:770941;b'U1jtCQ';2.728
+1;2.728
+
+avg exec time [us], std exec time [us] #matches
+2.728;0.0;1
+RE 84: (?=(6zfe4tOikumP))
+iter #, position, match, exec time [us]
+0;2.815
+
+avg exec time [us], std exec time [us] #matches
+2.815;0.0;0
+RE 85: (?=(FUONNnEk))
+iter #, position, match, exec time [us]
+0;2.744
+
+avg exec time [us], std exec time [us] #matches
+2.744;0.0;0
+RE 86: (?=(^C(JF|1K|Cz)tLz))
+iter #, position, match, exec time [us]
+0;2.767
+
+avg exec time [us], std exec time [us] #matches
+2.767;0.0;0
+RE 87: (?=(^3aIHpx))
+iter #, position, match, exec time [us]
+0;2.817
+
+avg exec time [us], std exec time [us] #matches
+2.817;0.0;0
+RE 88: (?=(^ymo1QxMtlrt))
+iter #, position, match, exec time [us]
+0;2.697
+
+avg exec time [us], std exec time [us] #matches
+2.697;0.0;0
+RE 89: (?=(^rbAu6RZ1ddME))
+iter #, position, match, exec time [us]
+0;2.706
+
+avg exec time [us], std exec time [us] #matches
+2.706;0.0;0
+RE 90: (?=(T8(jte|Sfg|ybz)))
+iter #, position, match, exec time [us]
+0;209903:209908;b'T8Sfg';2.693
+0;739617:739622;b'T8jte';2.693
+2;2.693
+
+avg exec time [us], std exec time [us] #matches
+2.693;0.0;2
+RE 91: (?=(F1lkEAiZn))
+iter #, position, match, exec time [us]
+0;2.573
+
+avg exec time [us], std exec time [us] #matches
+2.573;0.0;0
+RE 92: (?=(5NUrY(nF)?))
+iter #, position, match, exec time [us]
+0;850582:850587;b'5NUrY';3.012
+1;3.012
+
+avg exec time [us], std exec time [us] #matches
+3.012;0.0;1
+RE 93: (?=(^GPclhYi))
+iter #, position, match, exec time [us]
+0;2.955
+
+avg exec time [us], std exec time [us] #matches
+2.955;0.0;0
+RE 94: (?=(uSATuG1kcW6))
+iter #, position, match, exec time [us]
+0;2.519
+
+avg exec time [us], std exec time [us] #matches
+2.519;0.0;0
+RE 95: (?=(^88tjjg3QS(I)?[^"]*"unN1SyF))
+iter #, position, match, exec time [us]
+0;2.737
+
+avg exec time [us], std exec time [us] #matches
+2.737;0.0;0
+RE 96: (?=(3tRVOfZcOGMOG[^\n\r]*2jpoCn.*Y68opesf1nQR))
+iter #, position, match, exec time [us]
+0;2.711
+
+avg exec time [us], std exec time [us] #matches
+2.711;0.0;0
+RE 97: (?=(eSSi3iP1))
+iter #, position, match, exec time [us]
+0;2.662
+
+avg exec time [us], std exec time [us] #matches
+2.662;0.0;0
+RE 98: (?=(wwmIH7ZeLt8fE))
+iter #, position, match, exec time [us]
+0;2.8
+
+avg exec time [us], std exec time [us] #matches
+2.8;0.0;0
+RE 99: (?=(oCyw3VOJMcF3f(b)?.*3p3A3MWoKFh))
+iter #, position, match, exec time [us]
+0;2.757
+
+avg exec time [us], std exec time [us] #matches
+2.757;0.0;0
+RE 100: (?=(RWNaWnZMb32Tj))
+iter #, position, match, exec time [us]
+0;2.771
+
+avg exec time [us], std exec time [us] #matches
+2.771;0.0;0
+RE 101: (?=(l5(mk|Xu|oY)U))
+iter #, position, match, exec time [us]
+0;339001:339006;b'l5XuU';2.609
+1;2.609
+
+avg exec time [us], std exec time [us] #matches
+2.609;0.0;1
+RE 102: (?=(8hIf(ztY|gSw|PVX).*Y6n4dOsOuFFToqu.*KqTcF))
+iter #, position, match, exec time [us]
+0;2.77
+
+avg exec time [us], std exec time [us] #matches
+2.77;0.0;0
+RE 103: (?=(6C1ORM4))
+iter #, position, match, exec time [us]
+0;2.717
+
+avg exec time [us], std exec time [us] #matches
+2.717;0.0;0
+RE 104: (?=(VvwL0K267))
+iter #, position, match, exec time [us]
+0;2.449
+
+avg exec time [us], std exec time [us] #matches
+2.449;0.0;0
+RE 105: (?=(nKWHYi6E4[^"]*"vr6ZNFbWd[^"]*"K1Ogd9(b)?))
+iter #, position, match, exec time [us]
+0;2.578
+
+avg exec time [us], std exec time [us] #matches
+2.578;0.0;0
+RE 106: (?=(hmFK9O(a)?))
+iter #, position, match, exec time [us]
+0;63790:63796;b'hmFK9O';2.853
+1;2.853
+
+avg exec time [us], std exec time [us] #matches
+2.853;0.0;1
+RE 107: (?=(SvceFX))
+iter #, position, match, exec time [us]
+0;694857:694863;b'SvceFX';2.646
+1;2.646
+
+avg exec time [us], std exec time [us] #matches
+2.646;0.0;1
+RE 108: (?=(kmPAH(81O|8hN|gZ6)otfA2c))
+iter #, position, match, exec time [us]
+0;2.848
+
+avg exec time [us], std exec time [us] #matches
+2.848;0.0;0
+RE 109: (?=(^41ZlZ21WRj(E)?))
+iter #, position, match, exec time [us]
+0;2.945
+
+avg exec time [us], std exec time [us] #matches
+2.945;0.0;0
+RE 110: (?=(PkOaqSra92DTGj))
+iter #, position, match, exec time [us]
+0;2.663
+
+avg exec time [us], std exec time [us] #matches
+2.663;0.0;0
+RE 111: (?=(9KhmWoaemHXLn))
+iter #, position, match, exec time [us]
+0;2.737
+
+avg exec time [us], std exec time [us] #matches
+2.737;0.0;0
+RE 112: (?=(^K0yz2Ft))
+iter #, position, match, exec time [us]
+0;2.586
+
+avg exec time [us], std exec time [us] #matches
+2.586;0.0;0
+RE 113: (?=(stch2Fp3l[^\n\r]*VyAzIxOH))
+iter #, position, match, exec time [us]
+0;2.804
+
+avg exec time [us], std exec time [us] #matches
+2.804;0.0;0
+RE 114: (?=(AbYpF5r))
+iter #, position, match, exec time [us]
+0;739904:739911;b'AbYpF5r';2.743
+1;2.743
+
+avg exec time [us], std exec time [us] #matches
+2.743;0.0;1
+RE 115: (?=(vKvANir7iWA))
+iter #, position, match, exec time [us]
+0;2.65
+
+avg exec time [us], std exec time [us] #matches
+2.65;0.0;0
+RE 116: (?=(K5fF1oJrwc(w)?))
+iter #, position, match, exec time [us]
+0;2.611
+
+avg exec time [us], std exec time [us] #matches
+2.611;0.0;0
+RE 117: (?=(tXzTIGk))
+iter #, position, match, exec time [us]
+0;2.773
+
+avg exec time [us], std exec time [us] #matches
+2.773;0.0;0
+RE 118: (?=(^HQMxDPMzeS[^ ]*qGnas))
+iter #, position, match, exec time [us]
+0;2.629
+
+avg exec time [us], std exec time [us] #matches
+2.629;0.0;0
+RE 119: (?=(pTOjjbOK5kRz))
+iter #, position, match, exec time [us]
+0;2.676
+
+avg exec time [us], std exec time [us] #matches
+2.676;0.0;0
+RE 120: (?=(^i0TdwxvEqL))
+iter #, position, match, exec time [us]
+0;2.716
+
+avg exec time [us], std exec time [us] #matches
+2.716;0.0;0
+RE 121: (?=(4ioFyCfSpKhLflK))
+iter #, position, match, exec time [us]
+0;2.697
+
+avg exec time [us], std exec time [us] #matches
+2.697;0.0;0
+RE 122: (?=(W3KdxdKs3p5kf.H8rZq1PDAfe))
+iter #, position, match, exec time [us]
+0;3.167
+
+avg exec time [us], std exec time [us] #matches
+3.167;0.0;0
+RE 123: (?=(^jVC6(Wj|zq|A7)vX.*Z[A-Z]RSuLzh32ZWy.*KEsHba2WYZU4q))
+iter #, position, match, exec time [us]
+0;2.817
+
+avg exec time [us], std exec time [us] #matches
+2.817;0.0;0
+RE 124: (?=(b6(2a6|7Uj|bai)C7zqi3x))
+iter #, position, match, exec time [us]
+0;2.687
+
+avg exec time [us], std exec time [us] #matches
+2.687;0.0;0
+RE 125: (?=(V(H8|E3|WW)vKEe))
+iter #, position, match, exec time [us]
+0;2.546
+
+avg exec time [us], std exec time [us] #matches
+2.546;0.0;0
+RE 126: (?=(K8vlG))
+iter #, position, match, exec time [us]
+0;103126:103131;b'K8vlG';2.852
+0;172201:172206;b'K8vlG';2.852
+2;2.852
+
+avg exec time [us], std exec time [us] #matches
+2.852;0.0;2
+RE 127: (?=(^6(kHV|qwt|b9J)M1))
+iter #, position, match, exec time [us]
+0;2.718
+
+avg exec time [us], std exec time [us] #matches
+2.718;0.0;0
+RE 128: (?=(Au(3t3|tHL|Mcj)KUfW))
+iter #, position, match, exec time [us]
+0;2.61
+
+avg exec time [us], std exec time [us] #matches
+2.61;0.0;0
+RE 129: (?=(jBm3DZPILqx2))
+iter #, position, match, exec time [us]
+0;2.626
+
+avg exec time [us], std exec time [us] #matches
+2.626;0.0;0
+RE 130: (?=(rEDpA(HWuH|grkf|vL9u)FL7T))
+iter #, position, match, exec time [us]
+0;2.735
+
+avg exec time [us], std exec time [us] #matches
+2.735;0.0;0
+RE 131: (?=(^MWe1PiK2tz6GWS6.*xxJ9EUXW))
+iter #, position, match, exec time [us]
+0;2.52
+
+avg exec time [us], std exec time [us] #matches
+2.52;0.0;0
+RE 132: (?=(^BERb6f(69)?))
+iter #, position, match, exec time [us]
+0;2.628
+
+avg exec time [us], std exec time [us] #matches
+2.628;0.0;0
+RE 133: (?=(V3SqaIWZZbJAr))
+iter #, position, match, exec time [us]
+0;2.765
+
+avg exec time [us], std exec time [us] #matches
+2.765;0.0;0
+RE 134: (?=(jwfZ[0-9]K3o))
+iter #, position, match, exec time [us]
+0;3.439
+
+avg exec time [us], std exec time [us] #matches
+3.439;0.0;0
+RE 135: (?=(^dc22fXDq))
+iter #, position, match, exec time [us]
+0;3.577
+
+avg exec time [us], std exec time [us] #matches
+3.577;0.0;0
+RE 136: (?=(uXmVFmRtnzS))
+iter #, position, match, exec time [us]
+0;3.606
+
+avg exec time [us], std exec time [us] #matches
+3.606;0.0;0
+RE 137: (?=(8r1I9J1GV5tqbJS))
+iter #, position, match, exec time [us]
+0;3.225
+
+avg exec time [us], std exec time [us] #matches
+3.225;0.0;0
+RE 138: (?=(6SbVLjSLwje10K))
+iter #, position, match, exec time [us]
+0;2.759
+
+avg exec time [us], std exec time [us] #matches
+2.759;0.0;0
+RE 139: (?=(KFrjxdbYRLvw[^ ]*xqyH(H5|ck|LE)2[^"]*"yFxu6KTUPFkxFE))
+iter #, position, match, exec time [us]
+0;3.568
+
+avg exec time [us], std exec time [us] #matches
+3.568;0.0;0
+RE 140: (?=(gE3o(Sy)?))
+iter #, position, match, exec time [us]
+0;3.26
+
+avg exec time [us], std exec time [us] #matches
+3.26;0.0;0
+RE 141: (?=(PqP5d6d(7e|cM|30)n))
+iter #, position, match, exec time [us]
+0;2.932
+
+avg exec time [us], std exec time [us] #matches
+2.932;0.0;0
+RE 142: (?=(QOWhYq(55U|DHS|3bT)lZ))
+iter #, position, match, exec time [us]
+0;2.692
+
+avg exec time [us], std exec time [us] #matches
+2.692;0.0;0
+RE 143: (?=(A3EIIihM8Oy))
+iter #, position, match, exec time [us]
+0;2.798
+
+avg exec time [us], std exec time [us] #matches
+2.798;0.0;0
+RE 144: (?=(^pNxvI0v8))
+iter #, position, match, exec time [us]
+0;2.766
+
+avg exec time [us], std exec time [us] #matches
+2.766;0.0;0
+RE 145: (?=(VHftqAlV(cg)?))
+iter #, position, match, exec time [us]
+0;2.856
+
+avg exec time [us], std exec time [us] #matches
+2.856;0.0;0
+RE 146: (?=(T7PaWzsao14uGq[^\n\r]*0GW5W93yZ42))
+iter #, position, match, exec time [us]
+0;2.726
+
+avg exec time [us], std exec time [us] #matches
+2.726;0.0;0
+RE 147: (?=(KA8c66Oz))
+iter #, position, match, exec time [us]
+0;2.552
+
+avg exec time [us], std exec time [us] #matches
+2.552;0.0;0
+RE 148: (?=(^HQMxDPMzeS.snzMPe2hwdj6.*jMq2[0-9]8QrhuP))
+iter #, position, match, exec time [us]
+0;2.571
+
+avg exec time [us], std exec time [us] #matches
+2.571;0.0;0
+RE 149: (?=(zPuWar6neIyo))
+iter #, position, match, exec time [us]
+0;2.552
+
+avg exec time [us], std exec time [us] #matches
+2.552;0.0;0
+RE 150: (?=(Fuqp7zKAMZLNxH[^ ]*o9jN6ZeyNozr(bZ|ks|6K)))
+iter #, position, match, exec time [us]
+0;2.697
+
+avg exec time [us], std exec time [us] #matches
+2.697;0.0;0
+RE 151: (?=(^Ti23o9VpiyeJ9D))
+iter #, position, match, exec time [us]
+0;2.595
+
+avg exec time [us], std exec time [us] #matches
+2.595;0.0;0
+RE 152: (?=(UdYtgd7nefiDVe))
+iter #, position, match, exec time [us]
+0;2.656
+
+avg exec time [us], std exec time [us] #matches
+2.656;0.0;0
+RE 153: (?=(^FnnWueQg6))
+iter #, position, match, exec time [us]
+0;2.865
+
+avg exec time [us], std exec time [us] #matches
+2.865;0.0;0
+RE 154: (?=(kOBq1(rzoc|ayxJ|JFsR)gpu[^\n\r]*G5WPCP))
+iter #, position, match, exec time [us]
+0;2.642
+
+avg exec time [us], std exec time [us] #matches
+2.642;0.0;0
+RE 155: (?=(ooIcxciICjzNg))
+iter #, position, match, exec time [us]
+0;2.726
+
+avg exec time [us], std exec time [us] #matches
+2.726;0.0;0
+RE 156: (?=(MqfNEr5p[^ ]*M8Jq(SCP)?.*fr3SiP(4)?))
+iter #, position, match, exec time [us]
+0;2.637
+
+avg exec time [us], std exec time [us] #matches
+2.637;0.0;0
+RE 157: (?=(M4jWPm8bqf1UNI(d)?.*gpuGzY9Pnv))
+iter #, position, match, exec time [us]
+0;2.729
+
+avg exec time [us], std exec time [us] #matches
+2.729;0.0;0
+RE 158: (?=(9XOatcH))
+iter #, position, match, exec time [us]
+0;2.915
+
+avg exec time [us], std exec time [us] #matches
+2.915;0.0;0
+RE 159: (?=(^eDEF8hm))
+iter #, position, match, exec time [us]
+0;2.818
+
+avg exec time [us], std exec time [us] #matches
+2.818;0.0;0
+RE 160: (?=(3CYCFZaS.*kVAMGZKfPd6[^\n\r]*dWtiTNLwjcfYB8))
+iter #, position, match, exec time [us]
+0;2.782
+
+avg exec time [us], std exec time [us] #matches
+2.782;0.0;0
+RE 161: (?=(^IzXU[A-Z]XD6Lb))
+iter #, position, match, exec time [us]
+0;2.877
+
+avg exec time [us], std exec time [us] #matches
+2.877;0.0;0
+RE 162: (?=(p9DHkY5mPQr8))
+iter #, position, match, exec time [us]
+0;2.698
+
+avg exec time [us], std exec time [us] #matches
+2.698;0.0;0
+RE 163: (?=(Tww9IQuSERo))
+iter #, position, match, exec time [us]
+0;2.742
+
+avg exec time [us], std exec time [us] #matches
+2.742;0.0;0
+RE 164: (?=(HMRsr7M2Y.*cdpMx(LrNa|6jyk|YIkA)))
+iter #, position, match, exec time [us]
+0;2.734
+
+avg exec time [us], std exec time [us] #matches
+2.734;0.0;0
+RE 165: (?=(TmMRkgXz1))
+iter #, position, match, exec time [us]
+0;3.096
+
+avg exec time [us], std exec time [us] #matches
+3.096;0.0;0
+RE 166: (?=(bnZ69LpO.*teMpQVLxgfIJc9t))
+iter #, position, match, exec time [us]
+0;2.736
+
+avg exec time [us], std exec time [us] #matches
+2.736;0.0;0
+RE 167: (?=(g2SjsKnjGGjrck))
+iter #, position, match, exec time [us]
+0;2.616
+
+avg exec time [us], std exec time [us] #matches
+2.616;0.0;0
+RE 168: (?=(^BljHII9Vl8hV))
+iter #, position, match, exec time [us]
+0;2.789
+
+avg exec time [us], std exec time [us] #matches
+2.789;0.0;0
+RE 169: (?=(^zgXgV))
+iter #, position, match, exec time [us]
+0;2.638
+
+avg exec time [us], std exec time [us] #matches
+2.638;0.0;0
+RE 170: (?=(^oCyw3VOJMcF3f(b)?[^\n\r]*DCjadlYtLPgVk))
+iter #, position, match, exec time [us]
+0;2.66
+
+avg exec time [us], std exec time [us] #matches
+2.66;0.0;0
+RE 171: (?=(LQQPwHQ2ST))
+iter #, position, match, exec time [us]
+0;2.772
+
+avg exec time [us], std exec time [us] #matches
+2.772;0.0;0
+RE 172: (?=(MjYKawp2XDxBg))
+iter #, position, match, exec time [us]
+0;2.739
+
+avg exec time [us], std exec time [us] #matches
+2.739;0.0;0
+RE 173: (?=(p6Cgl6e5L0Y[a-z]2))
+iter #, position, match, exec time [us]
+0;2.871
+
+avg exec time [us], std exec time [us] #matches
+2.871;0.0;0
+RE 174: (?=(J2R9Pjk3K))
+iter #, position, match, exec time [us]
+0;2.716
+
+avg exec time [us], std exec time [us] #matches
+2.716;0.0;0
+RE 175: (?=(sMk(Nb7d|yEqp|gO56)))
+iter #, position, match, exec time [us]
+0;772887:772894;b'sMkyEqp';2.745
+1;2.745
+
+avg exec time [us], std exec time [us] #matches
+2.745;0.0;1
+RE 176: (?=(^S4yb8RN5aBpwwRO.*wPH(6QZN|M0AP|LWb9)g))
+iter #, position, match, exec time [us]
+0;2.865
+
+avg exec time [us], std exec time [us] #matches
+2.865;0.0;0
+RE 177: (?=(MybKZ(jm)?))
+iter #, position, match, exec time [us]
+0;2.632
+
+avg exec time [us], std exec time [us] #matches
+2.632;0.0;0
+RE 178: (?=(^HIrPfxAKpk))
+iter #, position, match, exec time [us]
+0;2.847
+
+avg exec time [us], std exec time [us] #matches
+2.847;0.0;0
+RE 179: (?=(FNOTFqxtTWiAGvB))
+iter #, position, match, exec time [us]
+0;2.647
+
+avg exec time [us], std exec time [us] #matches
+2.647;0.0;0
+RE 180: (?=(0gixz6SqEPuYAkP))
+iter #, position, match, exec time [us]
+0;2.859
+
+avg exec time [us], std exec time [us] #matches
+2.859;0.0;0
+RE 181: (?=(OLQPYQZwfM))
+iter #, position, match, exec time [us]
+0;2.542
+
+avg exec time [us], std exec time [us] #matches
+2.542;0.0;0
+RE 182: (?=(vmKmBY1[^"]*"3Ds2fODRW5fwcS))
+iter #, position, match, exec time [us]
+0;2.601
+
+avg exec time [us], std exec time [us] #matches
+2.601;0.0;0
+RE 183: (?=(PTczm1NwQ.*82rFAxSBoq))
+iter #, position, match, exec time [us]
+0;2.711
+
+avg exec time [us], std exec time [us] #matches
+2.711;0.0;0
+RE 184: (?=(nbh1dTZ32))
+iter #, position, match, exec time [us]
+0;2.441
+
+avg exec time [us], std exec time [us] #matches
+2.441;0.0;0
+RE 185: (?=(gB8afXxmELY))
+iter #, position, match, exec time [us]
+0;2.749
+
+avg exec time [us], std exec time [us] #matches
+2.749;0.0;0
+RE 186: (?=(^oWzjDihXm8Yc))
+iter #, position, match, exec time [us]
+0;2.622
+
+avg exec time [us], std exec time [us] #matches
+2.622;0.0;0
+RE 187: (?=(^kJicsr99dkZN.*wClgh9CKoN))
+iter #, position, match, exec time [us]
+0;2.583
+
+avg exec time [us], std exec time [us] #matches
+2.583;0.0;0
+RE 188: (?=(hDBorc1OSq6eWa))
+iter #, position, match, exec time [us]
+0;2.522
+
+avg exec time [us], std exec time [us] #matches
+2.522;0.0;0
+RE 189: (?=(vmKmBY1.*oXyyD))
+iter #, position, match, exec time [us]
+0;2.703
+
+avg exec time [us], std exec time [us] #matches
+2.703;0.0;0
+RE 190: (?=(iXn1T12LuX(Rm|Dc|k9)7))
+iter #, position, match, exec time [us]
+0;2.772
+
+avg exec time [us], std exec time [us] #matches
+2.772;0.0;0
+RE 191: (?=(^z4C(GU|2M|h9)U))
+iter #, position, match, exec time [us]
+0;2.603
+
+avg exec time [us], std exec time [us] #matches
+2.603;0.0;0
+RE 192: (?=(^IrJVJUFRUcJ.*4lQyn))
+iter #, position, match, exec time [us]
+0;2.594
+
+avg exec time [us], std exec time [us] #matches
+2.594;0.0;0
+RE 193: (?=(9UoS1tKq(4Jn8|dWEX|kQ41)))
+iter #, position, match, exec time [us]
+0;2.406
+
+avg exec time [us], std exec time [us] #matches
+2.406;0.0;0
+RE 194: (?=(QmQnJdeBuGmcDZi))
+iter #, position, match, exec time [us]
+0;3.182
+
+avg exec time [us], std exec time [us] #matches
+3.182;0.0;0
+RE 195: (?=(fElTB))
+iter #, position, match, exec time [us]
+0;48215:48220;b'fElTB';3.082
+1;3.082
+
+avg exec time [us], std exec time [us] #matches
+3.082;0.0;1
+RE 196: (?=(^A(LQy|UNJ|s4d)u))
+iter #, position, match, exec time [us]
+0;2.696
+
+avg exec time [us], std exec time [us] #matches
+2.696;0.0;0
+RE 197: (?=(^nzc5rVwA(oz|NL|Qv)Abvi6))
+iter #, position, match, exec time [us]
+0;2.59
+
+avg exec time [us], std exec time [us] #matches
+2.59;0.0;0
+RE 198: (?=(K4rRDh(RG|wD|4q)YvS5T))
+iter #, position, match, exec time [us]
+0;2.703
+
+avg exec time [us], std exec time [us] #matches
+2.703;0.0;0
+RE 199: (?=(SU9ZycmTQV[^\n\r]*1Rf82[^\n\r]*6fdtAJp))
+iter #, position, match, exec time [us]
+0;2.998
+
+avg exec time [us], std exec time [us] #matches
+2.998;0.0;0
+RE 200: (?=(cQcdN))
+iter #, position, match, exec time [us]
+0;2.956
+
+avg exec time [us], std exec time [us] #matches
+2.956;0.0;0
+RE 201: (?=(^oxLPEpm5j))
+iter #, position, match, exec time [us]
+0;2.796
+
+avg exec time [us], std exec time [us] #matches
+2.796;0.0;0
+RE 202: (?=(n6DGFdYCQdD8x))
+iter #, position, match, exec time [us]
+0;2.55
+
+avg exec time [us], std exec time [us] #matches
+2.55;0.0;0
+RE 203: (?=(yslay6.*J5Umk))
+iter #, position, match, exec time [us]
+0;604024:604035;b'yslay6J5Umk';2.475
+1;2.475
+
+avg exec time [us], std exec time [us] #matches
+2.475;0.0;1
+RE 204: (?=(^SkwjCm46Gk.*dPYb7QH305fVg.*0KLLnjkGhC))
+iter #, position, match, exec time [us]
+0;2.677
+
+avg exec time [us], std exec time [us] #matches
+2.677;0.0;0
+RE 205: (?=(^HmP7(VYQ)?[^"]*"cVywuUaCREsM1V))
+iter #, position, match, exec time [us]
+0;2.874
+
+avg exec time [us], std exec time [us] #matches
+2.874;0.0;0
+RE 206: (?=(pDp7TMg(aIOR|dOB2|tSe9)SJ7Y))
+iter #, position, match, exec time [us]
+0;2.74
+
+avg exec time [us], std exec time [us] #matches
+2.74;0.0;0
+RE 207: (?=(^ODotjWoBAgHR9))
+iter #, position, match, exec time [us]
+0;2.805
+
+avg exec time [us], std exec time [us] #matches
+2.805;0.0;0
+RE 208: (?=(2UFCLzbTVLX0E))
+iter #, position, match, exec time [us]
+0;2.544
+
+avg exec time [us], std exec time [us] #matches
+2.544;0.0;0
+RE 209: (?=(UP(9vk)?))
+iter #, position, match, exec time [us]
+0;35015:35017;b'UP';2.656
+0;92291:92293;b'UP';2.656
+0;93932:93934;b'UP';2.656
+0;94934:94936;b'UP';2.656
+0;97014:97016;b'UP';2.656
+0;97725:97727;b'UP';2.656
+0;98202:98204;b'UP';2.656
+0;99539:99541;b'UP';2.656
+0;99933:99935;b'UP';2.656
+0;100196:100198;b'UP';2.656
+0;101357:101359;b'UP';2.656
+0;137911:137913;b'UP';2.656
+0;164367:164369;b'UP';2.656
+0;183829:183831;b'UP';2.656
+0;183909:183911;b'UP';2.656
+0;183984:183986;b'UP';2.656
+0;185442:185444;b'UP';2.656
+0;185492:185494;b'UP';2.656
+0;185707:185709;b'UP';2.656
+0;187117:187119;b'UP';2.656
+0;187796:187798;b'UP';2.656
+0;187967:187969;b'UP';2.656
+0;188557:188559;b'UP';2.656
+0;189109:189111;b'UP';2.656
+0;189374:189376;b'UP';2.656
+0;195527:195529;b'UP';2.656
+0;227607:227609;b'UP';2.656
+0;230495:230497;b'UP';2.656
+0;276839:276841;b'UP';2.656
+0;279302:279304;b'UP';2.656
+0;279712:279714;b'UP';2.656
+0;281016:281018;b'UP';2.656
+0;281539:281541;b'UP';2.656
+0;283748:283750;b'UP';2.656
+0;284438:284440;b'UP';2.656
+0;294815:294817;b'UP';2.656
+0;296723:296725;b'UP';2.656
+0;297263:297265;b'UP';2.656
+0;297356:297358;b'UP';2.656
+0;297755:297757;b'UP';2.656
+0;297966:297968;b'UP';2.656
+0;301366:301368;b'UP';2.656
+0;302665:302667;b'UP';2.656
+0;303814:303816;b'UP';2.656
+0;304090:304092;b'UP';2.656
+0;304826:304828;b'UP';2.656
+0;304955:304957;b'UP';2.656
+0;304989:304991;b'UP';2.656
+0;305102:305104;b'UP';2.656
+0;308057:308059;b'UP';2.656
+0;318557:318559;b'UP';2.656
+0;319026:319028;b'UP';2.656
+0;319115:319117;b'UP';2.656
+0;319890:319892;b'UP';2.656
+0;322829:322831;b'UP';2.656
+0;323347:323349;b'UP';2.656
+0;357565:357567;b'UP';2.656
+0;357930:357932;b'UP';2.656
+0;358049:358051;b'UP';2.656
+0;359824:359826;b'UP';2.656
+0;359987:359989;b'UP';2.656
+0;360186:360188;b'UP';2.656
+0;360591:360593;b'UP';2.656
+0;362099:362101;b'UP';2.656
+0;362514:362516;b'UP';2.656
+0;363686:363688;b'UP';2.656
+0;364046:364048;b'UP';2.656
+0;364666:364668;b'UP';2.656
+0;365350:365352;b'UP';2.656
+0;377777:377779;b'UP';2.656
+0;378317:378319;b'UP';2.656
+0;378757:378759;b'UP';2.656
+0;379759:379761;b'UP';2.656
+0;380139:380141;b'UP';2.656
+0;381313:381315;b'UP';2.656
+0;381882:381884;b'UP';2.656
+0;382861:382863;b'UP';2.656
+0;384745:384747;b'UP';2.656
+0;385942:385944;b'UP';2.656
+0;421528:421530;b'UP';2.656
+0;423246:423248;b'UP';2.656
+0;425612:425614;b'UP';2.656
+0;426301:426303;b'UP';2.656
+0;427771:427773;b'UP';2.656
+0;428148:428150;b'UP';2.656
+0;429171:429173;b'UP';2.656
+0;430068:430070;b'UP';2.656
+0;430098:430100;b'UP';2.656
+0;430601:430603;b'UP';2.656
+0;431252:431254;b'UP';2.656
+0;432129:432131;b'UP';2.656
+0;432570:432572;b'UP';2.656
+0;432620:432622;b'UP';2.656
+0;434594:434596;b'UP';2.656
+0;435198:435200;b'UP';2.656
+0;435922:435924;b'UP';2.656
+0;436214:436216;b'UP';2.656
+0;437501:437503;b'UP';2.656
+0;437558:437560;b'UP';2.656
+0;437951:437953;b'UP';2.656
+0;438040:438042;b'UP';2.656
+0;480547:480549;b'UP';2.656
+0;480829:480831;b'UP';2.656
+0;481074:481076;b'UP';2.656
+0;481950:481952;b'UP';2.656
+0;482155:482157;b'UP';2.656
+0;482329:482331;b'UP';2.656
+0;482734:482736;b'UP';2.656
+0;484733:484735;b'UP';2.656
+0;486567:486569;b'UP';2.656
+0;488708:488710;b'UP';2.656
+0;489419:489421;b'UP';2.656
+0;500660:500662;b'UP';2.656
+0;500854:500856;b'UP';2.656
+0;500982:500984;b'UP';2.656
+0;501737:501739;b'UP';2.656
+0;501759:501761;b'UP';2.656
+0;502157:502159;b'UP';2.656
+0;502645:502647;b'UP';2.656
+0;503371:503373;b'UP';2.656
+0;503793:503795;b'UP';2.656
+0;504395:504397;b'UP';2.656
+0;506746:506748;b'UP';2.656
+0;507123:507125;b'UP';2.656
+0;507728:507730;b'UP';2.656
+0;507782:507784;b'UP';2.656
+0;508586:508588;b'UP';2.656
+0;521306:521308;b'UP';2.656
+0;522823:522825;b'UP';2.656
+0;524377:524379;b'UP';2.656
+0;524946:524948;b'UP';2.656
+0;525835:525837;b'UP';2.656
+0;528244:528246;b'UP';2.656
+0;528609:528611;b'UP';2.656
+0;530211:530213;b'UP';2.656
+0;530448:530450;b'UP';2.656
+0;571792:571794;b'UP';2.656
+0;573617:573619;b'UP';2.656
+0;574166:574168;b'UP';2.656
+0;574545:574547;b'UP';2.656
+0;574806:574808;b'UP';2.656
+0;575093:575095;b'UP';2.656
+0;575690:575692;b'UP';2.656
+0;576270:576272;b'UP';2.656
+0;579786:579788;b'UP';2.656
+0;579976:579978;b'UP';2.656
+0;581332:581334;b'UP';2.656
+0;582582:582584;b'UP';2.656
+0;582745:582747;b'UP';2.656
+0;583347:583349;b'UP';2.656
+0;583993:583995;b'UP';2.656
+0;584010:584012;b'UP';2.656
+0;584919:584921;b'UP';2.656
+0;586362:586364;b'UP';2.656
+0;588229:588231;b'UP';2.656
+0;588413:588415;b'UP';2.656
+0;589480:589482;b'UP';2.656
+0;589705:589707;b'UP';2.656
+0;589777:589779;b'UP';2.656
+0;590030:590032;b'UP';2.656
+0;591582:591584;b'UP';2.656
+0;591702:591704;b'UP';2.656
+0;593525:593527;b'UP';2.656
+0;593662:593664;b'UP';2.656
+0;594597:594599;b'UP';2.656
+0;596473:596475;b'UP';2.656
+0;598563:598565;b'UP';2.656
+0;600565:600567;b'UP';2.656
+0;601482:601484;b'UP';2.656
+0;623414:623416;b'UP';2.656
+0;626849:626851;b'UP';2.656
+0;629395:629397;b'UP';2.656
+0;630384:630386;b'UP';2.656
+0;630983:630985;b'UP';2.656
+0;631450:631452;b'UP';2.656
+0;631708:631710;b'UP';2.656
+0;632354:632356;b'UP';2.656
+0;632485:632487;b'UP';2.656
+0;633638:633640;b'UP';2.656
+0;634868:634870;b'UP';2.656
+0;635043:635045;b'UP';2.656
+0;635295:635297;b'UP';2.656
+0;635609:635611;b'UP';2.656
+0;636232:636234;b'UP';2.656
+0;636677:636679;b'UP';2.656
+0;636796:636798;b'UP';2.656
+0;637395:637397;b'UP';2.656
+0;639213:639215;b'UP';2.656
+0;639439:639441;b'UP';2.656
+0;639844:639846;b'UP';2.656
+0;641670:641672;b'UP';2.656
+0;642650:642652;b'UP';2.656
+0;642701:642703;b'UP';2.656
+0;650229:650231;b'UP';2.656
+0;660447:660449;b'UP';2.656
+0;673496:673498;b'UP';2.656
+0;674948:674950;b'UP';2.656
+0;675824:675826;b'UP';2.656
+0;676047:676049;b'UP';2.656
+0;676610:676612;b'UP';2.656
+0;677396:677398;b'UP';2.656
+0;677577:677579;b'UP';2.656
+0;678434:678436;b'UP';2.656
+0;678665:678667;b'UP';2.656
+0;678837:678839;b'UP';2.656
+0;680073:680075;b'UP';2.656
+0;680146:680148;b'UP';2.656
+0;681597:681599;b'UP';2.656
+0;682965:682967;b'UP';2.656
+0;693906:693908;b'UP';2.656
+0;695938:695940;b'UP';2.656
+0;701169:701171;b'UP';2.656
+0;702652:702654;b'UP';2.656
+0;704106:704108;b'UP';2.656
+0;704915:704917;b'UP';2.656
+0;705985:705987;b'UP';2.656
+0;706539:706541;b'UP';2.656
+0;707066:707068;b'UP';2.656
+0;708293:708295;b'UP';2.656
+0;708792:708794;b'UP';2.656
+0;709096:709098;b'UP';2.656
+0;711029:711031;b'UP';2.656
+0;724795:724797;b'UP';2.656
+0;725455:725457;b'UP';2.656
+0;725801:725803;b'UP';2.656
+0;726670:726672;b'UP';2.656
+0;727155:727157;b'UP';2.656
+0;727797:727799;b'UP';2.656
+0;729291:729293;b'UP';2.656
+0;730634:730636;b'UP';2.656
+0;731835:731837;b'UP';2.656
+0;740041:740043;b'UP';2.656
+0;787271:787273;b'UP';2.656
+0;793367:793369;b'UP';2.656
+0;821127:821129;b'UP';2.656
+0;867438:867440;b'UP';2.656
+0;867746:867748;b'UP';2.656
+0;869161:869163;b'UP';2.656
+0;869266:869268;b'UP';2.656
+0;869439:869441;b'UP';2.656
+0;869592:869594;b'UP';2.656
+0;870345:870347;b'UP';2.656
+0;870716:870718;b'UP';2.656
+0;871563:871565;b'UP';2.656
+0;872696:872698;b'UP';2.656
+0;874670:874672;b'UP';2.656
+0;877123:877125;b'UP';2.656
+0;877141:877143;b'UP';2.656
+0;877174:877176;b'UP';2.656
+0;889750:889752;b'UP';2.656
+0;896574:896576;b'UP';2.656
+0;896635:896637;b'UP';2.656
+0;905591:905593;b'UP';2.656
+0;918385:918387;b'UP';2.656
+0;919527:919529;b'UP';2.656
+0;921522:921524;b'UP';2.656
+0;922084:922086;b'UP';2.656
+0;922424:922426;b'UP';2.656
+0;922860:922862;b'UP';2.656
+0;924383:924385;b'UP';2.656
+0;926108:926110;b'UP';2.656
+0;927286:927288;b'UP';2.656
+0;930287:930289;b'UP';2.656
+0;953975:953977;b'UP';2.656
+0;973452:973454;b'UP';2.656
+0;974188:974190;b'UP';2.656
+0;974200:974202;b'UP';2.656
+0;978612:978614;b'UP';2.656
+0;980874:980876;b'UP';2.656
+0;983553:983555;b'UP';2.656
+0;984455:984457;b'UP';2.656
+0;984642:984644;b'UP';2.656
+0;984950:984952;b'UP';2.656
+0;986515:986517;b'UP';2.656
+274;2.656
+
+avg exec time [us], std exec time [us] #matches
+2.656;0.0;274
+RE 210: (?=(^2AukD(gc|30|3K)))
+iter #, position, match, exec time [us]
+0;3.249
+
+avg exec time [us], std exec time [us] #matches
+3.249;0.0;0
+RE 211: (?=(57(NNq)?))
+iter #, position, match, exec time [us]
+0;12191:12193;b'57';2.994
+0;20079:20081;b'57';2.994
+0;24117:24119;b'57';2.994
+0;24763:24765;b'57';2.994
+0;25686:25688;b'57';2.994
+0;28232:28234;b'57';2.994
+0;28321:28323;b'57';2.994
+0;29617:29619;b'57';2.994
+0;29629:29631;b'57';2.994
+0;61387:61389;b'57';2.994
+0;61671:61673;b'57';2.994
+0;61676:61678;b'57';2.994
+0;62424:62426;b'57';2.994
+0;63662:63664;b'57';2.994
+0;65741:65743;b'57';2.994
+0;66000:66002;b'57';2.994
+0;66365:66367;b'57';2.994
+0;67608:67610;b'57';2.994
+0;68874:68876;b'57';2.994
+0;69544:69546;b'57';2.994
+0;71018:71020;b'57';2.994
+0;71222:71224;b'57';2.994
+0;93754:93756;b'57';2.994
+0;94429:94431;b'57';2.994
+0;94912:94914;b'57';2.994
+0;95596:95598;b'57';2.994
+0;95775:95777;b'57';2.994
+0;95902:95904;b'57';2.994
+0;97897:97899;b'57';2.994
+0;98188:98190;b'57';2.994
+0;99878:99880;b'57';2.994
+0;99893:99895;b'57';2.994
+0;100117:100119;b'57';2.994
+0;100298:100300;b'57';2.994
+0;100638:100640;b'57';2.994
+0;100936:100938;b'57';2.994
+0;101650:101652;b'57';2.994
+0;102381:102383;b'57';2.994
+0;103267:103269;b'57';2.994
+0;103753:103755;b'57';2.994
+0;104558:104560;b'57';2.994
+0;104659:104661;b'57';2.994
+0;104699:104701;b'57';2.994
+0;104928:104930;b'57';2.994
+0;104949:104951;b'57';2.994
+0;105303:105305;b'57';2.994
+0;105761:105763;b'57';2.994
+0;106367:106369;b'57';2.994
+0;107283:107285;b'57';2.994
+0;107295:107297;b'57';2.994
+0;108398:108400;b'57';2.994
+0;108419:108421;b'57';2.994
+0;108772:108774;b'57';2.994
+0;108835:108837;b'57';2.994
+0;109181:109183;b'57';2.994
+0;109280:109282;b'57';2.994
+0;111634:111636;b'57';2.994
+0;112151:112153;b'57';2.994
+0;131952:131954;b'57';2.994
+0;145655:145657;b'57';2.994
+0;184068:184070;b'57';2.994
+0;184376:184378;b'57';2.994
+0;184511:184513;b'57';2.994
+0;184757:184759;b'57';2.994
+0;184979:184981;b'57';2.994
+0;186001:186003;b'57';2.994
+0;186138:186140;b'57';2.994
+0;186938:186940;b'57';2.994
+0;187281:187283;b'57';2.994
+0;188738:188740;b'57';2.994
+0;189732:189734;b'57';2.994
+0;189993:189995;b'57';2.994
+0;190253:190255;b'57';2.994
+0;190771:190773;b'57';2.994
+0;191465:191467;b'57';2.994
+0;191576:191578;b'57';2.994
+0;192221:192223;b'57';2.994
+0;192232:192234;b'57';2.994
+0;193245:193247;b'57';2.994
+0;211751:211753;b'57';2.994
+0;236287:236289;b'57';2.994
+0;246645:246647;b'57';2.994
+0;248494:248496;b'57';2.994
+0;249573:249575;b'57';2.994
+0;249647:249649;b'57';2.994
+0;250006:250008;b'57';2.994
+0;251958:251960;b'57';2.994
+0;252025:252027;b'57';2.994
+0;254678:254680;b'57';2.994
+0;276103:276105;b'57';2.994
+0;277001:277003;b'57';2.994
+0;281445:281447;b'57';2.994
+0;282582:282584;b'57';2.994
+0;282867:282869;b'57';2.994
+0;284110:284112;b'57';2.994
+0;289737:289739;b'57';2.994
+0;293076:293078;b'57';2.994
+0;294305:294307;b'57';2.994
+0;294389:294391;b'57';2.994
+0;295057:295059;b'57';2.994
+0;296504:296506;b'57';2.994
+0;298738:298740;b'57';2.994
+0;299527:299529;b'57';2.994
+0;300365:300367;b'57';2.994
+0;300529:300531;b'57';2.994
+0;301775:301777;b'57';2.994
+0;302377:302379;b'57';2.994
+0;302840:302842;b'57';2.994
+0;304200:304202;b'57';2.994
+0;304707:304709;b'57';2.994
+0;312575:312577;b'57';2.994
+0;330975:330977;b'57';2.994
+0;347375:347377;b'57';2.994
+0;347456:347458;b'57';2.994
+0;349739:349741;b'57';2.994
+0;350243:350245;b'57';2.994
+0;350386:350388;b'57';2.994
+0;351477:351479;b'57';2.994
+0;353768:353770;b'57';2.994
+0;355419:355421;b'57';2.994
+0;356867:356869;b'57';2.994
+0;377291:377293;b'57';2.994
+0;382680:382682;b'57';2.994
+0;388641:388643;b'57';2.994
+0;388742:388744;b'57';2.994
+0;389376:389378;b'57';2.994
+0;390189:390191;b'57';2.994
+0;391736:391738;b'57';2.994
+0;391875:391877;b'57';2.994
+0;391951:391953;b'57';2.994
+0;391977:391979;b'57';2.994
+0;393852:393854;b'57';2.994
+0;395770:395772;b'57';2.994
+0;396550:396552;b'57';2.994
+0;396622:396624;b'57';2.994
+0;396962:396964;b'57';2.994
+0;397216:397218;b'57';2.994
+0;399851:399853;b'57';2.994
+0;400031:400033;b'57';2.994
+0;400537:400539;b'57';2.994
+0;402467:402469;b'57';2.994
+0;404883:404885;b'57';2.994
+0;417940:417942;b'57';2.994
+0;428676:428678;b'57';2.994
+0;430073:430075;b'57';2.994
+0;430103:430105;b'57';2.994
+0;430129:430131;b'57';2.994
+0;430606:430608;b'57';2.994
+0;432134:432136;b'57';2.994
+0;432136:432138;b'57';2.994
+0;432913:432915;b'57';2.994
+0;434599:434601;b'57';2.994
+0;435203:435205;b'57';2.994
+0;436219:436221;b'57';2.994
+0;436228:436230;b'57';2.994
+0;437451:437453;b'57';2.994
+0;437506:437508;b'57';2.994
+0;437956:437958;b'57';2.994
+0;438045:438047;b'57';2.994
+0;440710:440712;b'57';2.994
+0;462191:462193;b'57';2.994
+0;469501:469503;b'57';2.994
+0;469729:469731;b'57';2.994
+0;470355:470357;b'57';2.994
+0;470565:470567;b'57';2.994
+0;470683:470685;b'57';2.994
+0;472885:472887;b'57';2.994
+0;473200:473202;b'57';2.994
+0;473946:473948;b'57';2.994
+0;474112:474114;b'57';2.994
+0;474599:474601;b'57';2.994
+0;475883:475885;b'57';2.994
+0;476532:476534;b'57';2.994
+0;477469:477471;b'57';2.994
+0;478114:478116;b'57';2.994
+0;478575:478577;b'57';2.994
+0;502303:502305;b'57';2.994
+0;520998:521000;b'57';2.994
+0;522386:522388;b'57';2.994
+0;522559:522561;b'57';2.994
+0;523967:523969;b'57';2.994
+0;524466:524468;b'57';2.994
+0;525596:525598;b'57';2.994
+0;526082:526084;b'57';2.994
+0;526349:526351;b'57';2.994
+0;526718:526720;b'57';2.994
+0;526844:526846;b'57';2.994
+0;527100:527102;b'57';2.994
+0;527729:527731;b'57';2.994
+0;528041:528043;b'57';2.994
+0;529672:529674;b'57';2.994
+0;529942:529944;b'57';2.994
+0;530007:530009;b'57';2.994
+0;530544:530546;b'57';2.994
+0;530733:530735;b'57';2.994
+0;531179:531181;b'57';2.994
+0;532244:532246;b'57';2.994
+0;532967:532969;b'57';2.994
+0;534592:534594;b'57';2.994
+0;535881:535883;b'57';2.994
+0;536157:536159;b'57';2.994
+0;536917:536919;b'57';2.994
+0;537783:537785;b'57';2.994
+0;538681:538683;b'57';2.994
+0;539556:539558;b'57';2.994
+0;540344:540346;b'57';2.994
+0;540430:540432;b'57';2.994
+0;540472:540474;b'57';2.994
+0;540683:540685;b'57';2.994
+0;541077:541079;b'57';2.994
+0;542510:542512;b'57';2.994
+0;542578:542580;b'57';2.994
+0;543304:543306;b'57';2.994
+0;543356:543358;b'57';2.994
+0;543630:543632;b'57';2.994
+0;550176:550178;b'57';2.994
+0;550280:550282;b'57';2.994
+0;551313:551315;b'57';2.994
+0;554339:554341;b'57';2.994
+0;555950:555952;b'57';2.994
+0;556379:556381;b'57';2.994
+0;558373:558375;b'57';2.994
+0;559579:559581;b'57';2.994
+0;621527:621529;b'57';2.994
+0;622519:622521;b'57';2.994
+0;623013:623015;b'57';2.994
+0;623224:623226;b'57';2.994
+0;623699:623701;b'57';2.994
+0;624321:624323;b'57';2.994
+0;625291:625293;b'57';2.994
+0;627172:627174;b'57';2.994
+0;629112:629114;b'57';2.994
+0;629224:629226;b'57';2.994
+0;630216:630218;b'57';2.994
+0;630797:630799;b'57';2.994
+0;631138:631140;b'57';2.994
+0;642031:642033;b'57';2.994
+0;653510:653512;b'57';2.994
+0;654196:654198;b'57';2.994
+0;654965:654967;b'57';2.994
+0;656192:656194;b'57';2.994
+0;656424:656426;b'57';2.994
+0;657099:657101;b'57';2.994
+0;657221:657223;b'57';2.994
+0;657916:657918;b'57';2.994
+0;658013:658015;b'57';2.994
+0;658729:658731;b'57';2.994
+0;660010:660012;b'57';2.994
+0;660936:660938;b'57';2.994
+0;661401:661403;b'57';2.994
+0;662491:662493;b'57';2.994
+0;662994:662996;b'57';2.994
+0;695391:695393;b'57';2.994
+0;695406:695408;b'57';2.994
+0;696274:696276;b'57';2.994
+0;698425:698427;b'57';2.994
+0;698658:698660;b'57';2.994
+0;699959:699961;b'57';2.994
+0;700701:700703;b'57';2.994
+0;702951:702953;b'57';2.994
+0;703180:703182;b'57';2.994
+0;703493:703495;b'57';2.994
+0;710255:710257;b'57';2.994
+0;727134:727136;b'57';2.994
+0;729382:729384;b'57';2.994
+0;730512:730514;b'57';2.994
+0;730779:730781;b'57';2.994
+0;730805:730807;b'57';2.994
+0;731594:731596;b'57';2.994
+0;731958:731960;b'57';2.994
+0;732297:732299;b'57';2.994
+0;732309:732311;b'57';2.994
+0;732859:732861;b'57';2.994
+0;733803:733805;b'57';2.994
+0;734596:734598;b'57';2.994
+0;739527:739529;b'57';2.994
+0;751999:752001;b'57';2.994
+0;816705:816707;b'57';2.994
+0;817518:817520;b'57';2.994
+0;817763:817765;b'57';2.994
+0;817960:817962;b'57';2.994
+0;817978:817980;b'57';2.994
+0;823030:823032;b'57';2.994
+0;824056:824058;b'57';2.994
+0;825596:825598;b'57';2.994
+0;826410:826412;b'57';2.994
+0;847424:847426;b'57';2.994
+0;847523:847525;b'57';2.994
+0;847811:847813;b'57';2.994
+0;848498:848500;b'57';2.994
+0;849523:849525;b'57';2.994
+0;849569:849571;b'57';2.994
+0;850000:850002;b'57';2.994
+0;850477:850479;b'57';2.994
+0;851763:851765;b'57';2.994
+0;851998:852000;b'57';2.994
+0;852098:852100;b'57';2.994
+0;852388:852390;b'57';2.994
+0;853155:853157;b'57';2.994
+0;853410:853412;b'57';2.994
+0;853650:853652;b'57';2.994
+0;853709:853711;b'57';2.994
+0;853881:853883;b'57';2.994
+0;854286:854288;b'57';2.994
+0;854532:854534;b'57';2.994
+0;855183:855185;b'57';2.994
+0;856313:856315;b'57';2.994
+0;856573:856575;b'57';2.994
+0;856647:856649;b'57';2.994
+0;887869:887871;b'57';2.994
+0;888755:888757;b'57';2.994
+0;888906:888908;b'57';2.994
+0;889719:889721;b'57';2.994
+0;890856:890858;b'57';2.994
+0;893238:893240;b'57';2.994
+0;894755:894757;b'57';2.994
+0;895581:895583;b'57';2.994
+0;896606:896608;b'57';2.994
+0;896804:896806;b'57';2.994
+0;928744:928746;b'57';2.994
+0;929204:929206;b'57';2.994
+0;929264:929266;b'57';2.994
+0;930392:930394;b'57';2.994
+0;930979:930981;b'57';2.994
+0;931329:931331;b'57';2.994
+0;931647:931649;b'57';2.994
+0;931970:931972;b'57';2.994
+0;932169:932171;b'57';2.994
+0;932769:932771;b'57';2.994
+0;933014:933016;b'57';2.994
+0;933420:933422;b'57';2.994
+0;935287:935289;b'57';2.994
+0;935514:935516;b'57';2.994
+0;935740:935742;b'57';2.994
+0;936391:936393;b'57';2.994
+0;936798:936800;b'57';2.994
+0;937924:937926;b'57';2.994
+0;939687:939689;b'57';2.994
+0;949344:949346;b'57';2.994
+0;949437:949439;b'57';2.994
+0;949700:949702;b'57';2.994
+0;952635:952637;b'57';2.994
+0;953358:953360;b'57';2.994
+0;953882:953884;b'57';2.994
+0;954954:954956;b'57';2.994
+0;955282:955284;b'57';2.994
+0;955361:955363;b'57';2.994
+0;955839:955841;b'57';2.994
+0;958418:958420;b'57';2.994
+0;960950:960952;b'57';2.994
+0;963508:963510;b'57';2.994
+0;965217:965219;b'57';2.994
+0;965961:965963;b'57';2.994
+0;966774:966776;b'57';2.994
+0;967126:967128;b'57';2.994
+0;968556:968558;b'57';2.994
+0;969138:969140;b'57';2.994
+0;979223:979225;b'57';2.994
+0;979914:979916;b'57';2.994
+0;980949:980951;b'57';2.994
+0;980979:980981;b'57';2.994
+0;982157:982159;b'57';2.994
+0;982483:982485;b'57';2.994
+0;983540:983542;b'57';2.994
+0;984373:984375;b'57';2.994
+0;986999:987001;b'57';2.994
+0;988147:988149;b'57';2.994
+0;988312:988314;b'57';2.994
+368;2.994
+
+avg exec time [us], std exec time [us] #matches
+2.994;0.0;368
+RE 212: (?=(I73dcgbfKrq))
+iter #, position, match, exec time [us]
+0;2.776
+
+avg exec time [us], std exec time [us] #matches
+2.776;0.0;0
+RE 213: (?=(DsUd7J))
+iter #, position, match, exec time [us]
+0;33878:33884;b'DsUd7J';2.713
+0;36492:36498;b'DsUd7J';2.713
+2;2.713
+
+avg exec time [us], std exec time [us] #matches
+2.713;0.0;2
+RE 214: (?=(fhjvc3HEIib9z5))
+iter #, position, match, exec time [us]
+0;2.582
+
+avg exec time [us], std exec time [us] #matches
+2.582;0.0;0
+RE 215: (?=(q8Y(Ouu|5Dc|jye)2lY))
+iter #, position, match, exec time [us]
+0;937063:937072;b'q8Yjye2lY';2.761
+1;2.761
+
+avg exec time [us], std exec time [us] #matches
+2.761;0.0;1
+RE 216: (?=(^cwoVUAvV9G2k(Q2)?))
+iter #, position, match, exec time [us]
+0;2.562
+
+avg exec time [us], std exec time [us] #matches
+2.562;0.0;0
+RE 217: (?=(T2z8R))
+iter #, position, match, exec time [us]
+0;320264:320269;b'T2z8R';2.777
+0;667306:667311;b'T2z8R';2.777
+0;879715:879720;b'T2z8R';2.777
+3;2.777
+
+avg exec time [us], std exec time [us] #matches
+2.777;0.0;3
+RE 218: (?=(l4KpTRROmpk8K5))
+iter #, position, match, exec time [us]
+0;2.561
+
+avg exec time [us], std exec time [us] #matches
+2.561;0.0;0
+RE 219: (?=(eikBjGFtfpP0))
+iter #, position, match, exec time [us]
+0;2.629
+
+avg exec time [us], std exec time [us] #matches
+2.629;0.0;0
+RE 220: (?=(SEUy1RtwlveaG(AA)?))
+iter #, position, match, exec time [us]
+0;2.658
+
+avg exec time [us], std exec time [us] #matches
+2.658;0.0;0
+RE 221: (?=(q2fjn7hBv5[^\n\r]*CQiW5dRk))
+iter #, position, match, exec time [us]
+0;2.577
+
+avg exec time [us], std exec time [us] #matches
+2.577;0.0;0
+RE 222: (?=(fEd7Xqvew))
+iter #, position, match, exec time [us]
+0;2.641
+
+avg exec time [us], std exec time [us] #matches
+2.641;0.0;0
+RE 223: (?=(aTgBWd(lRF|b8u|2oW)7eT))
+iter #, position, match, exec time [us]
+0;2.638
+
+avg exec time [us], std exec time [us] #matches
+2.638;0.0;0
+RE 224: (?=(^cRPS8Qr7iAQ))
+iter #, position, match, exec time [us]
+0;3.666
+
+avg exec time [us], std exec time [us] #matches
+3.666;0.0;0
+RE 225: (?=(YB5VgkegPX6T5JG))
+iter #, position, match, exec time [us]
+0;3.093
+
+avg exec time [us], std exec time [us] #matches
+3.093;0.0;0
+RE 226: (?=(eUHxLw))
+iter #, position, match, exec time [us]
+0;258447:258453;b'eUHxLw';2.742
+1;2.742
+
+avg exec time [us], std exec time [us] #matches
+2.742;0.0;1
+RE 227: (?=(^8Y(jkn7|Vr6D|TOvE)RLHiH0Q0))
+iter #, position, match, exec time [us]
+0;2.667
+
+avg exec time [us], std exec time [us] #matches
+2.667;0.0;0
+RE 228: (?=(ow5Ha24vLlp))
+iter #, position, match, exec time [us]
+0;859852:859863;b'ow5Ha24vLlp';2.666
+1;2.666
+
+avg exec time [us], std exec time [us] #matches
+2.666;0.0;1
+RE 229: (?=(kwXD5CXWN(Q)?))
+iter #, position, match, exec time [us]
+0;2.931
+
+avg exec time [us], std exec time [us] #matches
+2.931;0.0;0
+RE 230: (?=(nUYS7zML(On|lx|yM)m[^\n\r]*9ua5MQ5GrONj(qZ|QN|xy).*C7omOa(CK)?))
+iter #, position, match, exec time [us]
+0;2.901
+
+avg exec time [us], std exec time [us] #matches
+2.901;0.0;0
+RE 231: (?=(eEzqIdU1cKT))
+iter #, position, match, exec time [us]
+0;2.765
+
+avg exec time [us], std exec time [us] #matches
+2.765;0.0;0
+RE 232: (?=(RgmCpOKHyL4WA))
+iter #, position, match, exec time [us]
+0;2.778
+
+avg exec time [us], std exec time [us] #matches
+2.778;0.0;0
+RE 233: (?=(3tRVOfZcOGMOG.*45ea2HBi))
+iter #, position, match, exec time [us]
+0;2.889
+
+avg exec time [us], std exec time [us] #matches
+2.889;0.0;0
+RE 234: (?=(^5ikTPR5))
+iter #, position, match, exec time [us]
+0;2.851
+
+avg exec time [us], std exec time [us] #matches
+2.851;0.0;0
+RE 235: (?=(CGAUoBw7e6KAq))
+iter #, position, match, exec time [us]
+0;2.668
+
+avg exec time [us], std exec time [us] #matches
+2.668;0.0;0
+RE 236: (?=(^K2xcNc30eE9s2B))
+iter #, position, match, exec time [us]
+0;2.693
+
+avg exec time [us], std exec time [us] #matches
+2.693;0.0;0
+RE 237: (?=(1vWehUS(a)?))
+iter #, position, match, exec time [us]
+0;972433:972440;b'1vWehUS';2.62
+1;2.62
+
+avg exec time [us], std exec time [us] #matches
+2.62;0.0;1
+RE 238: (?=(KojNwvdN))
+iter #, position, match, exec time [us]
+0;2.543
+
+avg exec time [us], std exec time [us] #matches
+2.543;0.0;0
+RE 239: (?=(E5K7QPKCh))
+iter #, position, match, exec time [us]
+0;2.74
+
+avg exec time [us], std exec time [us] #matches
+2.74;0.0;0
+RE 240: (?=(vmKmBY1.*jBKFS4[A-Z]Nn))
+iter #, position, match, exec time [us]
+0;2.662
+
+avg exec time [us], std exec time [us] #matches
+2.662;0.0;0
+RE 241: (?=(UvKoT[A-Z]Arn))
+iter #, position, match, exec time [us]
+0;2.9
+
+avg exec time [us], std exec time [us] #matches
+2.9;0.0;0
+RE 242: (?=(nKWHYi6E4.*eB(iB|OG|ER)xl.*GPMDIx[0-9]28))
+iter #, position, match, exec time [us]
+0;2.806
+
+avg exec time [us], std exec time [us] #matches
+2.806;0.0;0
+RE 243: (?=(^qvW8gIZ30HppF))
+iter #, position, match, exec time [us]
+0;2.721
+
+avg exec time [us], std exec time [us] #matches
+2.721;0.0;0
+RE 244: (?=(D(NJr|Qns|WIN)oF5))
+iter #, position, match, exec time [us]
+0;2.676
+
+avg exec time [us], std exec time [us] #matches
+2.676;0.0;0
+RE 245: (?=(rY(PpXa|jvAO|caLb)bZuT))
+iter #, position, match, exec time [us]
+0;2.525
+
+avg exec time [us], std exec time [us] #matches
+2.525;0.0;0
+RE 246: (?=(EqS5dVYBTytH))
+iter #, position, match, exec time [us]
+0;2.613
+
+avg exec time [us], std exec time [us] #matches
+2.613;0.0;0
+RE 247: (?=(K[A-Z]ZoqD))
+iter #, position, match, exec time [us]
+0;2.743
+
+avg exec time [us], std exec time [us] #matches
+2.743;0.0;0
+RE 248: (?=(xxWLNJbPWzD3))
+iter #, position, match, exec time [us]
+0;2.628
+
+avg exec time [us], std exec time [us] #matches
+2.628;0.0;0
+RE 249: (?=(^LTX3FxuiSNC))
+iter #, position, match, exec time [us]
+0;3.086
+
+avg exec time [us], std exec time [us] #matches
+3.086;0.0;0
+RE 250: (?=(^W7(xW|Mv|dd)c6ZMGpxMup))
+iter #, position, match, exec time [us]
+0;2.758
+
+avg exec time [us], std exec time [us] #matches
+2.758;0.0;0
+RE 251: (?=(ceo99uUArrcHxPB))
+iter #, position, match, exec time [us]
+0;2.772
+
+avg exec time [us], std exec time [us] #matches
+2.772;0.0;0
+RE 252: (?=(nKWHYi6E4[^\n\r]*IB3lViIaqwLj6L(y)?))
+iter #, position, match, exec time [us]
+0;3.085
+
+avg exec time [us], std exec time [us] #matches
+3.085;0.0;0
+RE 253: (?=(kYb2fwGifS5rX))
+iter #, position, match, exec time [us]
+0;2.646
+
+avg exec time [us], std exec time [us] #matches
+2.646;0.0;0
+RE 254: (?=(TWJyfJ3N4))
+iter #, position, match, exec time [us]
+0;2.598
+
+avg exec time [us], std exec time [us] #matches
+2.598;0.0;0
+RE 255: (?=(^XfFON(FA|95|eA)DqHwS))
+iter #, position, match, exec time [us]
+0;2.561
+
+avg exec time [us], std exec time [us] #matches
+2.561;0.0;0
+RE 256: (?=(8WVg1xe6Yeaud))
+iter #, position, match, exec time [us]
+0;2.619
+
+avg exec time [us], std exec time [us] #matches
+2.619;0.0;0
+RE 257: (?=(8erafcJw.*IMF0AzKkT))
+iter #, position, match, exec time [us]
+0;2.579
+
+avg exec time [us], std exec time [us] #matches
+2.579;0.0;0
+RE 258: (?=(xumaes(Z)?))
+iter #, position, match, exec time [us]
+0;6.197
+
+avg exec time [us], std exec time [us] #matches
+6.197;0.0;0
+RE 259: (?=(EKXC2Ikgyww(E)?))
+iter #, position, match, exec time [us]
+0;2.769
+
+avg exec time [us], std exec time [us] #matches
+2.769;0.0;0
+RE 260: (?=(zPPLvjl6a0iHth))
+iter #, position, match, exec time [us]
+0;2.551
+
+avg exec time [us], std exec time [us] #matches
+2.551;0.0;0
+RE 261: (?=(3OpAehbG8eE))
+iter #, position, match, exec time [us]
+0;2.557
+
+avg exec time [us], std exec time [us] #matches
+2.557;0.0;0
+RE 262: (?=(^EWGWS))
+iter #, position, match, exec time [us]
+0;2.631
+
+avg exec time [us], std exec time [us] #matches
+2.631;0.0;0
+RE 263: (?=(Pcj2Pc64CFEq2))
+iter #, position, match, exec time [us]
+0;158687:158700;b'Pcj2Pc64CFEq2';2.797
+1;2.797
+
+avg exec time [us], std exec time [us] #matches
+2.797;0.0;1
+RE 264: (?=(wA6oUZUIYLk8M(p)?))
+iter #, position, match, exec time [us]
+0;2.723
+
+avg exec time [us], std exec time [us] #matches
+2.723;0.0;0
+RE 265: (?=(RmvuM))
+iter #, position, match, exec time [us]
+0;955101:955106;b'RmvuM';2.549
+1;2.549
+
+avg exec time [us], std exec time [us] #matches
+2.549;0.0;1
+RE 266: (?=(dYizdQDHys))
+iter #, position, match, exec time [us]
+0;2.762
+
+avg exec time [us], std exec time [us] #matches
+2.762;0.0;0
+RE 267: (?=(76iCOg4qTK))
+iter #, position, match, exec time [us]
+0;2.845
+
+avg exec time [us], std exec time [us] #matches
+2.845;0.0;0
+RE 268: (?=(^Lmv0qF(Pk1d|GARd|sPe8).*fDpO4Xdm4(Trq|Ssc|j2h)rzo[^ ]*1SeoEUR))
+iter #, position, match, exec time [us]
+0;3.075
+
+avg exec time [us], std exec time [us] #matches
+3.075;0.0;0
+RE 269: (?=(f(9O|Za|Yf)y0vD1T))
+iter #, position, match, exec time [us]
+0;2.871
+
+avg exec time [us], std exec time [us] #matches
+2.871;0.0;0
+RE 270: (?=(Sr84LQYF))
+iter #, position, match, exec time [us]
+0;2.647
+
+avg exec time [us], std exec time [us] #matches
+2.647;0.0;0
+RE 271: (?=(E[a-z]kRqDMf.*xbgyHH.*9Ia3UbnPdhW4tq[A-Z]))
+iter #, position, match, exec time [us]
+0;2.793
+
+avg exec time [us], std exec time [us] #matches
+2.793;0.0;0
+RE 272: (?=(8lzTvC2BVIe2bNq))
+iter #, position, match, exec time [us]
+0;2.933
+
+avg exec time [us], std exec time [us] #matches
+2.933;0.0;0
+RE 273: (?=(8quYCXNAYi5eZk))
+iter #, position, match, exec time [us]
+0;2.923
+
+avg exec time [us], std exec time [us] #matches
+2.923;0.0;0
+RE 274: (?=(x3WxaBsa.*MhO4rJ(aF9)?.*wfL1V(DF)?))
+iter #, position, match, exec time [us]
+0;2.741
+
+avg exec time [us], std exec time [us] #matches
+2.741;0.0;0
+RE 275: (?=(7NkO3RrKs9EHVA))
+iter #, position, match, exec time [us]
+0;2.782
+
+avg exec time [us], std exec time [us] #matches
+2.782;0.0;0
+RE 276: (?=(^2ERdWSRj))
+iter #, position, match, exec time [us]
+0;2.737
+
+avg exec time [us], std exec time [us] #matches
+2.737;0.0;0
+RE 277: (?=(YGpJhRyhf(Q9)?.*UZJ2F4lv62kOSs(4)?))
+iter #, position, match, exec time [us]
+0;2.623
+
+avg exec time [us], std exec time [us] #matches
+2.623;0.0;0
+RE 278: (?=(BxhVSg))
+iter #, position, match, exec time [us]
+0;27853:27859;b'BxhVSg';2.688
+1;2.688
+
+avg exec time [us], std exec time [us] #matches
+2.688;0.0;1
+RE 279: (?=(lC8(DI)?))
+iter #, position, match, exec time [us]
+0;432316:432319;b'lC8';2.613
+0;585889:585892;b'lC8';2.613
+2;2.613
+
+avg exec time [us], std exec time [us] #matches
+2.613;0.0;2
+RE 280: (?=(tIwXQd0J))
+iter #, position, match, exec time [us]
+0;2.522
+
+avg exec time [us], std exec time [us] #matches
+2.522;0.0;0
+RE 281: (?=(tmAF7duUMW))
+iter #, position, match, exec time [us]
+0;828954:828964;b'tmAF7duUMW';2.708
+1;2.708
+
+avg exec time [us], std exec time [us] #matches
+2.708;0.0;1
+RE 282: (?=(mvl4r3nb.*uaWDNUqJGUtwWh))
+iter #, position, match, exec time [us]
+0;2.635
+
+avg exec time [us], std exec time [us] #matches
+2.635;0.0;0
+RE 283: (?=(^DrXXsVktw.oq0a3ekBmfqPO))
+iter #, position, match, exec time [us]
+0;2.8
+
+avg exec time [us], std exec time [us] #matches
+2.8;0.0;0
+RE 284: (?=(GdN4t(Q)?))
+iter #, position, match, exec time [us]
+0;430321:430326;b'GdN4t';2.696
+1;2.696
+
+avg exec time [us], std exec time [us] #matches
+2.696;0.0;1
+RE 285: (?=(EYwCCS(XBg)?))
+iter #, position, match, exec time [us]
+0;2.78
+
+avg exec time [us], std exec time [us] #matches
+2.78;0.0;0
+RE 286: (?=(or8gcXw5jRZ5G))
+iter #, position, match, exec time [us]
+0;2.68
+
+avg exec time [us], std exec time [us] #matches
+2.68;0.0;0
+RE 287: (?=(XaQkrlL(M)?))
+iter #, position, match, exec time [us]
+0;2.611
+
+avg exec time [us], std exec time [us] #matches
+2.611;0.0;0
+RE 288: (?=(^DNOJqxaK))
+iter #, position, match, exec time [us]
+0;2.813
+
+avg exec time [us], std exec time [us] #matches
+2.813;0.0;0
+RE 289: (?=(ZCz864E1g4FLMGw.*CZPmvWRRVKtxDZ))
+iter #, position, match, exec time [us]
+0;2.894
+
+avg exec time [us], std exec time [us] #matches
+2.894;0.0;0
+RE 290: (?=(MP(59|GP|kM)m6PMF))
+iter #, position, match, exec time [us]
+0;2.945
+
+avg exec time [us], std exec time [us] #matches
+2.945;0.0;0
+RE 291: (?=(L[a-z]5LhpjotRjbov.*sBOvmmMDGHGhv))
+iter #, position, match, exec time [us]
+0;2.577
+
+avg exec time [us], std exec time [us] #matches
+2.577;0.0;0
+RE 292: (?=(^3ryJWzdJC))
+iter #, position, match, exec time [us]
+0;2.744
+
+avg exec time [us], std exec time [us] #matches
+2.744;0.0;0
+RE 293: (?=(wYoVd[^\n\r]*yELabRJNIHIdmTX.*jvM7(W)?))
+iter #, position, match, exec time [us]
+0;2.838
+
+avg exec time [us], std exec time [us] #matches
+2.838;0.0;0
+RE 294: (?=(5VunZHQYm[^ ]*9t3X(JpLn|iTjw|ZWoP)4V))
+iter #, position, match, exec time [us]
+0;2.637
+
+avg exec time [us], std exec time [us] #matches
+2.637;0.0;0
+RE 295: (?=(ItyrGhxEdoq))
+iter #, position, match, exec time [us]
+0;2.953
+
+avg exec time [us], std exec time [us] #matches
+2.953;0.0;0
+RE 296: (?=(lxWGcsd4EAx7))
+iter #, position, match, exec time [us]
+0;2.933
+
+avg exec time [us], std exec time [us] #matches
+2.933;0.0;0
+RE 297: (?=(TpVcVUIivE))
+iter #, position, match, exec time [us]
+0;2.686
+
+avg exec time [us], std exec time [us] #matches
+2.686;0.0;0
+RE 298: (?=(^09ZMZ))
+iter #, position, match, exec time [us]
+0;2.8
+
+avg exec time [us], std exec time [us] #matches
+2.8;0.0;0
+RE 299: (?=(YFgMjga18oa8))
+iter #, position, match, exec time [us]
+0;2.725
+
+avg exec time [us], std exec time [us] #matches
+2.725;0.0;0
+RE 300: (?=(4s5aEh5jcCcdTN))
+iter #, position, match, exec time [us]
+0;2.705
+
+avg exec time [us], std exec time [us] #matches
+2.705;0.0;0

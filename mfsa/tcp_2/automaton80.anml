@@ -89,16 +89,16 @@
 	<activate-on-match element="26"/> <available-re="1"/>
 </state-transition-element>
 <state-transition-element id="26" symbol-set="[\x2e]" start="-1">
+	<activate-on-match element="13"/> <available-re="1"/>
+</state-transition-element>
+<state-transition-element id="13" symbol-set="[\x43]" start="-1">
 	<activate-on-match element="27"/> <available-re="1"/>
 </state-transition-element>
-<state-transition-element id="27" symbol-set="[\x43]" start="-1">
+<state-transition-element id="27" symbol-set="[\x4f]" start="-1">
 	<activate-on-match element="28"/> <available-re="1"/>
 </state-transition-element>
-<state-transition-element id="28" symbol-set="[\x4f]" start="-1">
+<state-transition-element id="28" symbol-set="[\x4d]" start="-1">
 	<activate-on-match element="29"/> <available-re="1"/>
-</state-transition-element>
-<state-transition-element id="29" symbol-set="[\x4d]" start="-1">
-	<activate-on-match element="30"/> <available-re="1"/>
 	<report-on-match reportcode="1,"/>
 </state-transition-element>
 <state-transition-element id="5" symbol-set="[\x54]" start="-1">

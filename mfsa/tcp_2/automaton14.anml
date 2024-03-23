@@ -155,7 +155,7 @@
 	<activate-on-match element="45"/> <available-re="1"/>
 </state-transition-element>
 <state-transition-element id="45" symbol-set="[\x3a]" start="-1">
-	<activate-on-match element="46"/> <available-re="1"/>
+	<activate-on-match element="8"/> <available-re="1"/>
 	<report-on-match reportcode="1,"/>
 </state-transition-element>
 <state-transition-range-element id="42" symbol-set="[\x0d\x0a\x09\x0c\x0b\x20]" start="-1">

@@ -19,7 +19,7 @@
 	<activate-on-match element="6"/> <available-re="0,1"/>
 </state-transition-range-element>
 <state-transition-element id="6" symbol-set="[\x63]" start="-1">
-	<activate-on-match element="7"/> <available-re="0"/>
+	<activate-on-match element="7"/> <available-re="0,1"/>
 </state-transition-element>
 <state-transition-element id="7" symbol-set="[\x63]" start="-1">
 	<activate-on-match element="8"/> <available-re="0"/>
@@ -31,7 +31,7 @@
 	<activate-on-match element="10"/> <available-re="0"/>
 </state-transition-element>
 <state-transition-element id="10" symbol-set="[\x61]" start="-1">
-	<activate-on-match element="11"/> <available-re="0,1"/>
+	<activate-on-match element="11"/> <available-re="0"/>
 </state-transition-element>
 <state-transition-element id="11" symbol-set="[\x65]" start="-1">
 	<activate-on-match element="12"/> <available-re="0"/>
@@ -113,7 +113,7 @@
 	<activate-on-match element="37"/> <available-re="0"/>
 </state-transition-element>
 <state-transition-element id="37" symbol-set="[\x72]" start="-1">
-	<activate-on-match element="38"/> <available-re="0,1"/>
+	<activate-on-match element="38"/> <available-re="0"/>
 </state-transition-element>
 <state-transition-element id="38" symbol-set="[\x67]" start="-1">
 	<activate-on-match element="39"/> <available-re="0"/>
@@ -171,27 +171,30 @@
 	<activate-on-match element="25"/> <available-re="0"/>
 </state-transition-range-element>
 <state-transition-element id="5" symbol-set="[\x63]" start="-1">
-	<activate-on-match element="7"/> <available-re="0"/>
+	<activate-on-match element="7"/> <available-re="0,1"/>
 </state-transition-element>
 <state-transition-range-element id="6" symbol-set="[^\x0d\x0a]" start="-1">
 	<activate-on-match element="6"/> <available-re="0,1"/>
 </state-transition-range-element>
-<state-transition-element id="6" symbol-set="[\x63]" start="-1">
-	<activate-on-match element="49"/> <available-re="1"/>
-</state-transition-element>
-<state-transition-element id="49" symbol-set="[\x6c]" start="-1">
+<state-transition-element id="7" symbol-set="[\x6c]" start="-1">
 	<activate-on-match element="8"/> <available-re="1"/>
 </state-transition-element>
 <state-transition-element id="9" symbol-set="[\x61]" start="-1">
-	<activate-on-match element="37"/> <available-re="1"/>
-</state-transition-element>
-<state-transition-element id="38" symbol-set="[\x73]" start="-1">
-	<activate-on-match element="50"/> <available-re="1"/>
-</state-transition-element>
-<state-transition-element id="50" symbol-set="[\x65]" start="-1">
-	<activate-on-match element="10"/> <available-re="1"/>
+	<activate-on-match element="11"/> <available-re="1"/>
 </state-transition-element>
 <state-transition-element id="11" symbol-set="[\x72]" start="-1">
+	<activate-on-match element="38"/> <available-re="1"/>
+</state-transition-element>
+<state-transition-element id="38" symbol-set="[\x73]" start="-1">
+	<activate-on-match element="49"/> <available-re="1"/>
+</state-transition-element>
+<state-transition-element id="49" symbol-set="[\x65]" start="-1">
+	<activate-on-match element="10"/> <available-re="1"/>
+</state-transition-element>
+<state-transition-element id="10" symbol-set="[\x61]" start="-1">
+	<activate-on-match element="50"/> <available-re="1"/>
+</state-transition-element>
+<state-transition-element id="50" symbol-set="[\x72]" start="-1">
 	<activate-on-match element="51"/> <available-re="1"/>
 </state-transition-element>
 <state-transition-element id="51" symbol-set="[\x63]" start="-1">
@@ -199,9 +202,6 @@
 </state-transition-element>
 <state-transition-element id="44" symbol-set="[\x2e]" start="-1">
 	<activate-on-match element="21"/> <available-re="1"/>
-</state-transition-element>
-<state-transition-element id="5" symbol-set="[\x63]" start="-1">
-	<activate-on-match element="49"/> <available-re="1"/>
 </state-transition-element>
 </automata-network>
 </anml>

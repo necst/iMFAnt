@@ -98,7 +98,7 @@ int main(int argc, char *argv[]){
             // #pragma omp parallel for num_threads(10)
             // #pragma opm for shared(mfsas, mps, buffer, input_str, matches) num_threads(1)
             for(int j=0; j<mfsas->size(); j++){
-                // cout<<"automata "<<j<<endl;
+                cout<<"automata "<<j<<endl;
                 // matches->at(j) = infant(mps->at(j), mfsas->at(j), 0, buffer.str());
                 
                 /*//check if correct number of threads

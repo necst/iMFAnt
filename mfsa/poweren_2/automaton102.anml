@@ -140,7 +140,7 @@
 	<activate-on-match element="39"/> <available-re="1"/>
 </state-transition-element>
 <state-transition-element id="39" symbol-set="[\x59]" start="-1">
-	<activate-on-match element="40"/> <available-re="1"/>
+	<activate-on-match element="7"/> <available-re="1"/>
 	<report-on-match reportcode="1,"/>
 </state-transition-element>
 </automata-network>

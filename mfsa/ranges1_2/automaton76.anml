@@ -25,7 +25,7 @@
 	<activate-on-match element="8"/> <available-re="0"/>
 </state-transition-element>
 <state-transition-element id="8" symbol-set="[\x6c]" start="-1">
-	<activate-on-match element="9"/> <available-re="0,1"/>
+	<activate-on-match element="9"/> <available-re="0"/>
 </state-transition-element>
 <state-transition-element id="9" symbol-set="[\x69]" start="-1">
 	<activate-on-match element="10"/> <available-re="0"/>
@@ -110,21 +110,24 @@
 	<activate-on-match element="6"/> <available-re="0"/>
 </state-transition-range-element>
 <state-transition-element id="1" symbol-set="[\x65]" start="-1">
+	<activate-on-match element="4"/> <available-re="1"/>
+</state-transition-element>
+<state-transition-element id="4" symbol-set="[\x62]" start="-1">
 	<activate-on-match element="36"/> <available-re="1"/>
 </state-transition-element>
-<state-transition-element id="36" symbol-set="[\x62]" start="-1">
-	<activate-on-match element="37"/> <available-re="1"/>
-</state-transition-element>
-<state-transition-element id="37" symbol-set="[\x2d]" start="-1">
+<state-transition-element id="36" symbol-set="[\x2d]" start="-1">
 	<activate-on-match element="28"/> <available-re="1"/>
 </state-transition-element>
 <state-transition-element id="29" symbol-set="[\x61]" start="-1">
+	<activate-on-match element="2"/> <available-re="1"/>
+</state-transition-element>
+<state-transition-element id="2" symbol-set="[\x69]" start="-1">
+	<activate-on-match element="37"/> <available-re="1"/>
+</state-transition-element>
+<state-transition-element id="37" symbol-set="[\x6c]" start="-1">
 	<activate-on-match element="38"/> <available-re="1"/>
 </state-transition-element>
-<state-transition-element id="38" symbol-set="[\x69]" start="-1">
-	<activate-on-match element="8"/> <available-re="1"/>
-</state-transition-element>
-<state-transition-range-element id="9" symbol-set="[\x30\x12d\x39]" start="-1">
+<state-transition-range-element id="38" symbol-set="[\x30\x12d\x39]" start="-1">
 	<activate-on-match element="39"/> <available-re="1"/>
 </state-transition-range-element>
 <state-transition-element id="39" symbol-set="[\x48]" start="-1">

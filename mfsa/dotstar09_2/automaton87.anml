@@ -194,10 +194,10 @@
 	<activate-on-match element="39"/> <available-re="1"/>
 </state-transition-element>
 <state-transition-element id="40" symbol-set="[\x74]" start="-1">
-	<activate-on-match element="59"/> <available-re="1"/>
+	<activate-on-match element="6"/> <available-re="1"/>
 </state-transition-element>
-<state-transition-element id="59" symbol-set="[\x3a]" start="-1">
-	<activate-on-match element="60"/> <available-re="1"/>
+<state-transition-element id="6" symbol-set="[\x3a]" start="-1">
+	<activate-on-match element="59"/> <available-re="1"/>
 	<report-on-match reportcode="1,"/>
 </state-transition-element>
 <state-transition-element id="14" symbol-set="[\x48]" start="-1">

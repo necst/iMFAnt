@@ -5,26 +5,27 @@ import os
 
 num_threads = [1]
 
-merging_factors = [10]
+merging_factors = [1,10,20,50,0]
 
 output_folder = "../output_matches/"
 
 input = [
-    # "../mfsa/poweren_", 
-    # "../mfsa/protomata_",
-    # "../mfsa/dotstar09_",
-    # "../mfsa/tcp_",
+    "../mfsa/poweren_", 
+    "../mfsa/protomata_",
+    "../mfsa/dotstar09_",
+    "../mfsa/tcp_",
     "../mfsa/bro_",
-    # "../mfsa/ranges1_",
+    "../mfsa/ranges1_",
 ]
 
 streams = [
-    # "../input_streams/input_poweren_1Mb.input",
-    # "../input_streams/input_proto_1Mb.input",
-    # "../input_streams/input_dotstar_1Mb.input",
-    # "../input_streams/input_tcp_1Mb.input",
-    "../input_streams/input_bro_1Mb.input",
-    # "../input_streams/input_ranges_1Mb.input",
+    "../input_streams/input_poweren_1Mb.input",
+    "../input_streams/input_proto_1Mb.input",
+    "../input_streams/input_dotstar_1Mb.input",
+    "../input_streams/input_tcp_1Mb.input",
+    "../input_streams/input_bro_1Mb.input", 
+    "test_input"
+    "../input_streams/input_ranges_1Mb.input",
 ]
 
 

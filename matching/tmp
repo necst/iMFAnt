@@ -1,454 +1,2175 @@
-g++ -fopenmp -o multithreaded_imfant multithreaded_imfant.cpp iMFAnt.cpp -O3 -DREPS=1
-../mfsa/tcp_1/automaton0.anml
-../mfsa/tcp_1/automaton1.anml
-../mfsa/tcp_1/automaton2.anml
-../mfsa/tcp_1/automaton3.anml
-../mfsa/tcp_1/automaton4.anml
-../mfsa/tcp_1/automaton5.anml
-../mfsa/tcp_1/automaton6.anml
-../mfsa/tcp_1/automaton7.anml
-../mfsa/tcp_1/automaton8.anml
-../mfsa/tcp_1/automaton9.anml
-../mfsa/tcp_1/automaton10.anml
-../mfsa/tcp_1/automaton11.anml
-../mfsa/tcp_1/automaton12.anml
-../mfsa/tcp_1/automaton13.anml
-../mfsa/tcp_1/automaton14.anml
-../mfsa/tcp_1/automaton15.anml
-../mfsa/tcp_1/automaton16.anml
-../mfsa/tcp_1/automaton17.anml
-../mfsa/tcp_1/automaton18.anml
-../mfsa/tcp_1/automaton19.anml
-../mfsa/tcp_1/automaton20.anml
-../mfsa/tcp_1/automaton21.anml
-../mfsa/tcp_1/automaton22.anml
-../mfsa/tcp_1/automaton23.anml
-../mfsa/tcp_1/automaton24.anml
-../mfsa/tcp_1/automaton25.anml
-../mfsa/tcp_1/automaton26.anml
-../mfsa/tcp_1/automaton27.anml
-../mfsa/tcp_1/automaton28.anml
-../mfsa/tcp_1/automaton29.anml
-../mfsa/tcp_1/automaton30.anml
-../mfsa/tcp_1/automaton31.anml
-../mfsa/tcp_1/automaton32.anml
-../mfsa/tcp_1/automaton33.anml
-../mfsa/tcp_1/automaton34.anml
-../mfsa/tcp_1/automaton35.anml
-../mfsa/tcp_1/automaton36.anml
-../mfsa/tcp_1/automaton37.anml
-../mfsa/tcp_1/automaton38.anml
-../mfsa/tcp_1/automaton39.anml
-../mfsa/tcp_1/automaton40.anml
-../mfsa/tcp_1/automaton41.anml
-../mfsa/tcp_1/automaton42.anml
-../mfsa/tcp_1/automaton43.anml
-../mfsa/tcp_1/automaton44.anml
-../mfsa/tcp_1/automaton45.anml
-../mfsa/tcp_1/automaton46.anml
-../mfsa/tcp_1/automaton47.anml
-../mfsa/tcp_1/automaton48.anml
-../mfsa/tcp_1/automaton49.anml
-../mfsa/tcp_1/automaton50.anml
-../mfsa/tcp_1/automaton51.anml
-../mfsa/tcp_1/automaton52.anml
-../mfsa/tcp_1/automaton53.anml
-../mfsa/tcp_1/automaton54.anml
-../mfsa/tcp_1/automaton55.anml
-../mfsa/tcp_1/automaton56.anml
-../mfsa/tcp_1/automaton57.anml
-../mfsa/tcp_1/automaton58.anml
-../mfsa/tcp_1/automaton59.anml
-../mfsa/tcp_1/automaton60.anml
-../mfsa/tcp_1/automaton61.anml
-../mfsa/tcp_1/automaton62.anml
-../mfsa/tcp_1/automaton63.anml
-../mfsa/tcp_1/automaton64.anml
-../mfsa/tcp_1/automaton65.anml
-../mfsa/tcp_1/automaton66.anml
-../mfsa/tcp_1/automaton67.anml
-../mfsa/tcp_1/automaton68.anml
-../mfsa/tcp_1/automaton69.anml
-../mfsa/tcp_1/automaton70.anml
-../mfsa/tcp_1/automaton71.anml
-../mfsa/tcp_1/automaton72.anml
-../mfsa/tcp_1/automaton73.anml
-../mfsa/tcp_1/automaton74.anml
-../mfsa/tcp_1/automaton75.anml
-../mfsa/tcp_1/automaton76.anml
-../mfsa/tcp_1/automaton77.anml
-../mfsa/tcp_1/automaton78.anml
-../mfsa/tcp_1/automaton79.anml
-../mfsa/tcp_1/automaton80.anml
-../mfsa/tcp_1/automaton81.anml
-../mfsa/tcp_1/automaton82.anml
-../mfsa/tcp_1/automaton83.anml
-../mfsa/tcp_1/automaton84.anml
-../mfsa/tcp_1/automaton85.anml
-../mfsa/tcp_1/automaton86.anml
-../mfsa/tcp_1/automaton87.anml
-../mfsa/tcp_1/automaton88.anml
-../mfsa/tcp_1/automaton89.anml
-../mfsa/tcp_1/automaton90.anml
-../mfsa/tcp_1/automaton91.anml
-../mfsa/tcp_1/automaton92.anml
-../mfsa/tcp_1/automaton93.anml
-../mfsa/tcp_1/automaton94.anml
-../mfsa/tcp_1/automaton95.anml
-../mfsa/tcp_1/automaton96.anml
-../mfsa/tcp_1/automaton97.anml
-../mfsa/tcp_1/automaton98.anml
-../mfsa/tcp_1/automaton99.anml
-../mfsa/tcp_1/automaton100.anml
-../mfsa/tcp_1/automaton101.anml
-../mfsa/tcp_1/automaton102.anml
-../mfsa/tcp_1/automaton103.anml
-../mfsa/tcp_1/automaton104.anml
-../mfsa/tcp_1/automaton105.anml
-../mfsa/tcp_1/automaton106.anml
-../mfsa/tcp_1/automaton107.anml
-../mfsa/tcp_1/automaton108.anml
-../mfsa/tcp_1/automaton109.anml
-../mfsa/tcp_1/automaton110.anml
-../mfsa/tcp_1/automaton111.anml
-../mfsa/tcp_1/automaton112.anml
-../mfsa/tcp_1/automaton113.anml
-../mfsa/tcp_1/automaton114.anml
-../mfsa/tcp_1/automaton115.anml
-../mfsa/tcp_1/automaton116.anml
-../mfsa/tcp_1/automaton117.anml
-../mfsa/tcp_1/automaton118.anml
-../mfsa/tcp_1/automaton119.anml
-../mfsa/tcp_1/automaton120.anml
-../mfsa/tcp_1/automaton121.anml
-../mfsa/tcp_1/automaton122.anml
-../mfsa/tcp_1/automaton123.anml
-../mfsa/tcp_1/automaton124.anml
-../mfsa/tcp_1/automaton125.anml
-../mfsa/tcp_1/automaton126.anml
-../mfsa/tcp_1/automaton127.anml
-../mfsa/tcp_1/automaton128.anml
-../mfsa/tcp_1/automaton129.anml
-../mfsa/tcp_1/automaton130.anml
-../mfsa/tcp_1/automaton131.anml
-../mfsa/tcp_1/automaton132.anml
-../mfsa/tcp_1/automaton133.anml
-../mfsa/tcp_1/automaton134.anml
-../mfsa/tcp_1/automaton135.anml
-../mfsa/tcp_1/automaton136.anml
-../mfsa/tcp_1/automaton137.anml
-../mfsa/tcp_1/automaton138.anml
-../mfsa/tcp_1/automaton139.anml
-../mfsa/tcp_1/automaton140.anml
-../mfsa/tcp_1/automaton141.anml
-../mfsa/tcp_1/automaton142.anml
-../mfsa/tcp_1/automaton143.anml
-../mfsa/tcp_1/automaton144.anml
-../mfsa/tcp_1/automaton145.anml
-../mfsa/tcp_1/automaton146.anml
-../mfsa/tcp_1/automaton147.anml
-../mfsa/tcp_1/automaton148.anml
-../mfsa/tcp_1/automaton149.anml
-../mfsa/tcp_1/automaton150.anml
-../mfsa/tcp_1/automaton151.anml
-../mfsa/tcp_1/automaton152.anml
-../mfsa/tcp_1/automaton153.anml
-../mfsa/tcp_1/automaton154.anml
-../mfsa/tcp_1/automaton155.anml
-../mfsa/tcp_1/automaton156.anml
-../mfsa/tcp_1/automaton157.anml
-../mfsa/tcp_1/automaton158.anml
-../mfsa/tcp_1/automaton159.anml
-../mfsa/tcp_1/automaton160.anml
-../mfsa/tcp_1/automaton161.anml
-../mfsa/tcp_1/automaton162.anml
-../mfsa/tcp_1/automaton163.anml
-../mfsa/tcp_1/automaton164.anml
-../mfsa/tcp_1/automaton165.anml
-../mfsa/tcp_1/automaton166.anml
-../mfsa/tcp_1/automaton167.anml
-../mfsa/tcp_1/automaton168.anml
-../mfsa/tcp_1/automaton169.anml
-../mfsa/tcp_1/automaton170.anml
-../mfsa/tcp_1/automaton171.anml
-../mfsa/tcp_1/automaton172.anml
-../mfsa/tcp_1/automaton173.anml
-../mfsa/tcp_1/automaton174.anml
-../mfsa/tcp_1/automaton175.anml
-../mfsa/tcp_1/automaton176.anml
-../mfsa/tcp_1/automaton177.anml
-../mfsa/tcp_1/automaton178.anml
-../mfsa/tcp_1/automaton179.anml
-../mfsa/tcp_1/automaton180.anml
-../mfsa/tcp_1/automaton181.anml
-../mfsa/tcp_1/automaton182.anml
-../mfsa/tcp_1/automaton183.anml
-../mfsa/tcp_1/automaton184.anml
-../mfsa/tcp_1/automaton185.anml
-../mfsa/tcp_1/automaton186.anml
-../mfsa/tcp_1/automaton187.anml
-../mfsa/tcp_1/automaton188.anml
-../mfsa/tcp_1/automaton189.anml
-../mfsa/tcp_1/automaton190.anml
-../mfsa/tcp_1/automaton191.anml
-../mfsa/tcp_1/automaton192.anml
-../mfsa/tcp_1/automaton193.anml
-../mfsa/tcp_1/automaton194.anml
-../mfsa/tcp_1/automaton195.anml
-../mfsa/tcp_1/automaton196.anml
-../mfsa/tcp_1/automaton197.anml
-../mfsa/tcp_1/automaton198.anml
-../mfsa/tcp_1/automaton199.anml
-../mfsa/tcp_1/automaton200.anml
-../mfsa/tcp_1/automaton201.anml
-../mfsa/tcp_1/automaton202.anml
-../mfsa/tcp_1/automaton203.anml
-../mfsa/tcp_1/automaton204.anml
-../mfsa/tcp_1/automaton205.anml
-../mfsa/tcp_1/automaton206.anml
-../mfsa/tcp_1/automaton207.anml
-../mfsa/tcp_1/automaton208.anml
-../mfsa/tcp_1/automaton209.anml
-../mfsa/tcp_1/automaton210.anml
-../mfsa/tcp_1/automaton211.anml
-../mfsa/tcp_1/automaton212.anml
-../mfsa/tcp_1/automaton213.anml
-../mfsa/tcp_1/automaton214.anml
-../mfsa/tcp_1/automaton215.anml
-../mfsa/tcp_1/automaton216.anml
-../mfsa/tcp_1/automaton217.anml
-../mfsa/tcp_1/automaton218.anml
-../mfsa/tcp_1/automaton219.anml
-../mfsa/tcp_1/automaton220.anml
-../mfsa/tcp_1/automaton221.anml
-../mfsa/tcp_1/automaton222.anml
-../mfsa/tcp_1/automaton223.anml
-../mfsa/tcp_1/automaton224.anml
-../mfsa/tcp_1/automaton225.anml
-../mfsa/tcp_1/automaton226.anml
-../mfsa/tcp_1/automaton227.anml
-../mfsa/tcp_1/automaton228.anml
-../mfsa/tcp_1/automaton229.anml
-../mfsa/tcp_1/automaton230.anml
-../mfsa/tcp_1/automaton231.anml
-../mfsa/tcp_1/automaton232.anml
-../mfsa/tcp_1/automaton233.anml
-../mfsa/tcp_1/automaton234.anml
-../mfsa/tcp_1/automaton235.anml
-../mfsa/tcp_1/automaton236.anml
-../mfsa/tcp_1/automaton237.anml
-../mfsa/tcp_1/automaton238.anml
-../mfsa/tcp_1/automaton239.anml
-../mfsa/tcp_1/automaton240.anml
-../mfsa/tcp_1/automaton241.anml
-../mfsa/tcp_1/automaton242.anml
-../mfsa/tcp_1/automaton243.anml
-../mfsa/tcp_1/automaton244.anml
-../mfsa/tcp_1/automaton245.anml
-../mfsa/tcp_1/automaton246.anml
-../mfsa/tcp_1/automaton247.anml
-../mfsa/tcp_1/automaton248.anml
-../mfsa/tcp_1/automaton249.anml
-../mfsa/tcp_1/automaton250.anml
-../mfsa/tcp_1/automaton251.anml
-../mfsa/tcp_1/automaton252.anml
-../mfsa/tcp_1/automaton253.anml
-../mfsa/tcp_1/automaton254.anml
-../mfsa/tcp_1/automaton255.anml
-../mfsa/tcp_1/automaton256.anml
-../mfsa/tcp_1/automaton257.anml
-../mfsa/tcp_1/automaton258.anml
-../mfsa/tcp_1/automaton259.anml
-../mfsa/tcp_1/automaton260.anml
-../mfsa/tcp_1/automaton261.anml
-../mfsa/tcp_1/automaton262.anml
-../mfsa/tcp_1/automaton263.anml
-../mfsa/tcp_1/automaton264.anml
-../mfsa/tcp_1/automaton265.anml
-../mfsa/tcp_1/automaton266.anml
-../mfsa/tcp_1/automaton267.anml
-../mfsa/tcp_1/automaton268.anml
-../mfsa/tcp_1/automaton269.anml
-../mfsa/tcp_1/automaton270.anml
-../mfsa/tcp_1/automaton271.anml
-../mfsa/tcp_1/automaton272.anml
-../mfsa/tcp_1/automaton273.anml
-../mfsa/tcp_1/automaton274.anml
-../mfsa/tcp_1/automaton275.anml
-../mfsa/tcp_1/automaton276.anml
-../mfsa/tcp_1/automaton277.anml
-../mfsa/tcp_1/automaton278.anml
-../mfsa/tcp_1/automaton279.anml
-../mfsa/tcp_1/automaton280.anml
-../mfsa/tcp_1/automaton281.anml
-../mfsa/tcp_1/automaton282.anml
-../mfsa/tcp_1/automaton283.anml
-../mfsa/tcp_1/automaton284.anml
-../mfsa/tcp_1/automaton285.anml
-../mfsa/tcp_1/automaton286.anml
-../mfsa/tcp_1/automaton287.anml
-../mfsa/tcp_1/automaton288.anml
-../mfsa/tcp_1/automaton289.anml
-../mfsa/tcp_1/automaton290.anml
-../mfsa/tcp_1/automaton291.anml
-../mfsa/tcp_1/automaton292.anml
-../mfsa/tcp_1/automaton293.anml
-../mfsa/tcp_1/automaton294.anml
-../mfsa/tcp_1/automaton295.anml
-../mfsa/tcp_1/automaton296.anml
-../mfsa/tcp_1/automaton297.anml
-../mfsa/tcp_1/automaton298.anml
-../mfsa/tcp_1/automaton299.anml
+make: Nothing to be done for 'all'.
+../mfsa/bro_20/automaton3.anml
+from 32
+building new range with ref \x64\x44
+dest 33
+from 33
+building new range with ref \x65\x45
+dest 34
+from 34
+building new range with ref \x6c\x4c
+dest 35
+from 35
+building new range with ref \x65\x45
+dest 36
+from 36
+building new range with ref \x74\x54
+dest 37
+from 37
+building new range with ref \x65\x45
+dest 38
+from 34
+building new range with ref \x6c\x4c
+dest 41
+from 16
+building new range with ref \x73\x53
+dest 42
+from 43
+building new range with ref \x63\x43
+dest 27
+from 33
+building new range with ref \x69\x49
+dest 46
+from 46
+building new range with ref \x67\x47
+dest 47
+from 47
+building new range with ref \x69\x49
+dest 36
+from 37
+building new range with ref \x73\x53
+dest 42
+from 46
+building new range with ref \x73\x53
+dest 36
+from 36
+building new range with ref \x74\x54
+dest 34
+from 35
+building new range with ref \x6f\x4f
+dest 49
+from 49
+building new range with ref \x63\x43
+dest 14
+from 33
+building new range with ref \x6f\x4f
+dest 49
+from 49
+building new range with ref \x63\x43
+dest 51
+from 51
+building new range with ref \x75\x55
+dest 52
+from 52
+building new range with ref \x6d\x4d
+dest 53
+from 53
+building new range with ref \x65\x45
+dest 34
+from 34
+building new range with ref \x6e\x4e
+dest 54
+from 54
+building new range with ref \x74\x54
+dest 6
+from 55
+building new range with ref \x64\x44
+dest 56
+from 56
+building new range with ref \x6f\x4f
+dest 57
+from 57
+building new range with ref \x6d\x4d
+dest 58
+from 58
+building new range with ref \x61\x41
+dest 59
+from 59
+building new range with ref \x69\x49
+dest 46
+from 46
+building new range with ref \x6e\x4e
+dest 60
+from 49
+building new range with ref \x63\x43
+dest 62
+from 62
+building new range with ref \x75\x55
+dest 52
+from 52
+building new range with ref \x6d\x4d
+dest 63
+from 63
+building new range with ref \x65\x45
+dest 34
+from 34
+building new range with ref \x6e\x4e
+dest 64
+from 64
+building new range with ref \x74\x54
+dest 65
+from 65
+building new range with ref \x6e\x4e
+dest 54
+from 54
+building new range with ref \x61\x41
+dest 66
+from 66
+building new range with ref \x6d\x4d
+dest 67
+from 67
+building new range with ref \x65\x45
+dest 68
+from 34
+building new range with ref \x74\x54
+dest 37
+from 37
+building new range with ref \x63\x43
+dest 72
+from 73
+building new range with ref \x69\x49
+dest 46
+from 46
+building new range with ref \x6e\x4e
+dest 74
+from 74
+building new range with ref \x65\x45
+dest 75
+from 75
+building new range with ref \x74\x54
+dest 32
+from 32
+building new range with ref \x64\x44
+dest 76
+from 77
+building new range with ref \x63\x43
+dest 35
+from 49
+building new range with ref \x6e\x4e
+dest 54
+from 54
+building new range with ref \x66\x46
+dest 78
+from 37
+building new range with ref \x63\x43
+dest 79
+from 52
+building new range with ref \x6d\x4d
+dest 35
+from 36
+building new range with ref \x74\x54
+dest 32
+from 32
+building new range with ref \x64\x44
+dest 80
+from 37
+building new range with ref \x63\x43
+dest 81
+from 82
+building new range with ref \x70\x50
+dest 58
+from 58
+building new range with ref \x61\x41
+dest 16
+from 42
+building new range with ref \x73\x53
+dest 83
+from 83
+building new range with ref \x77\x57
+dest 32
+from 32
+building new range with ref \x64\x44
+dest 84
+from 37
+building new range with ref \x63\x43
+dest 85
+from 42
+building new range with ref \x68\x48
+dest 86
+from 86
+building new range with ref \x61\x41
+dest 32
+from 32
+building new range with ref \x64\x44
+dest 87
+from 87
+building new range with ref \x6f\x4f
+dest 49
+from 49
+building new range with ref \x77\x57
+dest 88
+from 54
+building new range with ref \x66\x46
+dest 33
+from 34
+building new range with ref \x6c\x4c
+dest 92
+from 92
+building new range with ref \x65\x45
+dest 93
+from 34
+building new range with ref \x6c\x4c
+dest 95
+from 95
+building new range with ref \x65\x45
+dest 96
+from 34
+building new range with ref \x6c\x4c
+dest 98
+from 98
+building new range with ref \x65\x45
+dest 99
+initial states
+0 belongs to 0
+0 belongs to 1
+6 belongs to 3
+6 belongs to 16
+17 belongs to 2
+30 belongs to 4
+30 belongs to 11
+32 belongs to 5
+32 belongs to 7
+32 belongs to 8
+32 belongs to 9
+32 belongs to 10
+40 belongs to 6
+15 belongs to 12
+15 belongs to 13
+15 belongs to 14
+15 belongs to 15
+54 belongs to 17
+54 belongs to 18
+54 belongs to 19
+
+transitions:
+
+0--c->1
+belongs to: 
+0 1 
+1--o->2
+belongs to: 
+0 1 2 
+2--n->3
+belongs to: 
+0 1 2 
+3--f->4
+belongs to: 
+0 
+4--i->5
+belongs to: 
+0 2 
+5--g->6
+belongs to: 
+0 
+6--.->7
+belongs to: 
+0 1 3 6 16 
+7--i->8
+belongs to: 
+0 
+8--n->9
+belongs to: 
+0 
+9--i->10
+belongs to: 
+0 
+3--t->11
+belongs to: 
+1 
+11--e->12
+belongs to: 
+1 
+12--n->13
+belongs to: 
+1 2 
+13--t->14
+belongs to: 
+1 
+14--=->6
+belongs to: 
+1 4 8 
+7--.->15
+belongs to: 
+1 18 19 
+15--/->16
+belongs to: 
+1 6 
+17--C->1
+belongs to: 
+2 
+3--t->14
+belongs to: 
+2 
+14--e->12
+belongs to: 
+2 
+13--t->18
+belongs to: 
+2 
+18---->19
+belongs to: 
+2 
+19--D->4
+belongs to: 
+2 
+5--s->20
+belongs to: 
+2 
+20--p->21
+belongs to: 
+2 3 
+21--o->22
+belongs to: 
+2 
+22--s->23
+belongs to: 
+2 
+23--i->24
+belongs to: 
+2 
+24--t->11
+belongs to: 
+2 
+11--i->25
+belongs to: 
+2 
+25--o->26
+belongs to: 
+2 
+26--n->27
+belongs to: 
+2 
+27--:->28
+belongs to: 
+2 6 
+7--c->1
+belongs to: 
+3 
+1--s->20
+belongs to: 
+3 
+21--.->29
+belongs to: 
+3 
+30--d->31
+belongs to: 
+4 11 
+31--b->14
+belongs to: 
+4 
+32--->33
+belongs to: 
+5 6 7 8 9 10 
+33--->34
+belongs to: 
+5 6 12 13 14 15 17 18 19 
+34--->35
+belongs to: 
+5 8 
+35--->36
+belongs to: 
+5 13 
+36--->37
+belongs to: 
+5 7 
+37--->38
+belongs to: 
+5 
+38-- ->39
+belongs to: 
+5 
+40--&->32
+belongs to: 
+6 
+34--->41
+belongs to: 
+6 
+41--+->15
+belongs to: 
+6 
+16--->42
+belongs to: 
+6 14 15 
+42--+->43
+belongs to: 
+6 
+43--->27
+belongs to: 
+6 
+28--\->44
+belongs to: 
+6 
+44--*->6
+belongs to: 
+6 
+7--*->45
+belongs to: 
+6 
+33--->46
+belongs to: 
+7 8 
+46--->47
+belongs to: 
+7 
+47--->36
+belongs to: 
+7 
+37--->42
+belongs to: 
+7 
+42--=->48
+belongs to: 
+7 
+46--->36
+belongs to: 
+8 
+36--->34
+belongs to: 
+8 
+35--->49
+belongs to: 
+8 12 
+49--->14
+belongs to: 
+8 
+6--;->50
+belongs to: 
+8 
+33--->49
+belongs to: 
+9 10 
+49--->51
+belongs to: 
+9 
+51--->52
+belongs to: 
+9 
+52--->53
+belongs to: 
+9 
+53--->34
+belongs to: 
+9 
+34--->54
+belongs to: 
+9 
+54--->6
+belongs to: 
+9 
+6--.->55
+belongs to: 
+9 
+55--->56
+belongs to: 
+9 
+56--->57
+belongs to: 
+9 
+57--->58
+belongs to: 
+9 
+58--->59
+belongs to: 
+9 
+59--->46
+belongs to: 
+9 
+46--->60
+belongs to: 
+9 
+60--(->61
+belongs to: 
+9 
+49--->62
+belongs to: 
+10 
+62--->52
+belongs to: 
+10 
+52--->63
+belongs to: 
+10 
+63--->34
+belongs to: 
+10 
+34--->64
+belongs to: 
+10 
+64--->65
+belongs to: 
+10 
+65--->54
+belongs to: 
+10 
+54--->66
+belongs to: 
+10 
+66--->67
+belongs to: 
+10 
+67--->68
+belongs to: 
+10 
+68--=->69
+belongs to: 
+10 
+31--i->5
+belongs to: 
+11 
+5--r->70
+belongs to: 
+11 
+70--=->71
+belongs to: 
+11 
+15--/->33
+belongs to: 
+12 13 14 15 
+34--->37
+belongs to: 
+12 13 14 15 
+37--->72
+belongs to: 
+12 
+72--/->73
+belongs to: 
+12 
+73--->46
+belongs to: 
+12 
+46--->74
+belongs to: 
+12 
+74--->75
+belongs to: 
+12 
+75--->32
+belongs to: 
+12 
+32--->76
+belongs to: 
+12 
+76--.->77
+belongs to: 
+12 
+77--->35
+belongs to: 
+12 
+49--->54
+belongs to: 
+12 
+54--->78
+belongs to: 
+12 
+37--->79
+belongs to: 
+13 
+79--/->52
+belongs to: 
+13 
+52--->35
+belongs to: 
+13 
+36--->32
+belongs to: 
+13 
+32--->80
+belongs to: 
+13 
+37--->81
+belongs to: 
+14 
+81--/->82
+belongs to: 
+14 
+82--->58
+belongs to: 
+14 
+58--->16
+belongs to: 
+14 
+42--->83
+belongs to: 
+14 
+83--->32
+belongs to: 
+14 
+32--->84
+belongs to: 
+14 
+37--->85
+belongs to: 
+15 
+85--/->16
+belongs to: 
+15 
+42--->86
+belongs to: 
+15 
+86--->32
+belongs to: 
+15 
+32--->87
+belongs to: 
+15 
+87--->49
+belongs to: 
+15 
+49--->88
+belongs to: 
+15 
+7--e->12
+belongs to: 
+16 
+12--x->89
+belongs to: 
+16 
+89--e->90
+belongs to: 
+16 
+90--.->91
+belongs to: 
+16 
+54--->33
+belongs to: 
+17 18 19 
+34--->92
+belongs to: 
+17 
+92--->93
+belongs to: 
+17 
+93--=->94
+belongs to: 
+17 
+34--->95
+belongs to: 
+18 
+95--->96
+belongs to: 
+18 
+96--=->7
+belongs to: 
+18 
+15--.->97
+belongs to: 
+18 
+97--/->16
+belongs to: 
+18 
+34--->98
+belongs to: 
+19 
+98--->99
+belongs to: 
+19 
+99--=->7
+belongs to: 
+19 
+15--.->100
+belongs to: 
+19 
+100--/->16
+belongs to: 
+19 
+16--.->101
+belongs to: 
+19 
+101--.->102
+belongs to: 
+19 
+102--/->103
+belongs to: 
+19 
+final states
+10 belongs to 0 
+6 belongs to 4 
+16 belongs to 1 
+28 belongs to 2 
+29 belongs to 3 
+39 belongs to 5 
+45 belongs to 6 
+48 belongs to 7 
+50 belongs to 8 
+61 belongs to 9 
+69 belongs to 10 
+71 belongs to 11 
+78 belongs to 12 
+80 belongs to 13 
+84 belongs to 14 
+88 belongs to 15 
+91 belongs to 16 
+94 belongs to 17 
+16 belongs to 18 
+103 belongs to 19 
+
+range expressions
+from 32 to 33, neg = 0 with reference: 10068 belongs to: 5 6 7 8 9 10 
+from 33 to 34, neg = 0 with reference: 10169 belongs to: 5 6 12 13 14 15 17 18 19 
+from 34 to 35, neg = 0 with reference: 10876 belongs to: 5 8 
+from 35 to 36, neg = 0 with reference: 10169 belongs to: 5 13 
+from 36 to 37, neg = 0 with reference: 11684 belongs to: 5 7 
+from 37 to 38, neg = 0 with reference: 10169 belongs to: 5 
+from 34 to 41, neg = 0 with reference: 10876 belongs to: 6 
+from 16 to 42, neg = 0 with reference: 11583 belongs to: 6 14 15 
+from 43 to 27, neg = 0 with reference: 9967 belongs to: 6 
+from 33 to 46, neg = 0 with reference: 10573 belongs to: 7 8 
+from 46 to 47, neg = 0 with reference: 10371 belongs to: 7 
+from 47 to 36, neg = 0 with reference: 10573 belongs to: 7 
+from 37 to 42, neg = 0 with reference: 11583 belongs to: 7 
+from 46 to 36, neg = 0 with reference: 11583 belongs to: 8 
+from 36 to 34, neg = 0 with reference: 11684 belongs to: 8 
+from 35 to 49, neg = 0 with reference: 11179 belongs to: 8 12 
+from 49 to 14, neg = 0 with reference: 9967 belongs to: 8 
+from 33 to 49, neg = 0 with reference: 11179 belongs to: 9 10 
+from 49 to 51, neg = 0 with reference: 9967 belongs to: 9 
+from 51 to 52, neg = 0 with reference: 11785 belongs to: 9 
+from 52 to 53, neg = 0 with reference: 10977 belongs to: 9 
+from 53 to 34, neg = 0 with reference: 10169 belongs to: 9 
+from 34 to 54, neg = 0 with reference: 11078 belongs to: 9 
+from 54 to 6, neg = 0 with reference: 11684 belongs to: 9 
+from 55 to 56, neg = 0 with reference: 10068 belongs to: 9 
+from 56 to 57, neg = 0 with reference: 11179 belongs to: 9 
+from 57 to 58, neg = 0 with reference: 10977 belongs to: 9 
+from 58 to 59, neg = 0 with reference: 9765 belongs to: 9 
+from 59 to 46, neg = 0 with reference: 10573 belongs to: 9 
+from 46 to 60, neg = 0 with reference: 11078 belongs to: 9 
+from 49 to 62, neg = 0 with reference: 9967 belongs to: 10 
+from 62 to 52, neg = 0 with reference: 11785 belongs to: 10 
+from 52 to 63, neg = 0 with reference: 10977 belongs to: 10 
+from 63 to 34, neg = 0 with reference: 10169 belongs to: 10 
+from 34 to 64, neg = 0 with reference: 11078 belongs to: 10 
+from 64 to 65, neg = 0 with reference: 11684 belongs to: 10 
+from 65 to 54, neg = 0 with reference: 11078 belongs to: 10 
+from 54 to 66, neg = 0 with reference: 9765 belongs to: 10 
+from 66 to 67, neg = 0 with reference: 10977 belongs to: 10 
+from 67 to 68, neg = 0 with reference: 10169 belongs to: 10 
+from 34 to 37, neg = 0 with reference: 11684 belongs to: 12 13 14 15 
+from 37 to 72, neg = 0 with reference: 9967 belongs to: 12 
+from 73 to 46, neg = 0 with reference: 10573 belongs to: 12 
+from 46 to 74, neg = 0 with reference: 11078 belongs to: 12 
+from 74 to 75, neg = 0 with reference: 10169 belongs to: 12 
+from 75 to 32, neg = 0 with reference: 11684 belongs to: 12 
+from 32 to 76, neg = 0 with reference: 10068 belongs to: 12 
+from 77 to 35, neg = 0 with reference: 9967 belongs to: 12 
+from 49 to 54, neg = 0 with reference: 11078 belongs to: 12 
+from 54 to 78, neg = 0 with reference: 10270 belongs to: 12 
+from 37 to 79, neg = 0 with reference: 9967 belongs to: 13 
+from 52 to 35, neg = 0 with reference: 10977 belongs to: 13 
+from 36 to 32, neg = 0 with reference: 11684 belongs to: 13 
+from 32 to 80, neg = 0 with reference: 10068 belongs to: 13 
+from 37 to 81, neg = 0 with reference: 9967 belongs to: 14 
+from 82 to 58, neg = 0 with reference: 11280 belongs to: 14 
+from 58 to 16, neg = 0 with reference: 9765 belongs to: 14 
+from 42 to 83, neg = 0 with reference: 11583 belongs to: 14 
+from 83 to 32, neg = 0 with reference: 11987 belongs to: 14 
+from 32 to 84, neg = 0 with reference: 10068 belongs to: 14 
+from 37 to 85, neg = 0 with reference: 9967 belongs to: 15 
+from 42 to 86, neg = 0 with reference: 10472 belongs to: 15 
+from 86 to 32, neg = 0 with reference: 9765 belongs to: 15 
+from 32 to 87, neg = 0 with reference: 10068 belongs to: 15 
+from 87 to 49, neg = 0 with reference: 11179 belongs to: 15 
+from 49 to 88, neg = 0 with reference: 11987 belongs to: 15 
+from 54 to 33, neg = 0 with reference: 10270 belongs to: 17 18 19 
+from 34 to 92, neg = 0 with reference: 10876 belongs to: 17 
+from 92 to 93, neg = 0 with reference: 10169 belongs to: 17 
+from 34 to 95, neg = 0 with reference: 10876 belongs to: 18 
+from 95 to 96, neg = 0 with reference: 10169 belongs to: 18 
+from 34 to 98, neg = 0 with reference: 10876 belongs to: 19 
+from 98 to 99, neg = 0 with reference: 10169 belongs to: 19 
+
 structure created
 repetition 0
+automata 0
+PRINTING NFA
+character 20 enables the following transitions:
+from 38 to 39
+final for: 5 
+initial for: 
+active for: 5 
+character 26 enables the following transitions:
+from 40 to 32
+final for: 
+initial for: 6 
+active for: 6 
+character 28 enables the following transitions:
+from 60 to 61
+final for: 9 
+initial for: 
+active for: 9 
+character 2a enables the following transitions:
+from 44 to 6
+final for: 
+initial for: 
+active for: 6 
+from 7 to 45
+final for: 6 
+initial for: 
+active for: 6 
+character 2b enables the following transitions:
+from 41 to 15
+final for: 
+initial for: 
+active for: 6 
+from 42 to 43
+final for: 
+initial for: 
+active for: 6 
+character 2d enables the following transitions:
+from 18 to 19
+final for: 
+initial for: 
+active for: 2 
+character 2e enables the following transitions:
+from 6 to 7
+final for: 
+initial for: 3 16 
+active for: 0 1 3 6 16 
+from 7 to 15
+final for: 
+initial for: 
+active for: 1 18 19 
+from 21 to 29
+final for: 3 
+initial for: 
+active for: 3 
+from 6 to 55
+final for: 
+initial for: 
+active for: 9 
+from 76 to 77
+final for: 
+initial for: 
+active for: 12 
+from 90 to 91
+final for: 16 
+initial for: 
+active for: 16 
+from 15 to 97
+final for: 
+initial for: 
+active for: 18 
+from 15 to 100
+final for: 
+initial for: 
+active for: 19 
+from 16 to 101
+final for: 
+initial for: 
+active for: 19 
+from 101 to 102
+final for: 
+initial for: 
+active for: 19 
+character 2f enables the following transitions:
+from 15 to 16
+final for: 1 
+initial for: 
+active for: 1 6 
+from 15 to 33
+final for: 
+initial for: 12 13 14 15 
+active for: 12 13 14 15 
+from 72 to 73
+final for: 
+initial for: 
+active for: 12 
+from 79 to 52
+final for: 
+initial for: 
+active for: 13 
+from 81 to 82
+final for: 
+initial for: 
+active for: 14 
+from 85 to 16
+final for: 
+initial for: 
+active for: 15 
+from 97 to 16
+final for: 18 
+initial for: 
+active for: 18 
+from 100 to 16
+final for: 
+initial for: 
+active for: 19 
+from 102 to 103
+final for: 19 
+initial for: 
+active for: 19 
+character 3a enables the following transitions:
+from 27 to 28
+final for: 2 
+initial for: 
+active for: 2 6 
+character 3b enables the following transitions:
+from 6 to 50
+final for: 8 
+initial for: 
+active for: 8 
+character 3d enables the following transitions:
+from 14 to 6
+final for: 4 
+initial for: 
+active for: 1 4 8 
+from 42 to 48
+final for: 7 
+initial for: 
+active for: 7 
+from 68 to 69
+final for: 10 
+initial for: 
+active for: 10 
+from 70 to 71
+final for: 11 
+initial for: 
+active for: 11 
+from 93 to 94
+final for: 17 
+initial for: 
+active for: 17 
+from 96 to 7
+final for: 
+initial for: 
+active for: 18 
+from 99 to 7
+final for: 
+initial for: 
+active for: 19 
+character 41 enables the following transitions:
+from 58 to 59
+final for: 
+initial for: 
+active for: 9 
+from 54 to 66
+final for: 
+initial for: 
+active for: 10 
+from 58 to 16
+final for: 
+initial for: 
+active for: 14 
+from 86 to 32
+final for: 
+initial for: 
+active for: 15 
+character 43 enables the following transitions:
+from 17 to 1
+final for: 
+initial for: 2 
+active for: 2 
+from 43 to 27
+final for: 
+initial for: 
+active for: 6 
+from 49 to 14
+final for: 
+initial for: 
+active for: 8 
+from 49 to 51
+final for: 
+initial for: 
+active for: 9 
+from 49 to 62
+final for: 
+initial for: 
+active for: 10 
+from 37 to 72
+final for: 
+initial for: 
+active for: 12 
+from 77 to 35
+final for: 
+initial for: 
+active for: 12 
+from 37 to 79
+final for: 
+initial for: 
+active for: 13 
+from 37 to 81
+final for: 
+initial for: 
+active for: 14 
+from 37 to 85
+final for: 
+initial for: 
+active for: 15 
+character 44 enables the following transitions:
+from 19 to 4
+final for: 
+initial for: 
+active for: 2 
+from 32 to 33
+final for: 
+initial for: 5 7 8 9 10 
+active for: 5 6 7 8 9 10 
+from 55 to 56
+final for: 
+initial for: 
+active for: 9 
+from 32 to 76
+final for: 
+initial for: 
+active for: 12 
+from 32 to 80
+final for: 13 
+initial for: 
+active for: 13 
+from 32 to 84
+final for: 14 
+initial for: 
+active for: 14 
+from 32 to 87
+final for: 
+initial for: 
+active for: 15 
+character 45 enables the following transitions:
+from 33 to 34
+final for: 
+initial for: 
+active for: 5 6 12 13 14 15 17 18 19 
+from 35 to 36
+final for: 
+initial for: 
+active for: 5 13 
+from 37 to 38
+final for: 
+initial for: 
+active for: 5 
+from 53 to 34
+final for: 
+initial for: 
+active for: 9 
+from 63 to 34
+final for: 
+initial for: 
+active for: 10 
+from 67 to 68
+final for: 
+initial for: 
+active for: 10 
+from 74 to 75
+final for: 
+initial for: 
+active for: 12 
+from 92 to 93
+final for: 
+initial for: 
+active for: 17 
+from 95 to 96
+final for: 
+initial for: 
+active for: 18 
+from 98 to 99
+final for: 
+initial for: 
+active for: 19 
+character 46 enables the following transitions:
+from 54 to 78
+final for: 12 
+initial for: 
+active for: 12 
+from 54 to 33
+final for: 
+initial for: 17 18 19 
+active for: 17 18 19 
+character 47 enables the following transitions:
+from 46 to 47
+final for: 
+initial for: 
+active for: 7 
+character 48 enables the following transitions:
+from 42 to 86
+final for: 
+initial for: 
+active for: 15 
+character 49 enables the following transitions:
+from 33 to 46
+final for: 
+initial for: 
+active for: 7 8 
+from 47 to 36
+final for: 
+initial for: 
+active for: 7 
+from 59 to 46
+final for: 
+initial for: 
+active for: 9 
+from 73 to 46
+final for: 
+initial for: 
+active for: 12 
+character 4c enables the following transitions:
+from 34 to 35
+final for: 
+initial for: 
+active for: 5 8 
+from 34 to 41
+final for: 
+initial for: 
+active for: 6 
+from 34 to 92
+final for: 
+initial for: 
+active for: 17 
+from 34 to 95
+final for: 
+initial for: 
+active for: 18 
+from 34 to 98
+final for: 
+initial for: 
+active for: 19 
+character 4d enables the following transitions:
+from 52 to 53
+final for: 
+initial for: 
+active for: 9 
+from 57 to 58
+final for: 
+initial for: 
+active for: 9 
+from 52 to 63
+final for: 
+initial for: 
+active for: 10 
+from 66 to 67
+final for: 
+initial for: 
+active for: 10 
+from 52 to 35
+final for: 
+initial for: 
+active for: 13 
+character 4e enables the following transitions:
+from 34 to 54
+final for: 
+initial for: 
+active for: 9 
+from 46 to 60
+final for: 
+initial for: 
+active for: 9 
+from 34 to 64
+final for: 
+initial for: 
+active for: 10 
+from 65 to 54
+final for: 
+initial for: 
+active for: 10 
+from 46 to 74
+final for: 
+initial for: 
+active for: 12 
+from 49 to 54
+final for: 
+initial for: 
+active for: 12 
+character 4f enables the following transitions:
+from 35 to 49
+final for: 
+initial for: 
+active for: 8 12 
+from 33 to 49
+final for: 
+initial for: 
+active for: 9 10 
+from 56 to 57
+final for: 
+initial for: 
+active for: 9 
+from 87 to 49
+final for: 
+initial for: 
+active for: 15 
+character 50 enables the following transitions:
+from 82 to 58
+final for: 
+initial for: 
+active for: 14 
+character 53 enables the following transitions:
+from 16 to 42
+final for: 
+initial for: 
+active for: 6 14 15 
+from 37 to 42
+final for: 
+initial for: 
+active for: 7 
+from 46 to 36
+final for: 
+initial for: 
+active for: 8 
+from 42 to 83
+final for: 
+initial for: 
+active for: 14 
+character 54 enables the following transitions:
+from 36 to 37
+final for: 
+initial for: 
+active for: 5 7 
+from 36 to 34
+final for: 
+initial for: 
+active for: 8 
+from 54 to 6
+final for: 
+initial for: 
+active for: 9 
+from 64 to 65
+final for: 
+initial for: 
+active for: 10 
+from 34 to 37
+final for: 
+initial for: 
+active for: 12 13 14 15 
+from 75 to 32
+final for: 
+initial for: 
+active for: 12 
+from 36 to 32
+final for: 
+initial for: 
+active for: 13 
+character 55 enables the following transitions:
+from 51 to 52
+final for: 
+initial for: 
+active for: 9 
+from 62 to 52
+final for: 
+initial for: 
+active for: 10 
+character 57 enables the following transitions:
+from 83 to 32
+final for: 
+initial for: 
+active for: 14 
+from 49 to 88
+final for: 15 
+initial for: 
+active for: 15 
+character 5c enables the following transitions:
+from 28 to 44
+final for: 
+initial for: 
+active for: 6 
+character 61 enables the following transitions:
+from 58 to 59
+final for: 
+initial for: 
+active for: 9 
+from 54 to 66
+final for: 
+initial for: 
+active for: 10 
+from 58 to 16
+final for: 
+initial for: 
+active for: 14 
+from 86 to 32
+final for: 
+initial for: 
+active for: 15 
+character 62 enables the following transitions:
+from 31 to 14
+final for: 
+initial for: 
+active for: 4 
+character 63 enables the following transitions:
+from 0 to 1
+final for: 
+initial for: 0 1 
+active for: 0 1 
+from 7 to 1
+final for: 
+initial for: 
+active for: 3 
+from 43 to 27
+final for: 
+initial for: 
+active for: 6 
+from 49 to 14
+final for: 
+initial for: 
+active for: 8 
+from 49 to 51
+final for: 
+initial for: 
+active for: 9 
+from 49 to 62
+final for: 
+initial for: 
+active for: 10 
+from 37 to 72
+final for: 
+initial for: 
+active for: 12 
+from 77 to 35
+final for: 
+initial for: 
+active for: 12 
+from 37 to 79
+final for: 
+initial for: 
+active for: 13 
+from 37 to 81
+final for: 
+initial for: 
+active for: 14 
+from 37 to 85
+final for: 
+initial for: 
+active for: 15 
+character 64 enables the following transitions:
+from 30 to 31
+final for: 
+initial for: 4 11 
+active for: 4 11 
+from 32 to 33
+final for: 
+initial for: 5 7 8 9 10 
+active for: 5 6 7 8 9 10 
+from 55 to 56
+final for: 
+initial for: 
+active for: 9 
+from 32 to 76
+final for: 
+initial for: 
+active for: 12 
+from 32 to 80
+final for: 13 
+initial for: 
+active for: 13 
+from 32 to 84
+final for: 14 
+initial for: 
+active for: 14 
+from 32 to 87
+final for: 
+initial for: 
+active for: 15 
+character 65 enables the following transitions:
+from 11 to 12
+final for: 
+initial for: 
+active for: 1 
+from 14 to 12
+final for: 
+initial for: 
+active for: 2 
+from 7 to 12
+final for: 
+initial for: 
+active for: 16 
+from 89 to 90
+final for: 
+initial for: 
+active for: 16 
+from 33 to 34
+final for: 
+initial for: 
+active for: 5 6 12 13 14 15 17 18 19 
+from 35 to 36
+final for: 
+initial for: 
+active for: 5 13 
+from 37 to 38
+final for: 
+initial for: 
+active for: 5 
+from 53 to 34
+final for: 
+initial for: 
+active for: 9 
+from 63 to 34
+final for: 
+initial for: 
+active for: 10 
+from 67 to 68
+final for: 
+initial for: 
+active for: 10 
+from 74 to 75
+final for: 
+initial for: 
+active for: 12 
+from 92 to 93
+final for: 
+initial for: 
+active for: 17 
+from 95 to 96
+final for: 
+initial for: 
+active for: 18 
+from 98 to 99
+final for: 
+initial for: 
+active for: 19 
+character 66 enables the following transitions:
+from 3 to 4
+final for: 
+initial for: 
+active for: 0 
+from 54 to 78
+final for: 12 
+initial for: 
+active for: 12 
+from 54 to 33
+final for: 
+initial for: 17 18 19 
+active for: 17 18 19 
+character 67 enables the following transitions:
+from 5 to 6
+final for: 
+initial for: 
+active for: 0 
+from 46 to 47
+final for: 
+initial for: 
+active for: 7 
+character 68 enables the following transitions:
+from 42 to 86
+final for: 
+initial for: 
+active for: 15 
+character 69 enables the following transitions:
+from 4 to 5
+final for: 
+initial for: 
+active for: 0 2 
+from 7 to 8
+final for: 
+initial for: 
+active for: 0 
+from 9 to 10
+final for: 0 
+initial for: 
+active for: 0 
+from 23 to 24
+final for: 
+initial for: 
+active for: 2 
+from 11 to 25
+final for: 
+initial for: 
+active for: 2 
+from 31 to 5
+final for: 
+initial for: 
+active for: 11 
+from 33 to 46
+final for: 
+initial for: 
+active for: 7 8 
+from 47 to 36
+final for: 
+initial for: 
+active for: 7 
+from 59 to 46
+final for: 
+initial for: 
+active for: 9 
+from 73 to 46
+final for: 
+initial for: 
+active for: 12 
+character 6c enables the following transitions:
+from 34 to 35
+final for: 
+initial for: 
+active for: 5 8 
+from 34 to 41
+final for: 
+initial for: 
+active for: 6 
+from 34 to 92
+final for: 
+initial for: 
+active for: 17 
+from 34 to 95
+final for: 
+initial for: 
+active for: 18 
+from 34 to 98
+final for: 
+initial for: 
+active for: 19 
+character 6d enables the following transitions:
+from 52 to 53
+final for: 
+initial for: 
+active for: 9 
+from 57 to 58
+final for: 
+initial for: 
+active for: 9 
+from 52 to 63
+final for: 
+initial for: 
+active for: 10 
+from 66 to 67
+final for: 
+initial for: 
+active for: 10 
+from 52 to 35
+final for: 
+initial for: 
+active for: 13 
+character 6e enables the following transitions:
+from 2 to 3
+final for: 
+initial for: 
+active for: 0 1 2 
+from 8 to 9
+final for: 
+initial for: 
+active for: 0 
+from 12 to 13
+final for: 
+initial for: 
+active for: 1 2 
+from 26 to 27
+final for: 
+initial for: 
+active for: 2 
+from 34 to 54
+final for: 
+initial for: 
+active for: 9 
+from 46 to 60
+final for: 
+initial for: 
+active for: 9 
+from 34 to 64
+final for: 
+initial for: 
+active for: 10 
+from 65 to 54
+final for: 
+initial for: 
+active for: 10 
+from 46 to 74
+final for: 
+initial for: 
+active for: 12 
+from 49 to 54
+final for: 
+initial for: 
+active for: 12 
+character 6f enables the following transitions:
+from 1 to 2
+final for: 
+initial for: 
+active for: 0 1 2 
+from 21 to 22
+final for: 
+initial for: 
+active for: 2 
+from 25 to 26
+final for: 
+initial for: 
+active for: 2 
+from 35 to 49
+final for: 
+initial for: 
+active for: 8 12 
+from 33 to 49
+final for: 
+initial for: 
+active for: 9 10 
+from 56 to 57
+final for: 
+initial for: 
+active for: 9 
+from 87 to 49
+final for: 
+initial for: 
+active for: 15 
+character 70 enables the following transitions:
+from 20 to 21
+final for: 
+initial for: 
+active for: 2 3 
+from 82 to 58
+final for: 
+initial for: 
+active for: 14 
+character 72 enables the following transitions:
+from 5 to 70
+final for: 
+initial for: 
+active for: 11 
+character 73 enables the following transitions:
+from 5 to 20
+final for: 
+initial for: 
+active for: 2 
+from 22 to 23
+final for: 
+initial for: 
+active for: 2 
+from 1 to 20
+final for: 
+initial for: 
+active for: 3 
+from 16 to 42
+final for: 
+initial for: 
+active for: 6 14 15 
+from 37 to 42
+final for: 
+initial for: 
+active for: 7 
+from 46 to 36
+final for: 
+initial for: 
+active for: 8 
+from 42 to 83
+final for: 
+initial for: 
+active for: 14 
+character 74 enables the following transitions:
+from 3 to 11
+final for: 
+initial for: 
+active for: 1 
+from 13 to 14
+final for: 
+initial for: 
+active for: 1 
+from 3 to 14
+final for: 
+initial for: 
+active for: 2 
+from 13 to 18
+final for: 
+initial for: 
+active for: 2 
+from 24 to 11
+final for: 
+initial for: 
+active for: 2 
+from 36 to 37
+final for: 
+initial for: 
+active for: 5 7 
+from 36 to 34
+final for: 
+initial for: 
+active for: 8 
+from 54 to 6
+final for: 
+initial for: 
+active for: 9 
+from 64 to 65
+final for: 
+initial for: 
+active for: 10 
+from 34 to 37
+final for: 
+initial for: 
+active for: 12 13 14 15 
+from 75 to 32
+final for: 
+initial for: 
+active for: 12 
+from 36 to 32
+final for: 
+initial for: 
+active for: 13 
+character 75 enables the following transitions:
+from 51 to 52
+final for: 
+initial for: 
+active for: 9 
+from 62 to 52
+final for: 
+initial for: 
+active for: 10 
+character 77 enables the following transitions:
+from 83 to 32
+final for: 
+initial for: 
+active for: 14 
+from 49 to 88
+final for: 15 
+initial for: 
+active for: 15 
+character 78 enables the following transitions:
+from 12 to 89
+final for: 
+initial for: 
+active for: 16 
+ancored sol states: 
 ---CURRENT MATCHING PATH---
-0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 
+0: 0 [] | 1: 0 [] | 2: 0 [] | 3: 0 [] | 4: 0 [] | 5: 0 [] | 6: 0 [] | 7: 0 [] | 8: 0 [] | 9: 0 [] | 10: 0 [] | 11: 0 [] | 12: 0 [] | 13: 0 [] | 14: 0 [] | 15: 0 [] | 16: 0 [] | 17: 0 [] | 18: 0 [] | 19: 0 [] | 20: 0 [] | 21: 0 [] | 22: 0 [] | 23: 0 [] | 24: 0 [] | 25: 0 [] | 26: 0 [] | 27: 0 [] | 28: 0 [] | 29: 0 [] | 30: 0 [] | 31: 0 [] | 32: 0 [] | 33: 0 [] | 34: 0 [] | 35: 0 [] | 36: 0 [] | 37: 0 [] | 38: 0 [] | 39: 0 [] | 40: 0 [] | 41: 0 [] | 42: 0 [] | 43: 0 [] | 44: 0 [] | 45: 0 [] | 46: 0 [] | 47: 0 [] | 48: 0 [] | 49: 0 [] | 50: 0 [] | 51: 0 [] | 52: 0 [] | 53: 0 [] | 54: 0 [] | 55: 0 [] | 56: 0 [] | 57: 0 [] | 58: 0 [] | 59: 0 [] | 60: 0 [] | 61: 0 [] | 62: 0 [] | 63: 0 [] | 64: 0 [] | 65: 0 [] | 66: 0 [] | 67: 0 [] | 68: 0 [] | 69: 0 [] | 70: 0 [] | 71: 0 [] | 72: 0 [] | 73: 0 [] | 74: 0 [] | 75: 0 [] | 76: 0 [] | 77: 0 [] | 78: 0 [] | 79: 0 [] | 80: 0 [] | 81: 0 [] | 82: 0 [] | 83: 0 [] | 84: 0 [] | 85: 0 [] | 86: 0 [] | 87: 0 [] | 88: 0 [] | 89: 0 [] | 90: 0 [] | 91: 0 [] | 92: 0 [] | 93: 0 [] | 94: 0 [] | 95: 0 [] | 96: 0 [] | 97: 0 [] | 98: 0 [] | 99: 0 [] | 100: 0 [] | 101: 0 [] | 102: 0 [] | 103: 0 [] | 
+--- matching 70 ---
+from 20 to 21
+initial for: 
+final for: 
+available for: 2 3 from 82 to 58
+initial for: 
+final for: 
+available for: 14 ---CURRENT MATCHING PATH---
+0: 0 [] | 1: 0 [] | 2: 0 [] | 3: 0 [] | 4: 0 [] | 5: 0 [] | 6: 0 [] | 7: 0 [] | 8: 0 [] | 9: 0 [] | 10: 0 [] | 11: 0 [] | 12: 0 [] | 13: 0 [] | 14: 0 [] | 15: 0 [] | 16: 0 [] | 17: 0 [] | 18: 0 [] | 19: 0 [] | 20: 0 [] | 21: 0 [] | 22: 0 [] | 23: 0 [] | 24: 0 [] | 25: 0 [] | 26: 0 [] | 27: 0 [] | 28: 0 [] | 29: 0 [] | 30: 0 [] | 31: 0 [] | 32: 0 [] | 33: 0 [] | 34: 0 [] | 35: 0 [] | 36: 0 [] | 37: 0 [] | 38: 0 [] | 39: 0 [] | 40: 0 [] | 41: 0 [] | 42: 0 [] | 43: 0 [] | 44: 0 [] | 45: 0 [] | 46: 0 [] | 47: 0 [] | 48: 0 [] | 49: 0 [] | 50: 0 [] | 51: 0 [] | 52: 0 [] | 53: 0 [] | 54: 0 [] | 55: 0 [] | 56: 0 [] | 57: 0 [] | 58: 0 [] | 59: 0 [] | 60: 0 [] | 61: 0 [] | 62: 0 [] | 63: 0 [] | 64: 0 [] | 65: 0 [] | 66: 0 [] | 67: 0 [] | 68: 0 [] | 69: 0 [] | 70: 0 [] | 71: 0 [] | 72: 0 [] | 73: 0 [] | 74: 0 [] | 75: 0 [] | 76: 0 [] | 77: 0 [] | 78: 0 [] | 79: 0 [] | 80: 0 [] | 81: 0 [] | 82: 0 [] | 83: 0 [] | 84: 0 [] | 85: 0 [] | 86: 0 [] | 87: 0 [] | 88: 0 [] | 89: 0 [] | 90: 0 [] | 91: 0 [] | 92: 0 [] | 93: 0 [] | 94: 0 [] | 95: 0 [] | 96: 0 [] | 97: 0 [] | 98: 0 [] | 99: 0 [] | 100: 0 [] | 101: 0 [] | 102: 0 [] | 103: 0 [] | 
+--- matching 43 ---
+from 17 to 1
+initial for: 2 
+final for: 
+available for: 2 from 43 to 27
+initial for: 
+final for: 
+available for: 6 from 49 to 14
+initial for: 
+final for: 
+available for: 8 from 49 to 51
+initial for: 
+final for: 
+available for: 9 from 49 to 62
+initial for: 
+final for: 
+available for: 10 from 37 to 72
+initial for: 
+final for: 
+available for: 12 from 77 to 35
+initial for: 
+final for: 
+available for: 12 from 37 to 79
+initial for: 
+final for: 
+available for: 13 from 37 to 81
+initial for: 
+final for: 
+available for: 14 from 37 to 85
+initial for: 
+final for: 
+available for: 15 ---CURRENT MATCHING PATH---
+0: 0 [] | 1: 1 [2,] | 2: 0 [] | 3: 0 [] | 4: 0 [] | 5: 0 [] | 6: 0 [] | 7: 0 [] | 8: 0 [] | 9: 0 [] | 10: 0 [] | 11: 0 [] | 12: 0 [] | 13: 0 [] | 14: 0 [] | 15: 0 [] | 16: 0 [] | 17: 0 [] | 18: 0 [] | 19: 0 [] | 20: 0 [] | 21: 0 [] | 22: 0 [] | 23: 0 [] | 24: 0 [] | 25: 0 [] | 26: 0 [] | 27: 0 [] | 28: 0 [] | 29: 0 [] | 30: 0 [] | 31: 0 [] | 32: 0 [] | 33: 0 [] | 34: 0 [] | 35: 0 [] | 36: 0 [] | 37: 0 [] | 38: 0 [] | 39: 0 [] | 40: 0 [] | 41: 0 [] | 42: 0 [] | 43: 0 [] | 44: 0 [] | 45: 0 [] | 46: 0 [] | 47: 0 [] | 48: 0 [] | 49: 0 [] | 50: 0 [] | 51: 0 [] | 52: 0 [] | 53: 0 [] | 54: 0 [] | 55: 0 [] | 56: 0 [] | 57: 0 [] | 58: 0 [] | 59: 0 [] | 60: 0 [] | 61: 0 [] | 62: 0 [] | 63: 0 [] | 64: 0 [] | 65: 0 [] | 66: 0 [] | 67: 0 [] | 68: 0 [] | 69: 0 [] | 70: 0 [] | 71: 0 [] | 72: 0 [] | 73: 0 [] | 74: 0 [] | 75: 0 [] | 76: 0 [] | 77: 0 [] | 78: 0 [] | 79: 0 [] | 80: 0 [] | 81: 0 [] | 82: 0 [] | 83: 0 [] | 84: 0 [] | 85: 0 [] | 86: 0 [] | 87: 0 [] | 88: 0 [] | 89: 0 [] | 90: 0 [] | 91: 0 [] | 92: 0 [] | 93: 0 [] | 94: 0 [] | 95: 0 [] | 96: 0 [] | 97: 0 [] | 98: 0 [] | 99: 0 [] | 100: 0 [] | 101: 0 [] | 102: 0 [] | 103: 0 [] | 
+--- matching 30 ---
+---CURRENT MATCHING PATH---
+0: 0 [] | 1: 0 [] | 2: 0 [] | 3: 0 [] | 4: 0 [] | 5: 0 [] | 6: 0 [] | 7: 0 [] | 8: 0 [] | 9: 0 [] | a: 0 [] | b: 0 [] | c: 0 [] | d: 0 [] | e: 0 [] | f: 0 [] | 10: 0 [] | 11: 0 [] | 12: 0 [] | 13: 0 [] | 14: 0 [] | 15: 0 [] | 16: 0 [] | 17: 0 [] | 18: 0 [] | 19: 0 [] | 1a: 0 [] | 1b: 0 [] | 1c: 0 [] | 1d: 0 [] | 1e: 0 [] | 1f: 0 [] | 20: 0 [] | 21: 0 [] | 22: 0 [] | 23: 0 [] | 24: 0 [] | 25: 0 [] | 26: 0 [] | 27: 0 [] | 28: 0 [] | 29: 0 [] | 2a: 0 [] | 2b: 0 [] | 2c: 0 [] | 2d: 0 [] | 2e: 0 [] | 2f: 0 [] | 30: 0 [] | 31: 0 [] | 32: 0 [] | 33: 0 [] | 34: 0 [] | 35: 0 [] | 36: 0 [] | 37: 0 [] | 38: 0 [] | 39: 0 [] | 3a: 0 [] | 3b: 0 [] | 3c: 0 [] | 3d: 0 [] | 3e: 0 [] | 3f: 0 [] | 40: 0 [] | 41: 0 [] | 42: 0 [] | 43: 0 [] | 44: 0 [] | 45: 0 [] | 46: 0 [] | 47: 0 [] | 48: 0 [] | 49: 0 [] | 4a: 0 [] | 4b: 0 [] | 4c: 0 [] | 4d: 0 [] | 4e: 0 [] | 4f: 0 [] | 50: 0 [] | 51: 0 [] | 52: 0 [] | 53: 0 [] | 54: 0 [] | 55: 0 [] | 56: 0 [] | 57: 0 [] | 58: 0 [] | 59: 0 [] | 5a: 0 [] | 5b: 0 [] | 5c: 0 [] | 5d: 0 [] | 5e: 0 [] | 5f: 0 [] | 60: 0 [] | 61: 0 [] | 62: 0 [] | 63: 0 [] | 64: 0 [] | 65: 0 [] | 66: 0 [] | 67: 0 [] | 
+--- matching 38 ---
+---CURRENT MATCHING PATH---
+0: 0 [] | 1: 0 [] | 2: 0 [] | 3: 0 [] | 4: 0 [] | 5: 0 [] | 6: 0 [] | 7: 0 [] | 8: 0 [] | 9: 0 [] | a: 0 [] | b: 0 [] | c: 0 [] | d: 0 [] | e: 0 [] | f: 0 [] | 10: 0 [] | 11: 0 [] | 12: 0 [] | 13: 0 [] | 14: 0 [] | 15: 0 [] | 16: 0 [] | 17: 0 [] | 18: 0 [] | 19: 0 [] | 1a: 0 [] | 1b: 0 [] | 1c: 0 [] | 1d: 0 [] | 1e: 0 [] | 1f: 0 [] | 20: 0 [] | 21: 0 [] | 22: 0 [] | 23: 0 [] | 24: 0 [] | 25: 0 [] | 26: 0 [] | 27: 0 [] | 28: 0 [] | 29: 0 [] | 2a: 0 [] | 2b: 0 [] | 2c: 0 [] | 2d: 0 [] | 2e: 0 [] | 2f: 0 [] | 30: 0 [] | 31: 0 [] | 32: 0 [] | 33: 0 [] | 34: 0 [] | 35: 0 [] | 36: 0 [] | 37: 0 [] | 38: 0 [] | 39: 0 [] | 3a: 0 [] | 3b: 0 [] | 3c: 0 [] | 3d: 0 [] | 3e: 0 [] | 3f: 0 [] | 40: 0 [] | 41: 0 [] | 42: 0 [] | 43: 0 [] | 44: 0 [] | 45: 0 [] | 46: 0 [] | 47: 0 [] | 48: 0 [] | 49: 0 [] | 4a: 0 [] | 4b: 0 [] | 4c: 0 [] | 4d: 0 [] | 4e: 0 [] | 4f: 0 [] | 50: 0 [] | 51: 0 [] | 52: 0 [] | 53: 0 [] | 54: 0 [] | 55: 0 [] | 56: 0 [] | 57: 0 [] | 58: 0 [] | 59: 0 [] | 5a: 0 [] | 5b: 0 [] | 5c: 0 [] | 5d: 0 [] | 5e: 0 [] | 5f: 0 [] | 60: 0 [] | 61: 0 [] | 62: 0 [] | 63: 0 [] | 64: 0 [] | 65: 0 [] | 66: 0 [] | 67: 0 [] | 
+--- matching 14 ---
+---CURRENT MATCHING PATH---
+0: 0 [] | 1: 0 [] | 2: 0 [] | 3: 0 [] | 4: 0 [] | 5: 0 [] | 6: 0 [] | 7: 0 [] | 8: 0 [] | 9: 0 [] | a: 0 [] | b: 0 [] | c: 0 [] | d: 0 [] | e: 0 [] | f: 0 [] | 10: 0 [] | 11: 0 [] | 12: 0 [] | 13: 0 [] | 14: 0 [] | 15: 0 [] | 16: 0 [] | 17: 0 [] | 18: 0 [] | 19: 0 [] | 1a: 0 [] | 1b: 0 [] | 1c: 0 [] | 1d: 0 [] | 1e: 0 [] | 1f: 0 [] | 20: 0 [] | 21: 0 [] | 22: 0 [] | 23: 0 [] | 24: 0 [] | 25: 0 [] | 26: 0 [] | 27: 0 [] | 28: 0 [] | 29: 0 [] | 2a: 0 [] | 2b: 0 [] | 2c: 0 [] | 2d: 0 [] | 2e: 0 [] | 2f: 0 [] | 30: 0 [] | 31: 0 [] | 32: 0 [] | 33: 0 [] | 34: 0 [] | 35: 0 [] | 36: 0 [] | 37: 0 [] | 38: 0 [] | 39: 0 [] | 3a: 0 [] | 3b: 0 [] | 3c: 0 [] | 3d: 0 [] | 3e: 0 [] | 3f: 0 [] | 40: 0 [] | 41: 0 [] | 42: 0 [] | 43: 0 [] | 44: 0 [] | 45: 0 [] | 46: 0 [] | 47: 0 [] | 48: 0 [] | 49: 0 [] | 4a: 0 [] | 4b: 0 [] | 4c: 0 [] | 4d: 0 [] | 4e: 0 [] | 4f: 0 [] | 50: 0 [] | 51: 0 [] | 52: 0 [] | 53: 0 [] | 54: 0 [] | 55: 0 [] | 56: 0 [] | 57: 0 [] | 58: 0 [] | 59: 0 [] | 5a: 0 [] | 5b: 0 [] | 5c: 0 [] | 5d: 0 [] | 5e: 0 [] | 5f: 0 [] | 60: 0 [] | 61: 0 [] | 62: 0 [] | 63: 0 [] | 64: 0 [] | 65: 0 [] | 66: 0 [] | 67: 0 [] | 
+--- matching 50 ---
+from 82 to 58
+initial for: 
+final for: 
+available for: 14 ---CURRENT MATCHING PATH---
+0: 0 [] | 1: 0 [] | 2: 0 [] | 3: 0 [] | 4: 0 [] | 5: 0 [] | 6: 0 [] | 7: 0 [] | 8: 0 [] | 9: 0 [] | 10: 0 [] | 11: 0 [] | 12: 0 [] | 13: 0 [] | 14: 0 [] | 15: 0 [] | 16: 0 [] | 17: 0 [] | 18: 0 [] | 19: 0 [] | 20: 0 [] | 21: 0 [] | 22: 0 [] | 23: 0 [] | 24: 0 [] | 25: 0 [] | 26: 0 [] | 27: 0 [] | 28: 0 [] | 29: 0 [] | 30: 0 [] | 31: 0 [] | 32: 0 [] | 33: 0 [] | 34: 0 [] | 35: 0 [] | 36: 0 [] | 37: 0 [] | 38: 0 [] | 39: 0 [] | 40: 0 [] | 41: 0 [] | 42: 0 [] | 43: 0 [] | 44: 0 [] | 45: 0 [] | 46: 0 [] | 47: 0 [] | 48: 0 [] | 49: 0 [] | 50: 0 [] | 51: 0 [] | 52: 0 [] | 53: 0 [] | 54: 0 [] | 55: 0 [] | 56: 0 [] | 57: 0 [] | 58: 0 [] | 59: 0 [] | 60: 0 [] | 61: 0 [] | 62: 0 [] | 63: 0 [] | 64: 0 [] | 65: 0 [] | 66: 0 [] | 67: 0 [] | 68: 0 [] | 69: 0 [] | 70: 0 [] | 71: 0 [] | 72: 0 [] | 73: 0 [] | 74: 0 [] | 75: 0 [] | 76: 0 [] | 77: 0 [] | 78: 0 [] | 79: 0 [] | 80: 0 [] | 81: 0 [] | 82: 0 [] | 83: 0 [] | 84: 0 [] | 85: 0 [] | 86: 0 [] | 87: 0 [] | 88: 0 [] | 89: 0 [] | 90: 0 [] | 91: 0 [] | 92: 0 [] | 93: 0 [] | 94: 0 [] | 95: 0 [] | 96: 0 [] | 97: 0 [] | 98: 0 [] | 99: 0 [] | 100: 0 [] | 101: 0 [] | 102: 0 [] | 103: 0 [] | 
+--- matching 43 ---
+from 17 to 1
+initial for: 2 
+final for: 
+available for: 2 from 43 to 27
+initial for: 
+final for: 
+available for: 6 from 49 to 14
+initial for: 
+final for: 
+available for: 8 from 49 to 51
+initial for: 
+final for: 
+available for: 9 from 49 to 62
+initial for: 
+final for: 
+available for: 10 from 37 to 72
+initial for: 
+final for: 
+available for: 12 from 77 to 35
+initial for: 
+final for: 
+available for: 12 from 37 to 79
+initial for: 
+final for: 
+available for: 13 from 37 to 81
+initial for: 
+final for: 
+available for: 14 from 37 to 85
+initial for: 
+final for: 
+available for: 15 ---CURRENT MATCHING PATH---
+0: 0 [] | 1: 1 [2,] | 2: 0 [] | 3: 0 [] | 4: 0 [] | 5: 0 [] | 6: 0 [] | 7: 0 [] | 8: 0 [] | 9: 0 [] | 10: 0 [] | 11: 0 [] | 12: 0 [] | 13: 0 [] | 14: 0 [] | 15: 0 [] | 16: 0 [] | 17: 0 [] | 18: 0 [] | 19: 0 [] | 20: 0 [] | 21: 0 [] | 22: 0 [] | 23: 0 [] | 24: 0 [] | 25: 0 [] | 26: 0 [] | 27: 0 [] | 28: 0 [] | 29: 0 [] | 30: 0 [] | 31: 0 [] | 32: 0 [] | 33: 0 [] | 34: 0 [] | 35: 0 [] | 36: 0 [] | 37: 0 [] | 38: 0 [] | 39: 0 [] | 40: 0 [] | 41: 0 [] | 42: 0 [] | 43: 0 [] | 44: 0 [] | 45: 0 [] | 46: 0 [] | 47: 0 [] | 48: 0 [] | 49: 0 [] | 50: 0 [] | 51: 0 [] | 52: 0 [] | 53: 0 [] | 54: 0 [] | 55: 0 [] | 56: 0 [] | 57: 0 [] | 58: 0 [] | 59: 0 [] | 60: 0 [] | 61: 0 [] | 62: 0 [] | 63: 0 [] | 64: 0 [] | 65: 0 [] | 66: 0 [] | 67: 0 [] | 68: 0 [] | 69: 0 [] | 70: 0 [] | 71: 0 [] | 72: 0 [] | 73: 0 [] | 74: 0 [] | 75: 0 [] | 76: 0 [] | 77: 0 [] | 78: 0 [] | 79: 0 [] | 80: 0 [] | 81: 0 [] | 82: 0 [] | 83: 0 [] | 84: 0 [] | 85: 0 [] | 86: 0 [] | 87: 0 [] | 88: 0 [] | 89: 0 [] | 90: 0 [] | 91: 0 [] | 92: 0 [] | 93: 0 [] | 94: 0 [] | 95: 0 [] | 96: 0 [] | 97: 0 [] | 98: 0 [] | 99: 0 [] | 100: 0 [] | 101: 0 [] | 102: 0 [] | 103: 0 [] | 
+--- matching 43 ---
+from 17 to 1
+initial for: 2 
+final for: 
+available for: 2 from 43 to 27
+initial for: 
+final for: 
+available for: 6 from 49 to 14
+initial for: 
+final for: 
+available for: 8 from 49 to 51
+initial for: 
+final for: 
+available for: 9 from 49 to 62
+initial for: 
+final for: 
+available for: 10 from 37 to 72
+initial for: 
+final for: 
+available for: 12 from 77 to 35
+initial for: 
+final for: 
+available for: 12 from 37 to 79
+initial for: 
+final for: 
+available for: 13 from 37 to 81
+initial for: 
+final for: 
+available for: 14 from 37 to 85
+initial for: 
+final for: 
+available for: 15 ---CURRENT MATCHING PATH---
+0: 0 [] | 1: 1 [2,] | 2: 0 [] | 3: 0 [] | 4: 0 [] | 5: 0 [] | 6: 0 [] | 7: 0 [] | 8: 0 [] | 9: 0 [] | 10: 0 [] | 11: 0 [] | 12: 0 [] | 13: 0 [] | 14: 0 [] | 15: 0 [] | 16: 0 [] | 17: 0 [] | 18: 0 [] | 19: 0 [] | 20: 0 [] | 21: 0 [] | 22: 0 [] | 23: 0 [] | 24: 0 [] | 25: 0 [] | 26: 0 [] | 27: 0 [] | 28: 0 [] | 29: 0 [] | 30: 0 [] | 31: 0 [] | 32: 0 [] | 33: 0 [] | 34: 0 [] | 35: 0 [] | 36: 0 [] | 37: 0 [] | 38: 0 [] | 39: 0 [] | 40: 0 [] | 41: 0 [] | 42: 0 [] | 43: 0 [] | 44: 0 [] | 45: 0 [] | 46: 0 [] | 47: 0 [] | 48: 0 [] | 49: 0 [] | 50: 0 [] | 51: 0 [] | 52: 0 [] | 53: 0 [] | 54: 0 [] | 55: 0 [] | 56: 0 [] | 57: 0 [] | 58: 0 [] | 59: 0 [] | 60: 0 [] | 61: 0 [] | 62: 0 [] | 63: 0 [] | 64: 0 [] | 65: 0 [] | 66: 0 [] | 67: 0 [] | 68: 0 [] | 69: 0 [] | 70: 0 [] | 71: 0 [] | 72: 0 [] | 73: 0 [] | 74: 0 [] | 75: 0 [] | 76: 0 [] | 77: 0 [] | 78: 0 [] | 79: 0 [] | 80: 0 [] | 81: 0 [] | 82: 0 [] | 83: 0 [] | 84: 0 [] | 85: 0 [] | 86: 0 [] | 87: 0 [] | 88: 0 [] | 89: 0 [] | 90: 0 [] | 91: 0 [] | 92: 0 [] | 93: 0 [] | 94: 0 [] | 95: 0 [] | 96: 0 [] | 97: 0 [] | 98: 0 [] | 99: 0 [] | 100: 0 [] | 101: 0 [] | 102: 0 [] | 103: 0 [] | 
+--- matching 53 ---
+from 16 to 42
+initial for: 
+final for: 
+available for: 6 14 15 from 37 to 42
+initial for: 
+final for: 
+available for: 7 from 46 to 36
+initial for: 
+final for: 
+available for: 8 from 42 to 83
+initial for: 
+final for: 
+available for: 14 ---CURRENT MATCHING PATH---
+0: 0 [] | 1: 0 [] | 2: 0 [] | 3: 0 [] | 4: 0 [] | 5: 0 [] | 6: 0 [] | 7: 0 [] | 8: 0 [] | 9: 0 [] | 10: 0 [] | 11: 0 [] | 12: 0 [] | 13: 0 [] | 14: 0 [] | 15: 0 [] | 16: 0 [] | 17: 0 [] | 18: 0 [] | 19: 0 [] | 20: 0 [] | 21: 0 [] | 22: 0 [] | 23: 0 [] | 24: 0 [] | 25: 0 [] | 26: 0 [] | 27: 0 [] | 28: 0 [] | 29: 0 [] | 30: 0 [] | 31: 0 [] | 32: 0 [] | 33: 0 [] | 34: 0 [] | 35: 0 [] | 36: 0 [] | 37: 0 [] | 38: 0 [] | 39: 0 [] | 40: 0 [] | 41: 0 [] | 42: 0 [] | 43: 0 [] | 44: 0 [] | 45: 0 [] | 46: 0 [] | 47: 0 [] | 48: 0 [] | 49: 0 [] | 50: 0 [] | 51: 0 [] | 52: 0 [] | 53: 0 [] | 54: 0 [] | 55: 0 [] | 56: 0 [] | 57: 0 [] | 58: 0 [] | 59: 0 [] | 60: 0 [] | 61: 0 [] | 62: 0 [] | 63: 0 [] | 64: 0 [] | 65: 0 [] | 66: 0 [] | 67: 0 [] | 68: 0 [] | 69: 0 [] | 70: 0 [] | 71: 0 [] | 72: 0 [] | 73: 0 [] | 74: 0 [] | 75: 0 [] | 76: 0 [] | 77: 0 [] | 78: 0 [] | 79: 0 [] | 80: 0 [] | 81: 0 [] | 82: 0 [] | 83: 0 [] | 84: 0 [] | 85: 0 [] | 86: 0 [] | 87: 0 [] | 88: 0 [] | 89: 0 [] | 90: 0 [] | 91: 0 [] | 92: 0 [] | 93: 0 [] | 94: 0 [] | 95: 0 [] | 96: 0 [] | 97: 0 [] | 98: 0 [] | 99: 0 [] | 100: 0 [] | 101: 0 [] | 102: 0 [] | 103: 0 [] | 
+--- matching ef ---
+---CURRENT MATCHING PATH---
+0: 0 [] | 1: 0 [] | 2: 0 [] | 3: 0 [] | 4: 0 [] | 5: 0 [] | 6: 0 [] | 7: 0 [] | 8: 0 [] | 9: 0 [] | a: 0 [] | b: 0 [] | c: 0 [] | d: 0 [] | e: 0 [] | f: 0 [] | 10: 0 [] | 11: 0 [] | 12: 0 [] | 13: 0 [] | 14: 0 [] | 15: 0 [] | 16: 0 [] | 17: 0 [] | 18: 0 [] | 19: 0 [] | 1a: 0 [] | 1b: 0 [] | 1c: 0 [] | 1d: 0 [] | 1e: 0 [] | 1f: 0 [] | 20: 0 [] | 21: 0 [] | 22: 0 [] | 23: 0 [] | 24: 0 [] | 25: 0 [] | 26: 0 [] | 27: 0 [] | 28: 0 [] | 29: 0 [] | 2a: 0 [] | 2b: 0 [] | 2c: 0 [] | 2d: 0 [] | 2e: 0 [] | 2f: 0 [] | 30: 0 [] | 31: 0 [] | 32: 0 [] | 33: 0 [] | 34: 0 [] | 35: 0 [] | 36: 0 [] | 37: 0 [] | 38: 0 [] | 39: 0 [] | 3a: 0 [] | 3b: 0 [] | 3c: 0 [] | 3d: 0 [] | 3e: 0 [] | 3f: 0 [] | 40: 0 [] | 41: 0 [] | 42: 0 [] | 43: 0 [] | 44: 0 [] | 45: 0 [] | 46: 0 [] | 47: 0 [] | 48: 0 [] | 49: 0 [] | 4a: 0 [] | 4b: 0 [] | 4c: 0 [] | 4d: 0 [] | 4e: 0 [] | 4f: 0 [] | 50: 0 [] | 51: 0 [] | 52: 0 [] | 53: 0 [] | 54: 0 [] | 55: 0 [] | 56: 0 [] | 57: 0 [] | 58: 0 [] | 59: 0 [] | 5a: 0 [] | 5b: 0 [] | 5c: 0 [] | 5d: 0 [] | 5e: 0 [] | 5f: 0 [] | 60: 0 [] | 61: 0 [] | 62: 0 [] | 63: 0 [] | 64: 0 [] | 65: 0 [] | 66: 0 [] | 67: 0 [] | 
+--- matching bf ---
+---CURRENT MATCHING PATH---
+0: 0 [] | 1: 0 [] | 2: 0 [] | 3: 0 [] | 4: 0 [] | 5: 0 [] | 6: 0 [] | 7: 0 [] | 8: 0 [] | 9: 0 [] | a: 0 [] | b: 0 [] | c: 0 [] | d: 0 [] | e: 0 [] | f: 0 [] | 10: 0 [] | 11: 0 [] | 12: 0 [] | 13: 0 [] | 14: 0 [] | 15: 0 [] | 16: 0 [] | 17: 0 [] | 18: 0 [] | 19: 0 [] | 1a: 0 [] | 1b: 0 [] | 1c: 0 [] | 1d: 0 [] | 1e: 0 [] | 1f: 0 [] | 20: 0 [] | 21: 0 [] | 22: 0 [] | 23: 0 [] | 24: 0 [] | 25: 0 [] | 26: 0 [] | 27: 0 [] | 28: 0 [] | 29: 0 [] | 2a: 0 [] | 2b: 0 [] | 2c: 0 [] | 2d: 0 [] | 2e: 0 [] | 2f: 0 [] | 30: 0 [] | 31: 0 [] | 32: 0 [] | 33: 0 [] | 34: 0 [] | 35: 0 [] | 36: 0 [] | 37: 0 [] | 38: 0 [] | 39: 0 [] | 3a: 0 [] | 3b: 0 [] | 3c: 0 [] | 3d: 0 [] | 3e: 0 [] | 3f: 0 [] | 40: 0 [] | 41: 0 [] | 42: 0 [] | 43: 0 [] | 44: 0 [] | 45: 0 [] | 46: 0 [] | 47: 0 [] | 48: 0 [] | 49: 0 [] | 4a: 0 [] | 4b: 0 [] | 4c: 0 [] | 4d: 0 [] | 4e: 0 [] | 4f: 0 [] | 50: 0 [] | 51: 0 [] | 52: 0 [] | 53: 0 [] | 54: 0 [] | 55: 0 [] | 56: 0 [] | 57: 0 [] | 58: 0 [] | 59: 0 [] | 5a: 0 [] | 5b: 0 [] | 5c: 0 [] | 5d: 0 [] | 5e: 0 [] | 5f: 0 [] | 60: 0 [] | 61: 0 [] | 62: 0 [] | 63: 0 [] | 64: 0 [] | 65: 0 [] | 66: 0 [] | 67: 0 [] | 
+--- matching bd ---
+---CURRENT MATCHING PATH---
+0: 0 [] | 1: 0 [] | 2: 0 [] | 3: 0 [] | 4: 0 [] | 5: 0 [] | 6: 0 [] | 7: 0 [] | 8: 0 [] | 9: 0 [] | a: 0 [] | b: 0 [] | c: 0 [] | d: 0 [] | e: 0 [] | f: 0 [] | 10: 0 [] | 11: 0 [] | 12: 0 [] | 13: 0 [] | 14: 0 [] | 15: 0 [] | 16: 0 [] | 17: 0 [] | 18: 0 [] | 19: 0 [] | 1a: 0 [] | 1b: 0 [] | 1c: 0 [] | 1d: 0 [] | 1e: 0 [] | 1f: 0 [] | 20: 0 [] | 21: 0 [] | 22: 0 [] | 23: 0 [] | 24: 0 [] | 25: 0 [] | 26: 0 [] | 27: 0 [] | 28: 0 [] | 29: 0 [] | 2a: 0 [] | 2b: 0 [] | 2c: 0 [] | 2d: 0 [] | 2e: 0 [] | 2f: 0 [] | 30: 0 [] | 31: 0 [] | 32: 0 [] | 33: 0 [] | 34: 0 [] | 35: 0 [] | 36: 0 [] | 37: 0 [] | 38: 0 [] | 39: 0 [] | 3a: 0 [] | 3b: 0 [] | 3c: 0 [] | 3d: 0 [] | 3e: 0 [] | 3f: 0 [] | 40: 0 [] | 41: 0 [] | 42: 0 [] | 43: 0 [] | 44: 0 [] | 45: 0 [] | 46: 0 [] | 47: 0 [] | 48: 0 [] | 49: 0 [] | 4a: 0 [] | 4b: 0 [] | 4c: 0 [] | 4d: 0 [] | 4e: 0 [] | 4f: 0 [] | 50: 0 [] | 51: 0 [] | 52: 0 [] | 53: 0 [] | 54: 0 [] | 55: 0 [] | 56: 0 [] | 57: 0 [] | 58: 0 [] | 59: 0 [] | 5a: 0 [] | 5b: 0 [] | 5c: 0 [] | 5d: 0 [] | 5e: 0 [] | 5f: 0 [] | 60: 0 [] | 61: 0 [] | 62: 0 [] | 63: 0 [] | 64: 0 [] | 65: 0 [] | 66: 0 [] | 67: 0 [] | 
+--- matching 50 ---
+from 82 to 58
+initial for: 
+final for: 
+available for: 14 ---CURRENT MATCHING PATH---
+0: 0 [] | 1: 0 [] | 2: 0 [] | 3: 0 [] | 4: 0 [] | 5: 0 [] | 6: 0 [] | 7: 0 [] | 8: 0 [] | 9: 0 [] | 10: 0 [] | 11: 0 [] | 12: 0 [] | 13: 0 [] | 14: 0 [] | 15: 0 [] | 16: 0 [] | 17: 0 [] | 18: 0 [] | 19: 0 [] | 20: 0 [] | 21: 0 [] | 22: 0 [] | 23: 0 [] | 24: 0 [] | 25: 0 [] | 26: 0 [] | 27: 0 [] | 28: 0 [] | 29: 0 [] | 30: 0 [] | 31: 0 [] | 32: 0 [] | 33: 0 [] | 34: 0 [] | 35: 0 [] | 36: 0 [] | 37: 0 [] | 38: 0 [] | 39: 0 [] | 40: 0 [] | 41: 0 [] | 42: 0 [] | 43: 0 [] | 44: 0 [] | 45: 0 [] | 46: 0 [] | 47: 0 [] | 48: 0 [] | 49: 0 [] | 50: 0 [] | 51: 0 [] | 52: 0 [] | 53: 0 [] | 54: 0 [] | 55: 0 [] | 56: 0 [] | 57: 0 [] | 58: 0 [] | 59: 0 [] | 60: 0 [] | 61: 0 [] | 62: 0 [] | 63: 0 [] | 64: 0 [] | 65: 0 [] | 66: 0 [] | 67: 0 [] | 68: 0 [] | 69: 0 [] | 70: 0 [] | 71: 0 [] | 72: 0 [] | 73: 0 [] | 74: 0 [] | 75: 0 [] | 76: 0 [] | 77: 0 [] | 78: 0 [] | 79: 0 [] | 80: 0 [] | 81: 0 [] | 82: 0 [] | 83: 0 [] | 84: 0 [] | 85: 0 [] | 86: 0 [] | 87: 0 [] | 88: 0 [] | 89: 0 [] | 90: 0 [] | 91: 0 [] | 92: 0 [] | 93: 0 [] | 94: 0 [] | 95: 0 [] | 96: 0 [] | 97: 0 [] | 98: 0 [] | 99: 0 [] | 100: 0 [] | 101: 0 [] | 102: 0 [] | 103: 0 [] | 
+--- matching 3d ---
+from 14 to 6
+initial for: 
+final for: 4 
+available for: 1 4 8 from 42 to 48
+initial for: 
+final for: 7 
+available for: 7 from 68 to 69
+initial for: 
+final for: 10 
+available for: 10 from 70 to 71
+initial for: 
+final for: 11 
+available for: 11 from 93 to 94
+initial for: 
+final for: 17 
+available for: 17 from 96 to 7
+initial for: 
+final for: 
+available for: 18 from 99 to 7
+initial for: 
+final for: 
+available for: 19 ---CURRENT MATCHING PATH---
+0: 0 [] | 1: 0 [] | 2: 0 [] | 3: 0 [] | 4: 0 [] | 5: 0 [] | 6: 0 [] | 7: 0 [] | 8: 0 [] | 9: 0 [] | 10: 0 [] | 11: 0 [] | 12: 0 [] | 13: 0 [] | 14: 0 [] | 15: 0 [] | 16: 0 [] | 17: 0 [] | 18: 0 [] | 19: 0 [] | 20: 0 [] | 21: 0 [] | 22: 0 [] | 23: 0 [] | 24: 0 [] | 25: 0 [] | 26: 0 [] | 27: 0 [] | 28: 0 [] | 29: 0 [] | 30: 0 [] | 31: 0 [] | 32: 0 [] | 33: 0 [] | 34: 0 [] | 35: 0 [] | 36: 0 [] | 37: 0 [] | 38: 0 [] | 39: 0 [] | 40: 0 [] | 41: 0 [] | 42: 0 [] | 43: 0 [] | 44: 0 [] | 45: 0 [] | 46: 0 [] | 47: 0 [] | 48: 0 [] | 49: 0 [] | 50: 0 [] | 51: 0 [] | 52: 0 [] | 53: 0 [] | 54: 0 [] | 55: 0 [] | 56: 0 [] | 57: 0 [] | 58: 0 [] | 59: 0 [] | 60: 0 [] | 61: 0 [] | 62: 0 [] | 63: 0 [] | 64: 0 [] | 65: 0 [] | 66: 0 [] | 67: 0 [] | 68: 0 [] | 69: 0 [] | 70: 0 [] | 71: 0 [] | 72: 0 [] | 73: 0 [] | 74: 0 [] | 75: 0 [] | 76: 0 [] | 77: 0 [] | 78: 0 [] | 79: 0 [] | 80: 0 [] | 81: 0 [] | 82: 0 [] | 83: 0 [] | 84: 0 [] | 85: 0 [] | 86: 0 [] | 87: 0 [] | 88: 0 [] | 89: 0 [] | 90: 0 [] | 91: 0 [] | 92: 0 [] | 93: 0 [] | 94: 0 [] | 95: 0 [] | 96: 0 [] | 97: 0 [] | 98: 0 [] | 99: 0 [] | 100: 0 [] | 101: 0 [] | 102: 0 [] | 103: 0 [] | 
+--- matching 66 ---
+from 3 to 4
+initial for: 
+final for: 
+available for: 0 from 54 to 78
+initial for: 
+final for: 12 
+available for: 12 from 54 to 33
+initial for: 17 18 19 
+final for: 
+available for: 17 18 19 ---CURRENT MATCHING PATH---
+0: 0 [] | 1: 0 [] | 2: 0 [] | 3: 0 [] | 4: 0 [] | 5: 0 [] | 6: 0 [] | 7: 0 [] | 8: 0 [] | 9: 0 [] | 10: 0 [] | 11: 0 [] | 12: 0 [] | 13: 0 [] | 14: 0 [] | 15: 0 [] | 16: 0 [] | 17: 0 [] | 18: 0 [] | 19: 0 [] | 20: 0 [] | 21: 0 [] | 22: 0 [] | 23: 0 [] | 24: 0 [] | 25: 0 [] | 26: 0 [] | 27: 0 [] | 28: 0 [] | 29: 0 [] | 30: 0 [] | 31: 0 [] | 32: 0 [] | 33: 1 [17,18,19,] | 34: 0 [] | 35: 0 [] | 36: 0 [] | 37: 0 [] | 38: 0 [] | 39: 0 [] | 40: 0 [] | 41: 0 [] | 42: 0 [] | 43: 0 [] | 44: 0 [] | 45: 0 [] | 46: 0 [] | 47: 0 [] | 48: 0 [] | 49: 0 [] | 50: 0 [] | 51: 0 [] | 52: 0 [] | 53: 0 [] | 54: 0 [] | 55: 0 [] | 56: 0 [] | 57: 0 [] | 58: 0 [] | 59: 0 [] | 60: 0 [] | 61: 0 [] | 62: 0 [] | 63: 0 [] | 64: 0 [] | 65: 0 [] | 66: 0 [] | 67: 0 [] | 68: 0 [] | 69: 0 [] | 70: 0 [] | 71: 0 [] | 72: 0 [] | 73: 0 [] | 74: 0 [] | 75: 0 [] | 76: 0 [] | 77: 0 [] | 78: 0 [] | 79: 0 [] | 80: 0 [] | 81: 0 [] | 82: 0 [] | 83: 0 [] | 84: 0 [] | 85: 0 [] | 86: 0 [] | 87: 0 [] | 88: 0 [] | 89: 0 [] | 90: 0 [] | 91: 0 [] | 92: 0 [] | 93: 0 [] | 94: 0 [] | 95: 0 [] | 96: 0 [] | 97: 0 [] | 98: 0 [] | 99: 0 [] | 100: 0 [] | 101: 0 [] | 102: 0 [] | 103: 0 [] | 
+--- matching 49 ---
+from 33 to 46
+initial for: 
+final for: 
+available for: 7 8 currently active: 17 18 19 
+available: 7 8 
+from 47 to 36
+initial for: 
+final for: 
+available for: 7 from 59 to 46
+initial for: 
+final for: 
+available for: 9 from 73 to 46
+initial for: 
+final for: 
+available for: 12 ---CURRENT MATCHING PATH---
+0: 0 [] | 1: 0 [] | 2: 0 [] | 3: 0 [] | 4: 0 [] | 5: 0 [] | 6: 0 [] | 7: 0 [] | 8: 0 [] | 9: 0 [] | 10: 0 [] | 11: 0 [] | 12: 0 [] | 13: 0 [] | 14: 0 [] | 15: 0 [] | 16: 0 [] | 17: 0 [] | 18: 0 [] | 19: 0 [] | 20: 0 [] | 21: 0 [] | 22: 0 [] | 23: 0 [] | 24: 0 [] | 25: 0 [] | 26: 0 [] | 27: 0 [] | 28: 0 [] | 29: 0 [] | 30: 0 [] | 31: 0 [] | 32: 0 [] | 33: 0 [] | 34: 0 [] | 35: 0 [] | 36: 0 [] | 37: 0 [] | 38: 0 [] | 39: 0 [] | 40: 0 [] | 41: 0 [] | 42: 0 [] | 43: 0 [] | 44: 0 [] | 45: 0 [] | 46: 0 [] | 47: 0 [] | 48: 0 [] | 49: 0 [] | 50: 0 [] | 51: 0 [] | 52: 0 [] | 53: 0 [] | 54: 0 [] | 55: 0 [] | 56: 0 [] | 57: 0 [] | 58: 0 [] | 59: 0 [] | 60: 0 [] | 61: 0 [] | 62: 0 [] | 63: 0 [] | 64: 0 [] | 65: 0 [] | 66: 0 [] | 67: 0 [] | 68: 0 [] | 69: 0 [] | 70: 0 [] | 71: 0 [] | 72: 0 [] | 73: 0 [] | 74: 0 [] | 75: 0 [] | 76: 0 [] | 77: 0 [] | 78: 0 [] | 79: 0 [] | 80: 0 [] | 81: 0 [] | 82: 0 [] | 83: 0 [] | 84: 0 [] | 85: 0 [] | 86: 0 [] | 87: 0 [] | 88: 0 [] | 89: 0 [] | 90: 0 [] | 91: 0 [] | 92: 0 [] | 93: 0 [] | 94: 0 [] | 95: 0 [] | 96: 0 [] | 97: 0 [] | 98: 0 [] | 99: 0 [] | 100: 0 [] | 101: 0 [] | 102: 0 [] | 103: 0 [] | 
+--- matching 4c ---
+from 34 to 35
+initial for: 
+final for: 
+available for: 5 8 from 34 to 41
+initial for: 
+final for: 
+available for: 6 from 34 to 92
+initial for: 
+final for: 
+available for: 17 from 34 to 95
+initial for: 
+final for: 
+available for: 18 from 34 to 98
+initial for: 
+final for: 
+available for: 19 ---CURRENT MATCHING PATH---
+0: 0 [] | 1: 0 [] | 2: 0 [] | 3: 0 [] | 4: 0 [] | 5: 0 [] | 6: 0 [] | 7: 0 [] | 8: 0 [] | 9: 0 [] | 10: 0 [] | 11: 0 [] | 12: 0 [] | 13: 0 [] | 14: 0 [] | 15: 0 [] | 16: 0 [] | 17: 0 [] | 18: 0 [] | 19: 0 [] | 20: 0 [] | 21: 0 [] | 22: 0 [] | 23: 0 [] | 24: 0 [] | 25: 0 [] | 26: 0 [] | 27: 0 [] | 28: 0 [] | 29: 0 [] | 30: 0 [] | 31: 0 [] | 32: 0 [] | 33: 0 [] | 34: 0 [] | 35: 0 [] | 36: 0 [] | 37: 0 [] | 38: 0 [] | 39: 0 [] | 40: 0 [] | 41: 0 [] | 42: 0 [] | 43: 0 [] | 44: 0 [] | 45: 0 [] | 46: 0 [] | 47: 0 [] | 48: 0 [] | 49: 0 [] | 50: 0 [] | 51: 0 [] | 52: 0 [] | 53: 0 [] | 54: 0 [] | 55: 0 [] | 56: 0 [] | 57: 0 [] | 58: 0 [] | 59: 0 [] | 60: 0 [] | 61: 0 [] | 62: 0 [] | 63: 0 [] | 64: 0 [] | 65: 0 [] | 66: 0 [] | 67: 0 [] | 68: 0 [] | 69: 0 [] | 70: 0 [] | 71: 0 [] | 72: 0 [] | 73: 0 [] | 74: 0 [] | 75: 0 [] | 76: 0 [] | 77: 0 [] | 78: 0 [] | 79: 0 [] | 80: 0 [] | 81: 0 [] | 82: 0 [] | 83: 0 [] | 84: 0 [] | 85: 0 [] | 86: 0 [] | 87: 0 [] | 88: 0 [] | 89: 0 [] | 90: 0 [] | 91: 0 [] | 92: 0 [] | 93: 0 [] | 94: 0 [] | 95: 0 [] | 96: 0 [] | 97: 0 [] | 98: 0 [] | 99: 0 [] | 100: 0 [] | 101: 0 [] | 102: 0 [] | 103: 0 [] | 
+--- matching 65 ---
+from 11 to 12
+initial for: 
+final for: 
+available for: 1 from 14 to 12
+initial for: 
+final for: 
+available for: 2 from 7 to 12
+initial for: 
+final for: 
+available for: 16 from 89 to 90
+initial for: 
+final for: 
+available for: 16 from 33 to 34
+initial for: 
+final for: 
+available for: 5 6 12 13 14 15 17 18 19 from 35 to 36
+initial for: 
+final for: 
+available for: 5 13 from 37 to 38
+initial for: 
+final for: 
+available for: 5 from 53 to 34
+initial for: 
+final for: 
+available for: 9 from 63 to 34
+initial for: 
+final for: 
+available for: 10 from 67 to 68
+initial for: 
+final for: 
+available for: 10 from 74 to 75
+initial for: 
+final for: 
+available for: 12 from 92 to 93
+initial for: 
+final for: 
+available for: 17 from 95 to 96
+initial for: 
+final for: 
+available for: 18 from 98 to 99
+initial for: 
+final for: 
+available for: 19 ---CURRENT MATCHING PATH---
+0: 0 [] | 1: 0 [] | 2: 0 [] | 3: 0 [] | 4: 0 [] | 5: 0 [] | 6: 0 [] | 7: 0 [] | 8: 0 [] | 9: 0 [] | 10: 0 [] | 11: 0 [] | 12: 0 [] | 13: 0 [] | 14: 0 [] | 15: 0 [] | 16: 0 [] | 17: 0 [] | 18: 0 [] | 19: 0 [] | 20: 0 [] | 21: 0 [] | 22: 0 [] | 23: 0 [] | 24: 0 [] | 25: 0 [] | 26: 0 [] | 27: 0 [] | 28: 0 [] | 29: 0 [] | 30: 0 [] | 31: 0 [] | 32: 0 [] | 33: 0 [] | 34: 0 [] | 35: 0 [] | 36: 0 [] | 37: 0 [] | 38: 0 [] | 39: 0 [] | 40: 0 [] | 41: 0 [] | 42: 0 [] | 43: 0 [] | 44: 0 [] | 45: 0 [] | 46: 0 [] | 47: 0 [] | 48: 0 [] | 49: 0 [] | 50: 0 [] | 51: 0 [] | 52: 0 [] | 53: 0 [] | 54: 0 [] | 55: 0 [] | 56: 0 [] | 57: 0 [] | 58: 0 [] | 59: 0 [] | 60: 0 [] | 61: 0 [] | 62: 0 [] | 63: 0 [] | 64: 0 [] | 65: 0 [] | 66: 0 [] | 67: 0 [] | 68: 0 [] | 69: 0 [] | 70: 0 [] | 71: 0 [] | 72: 0 [] | 73: 0 [] | 74: 0 [] | 75: 0 [] | 76: 0 [] | 77: 0 [] | 78: 0 [] | 79: 0 [] | 80: 0 [] | 81: 0 [] | 82: 0 [] | 83: 0 [] | 84: 0 [] | 85: 0 [] | 86: 0 [] | 87: 0 [] | 88: 0 [] | 89: 0 [] | 90: 0 [] | 91: 0 [] | 92: 0 [] | 93: 0 [] | 94: 0 [] | 95: 0 [] | 96: 0 [] | 97: 0 [] | 98: 0 [] | 99: 0 [] | 100: 0 [] | 101: 0 [] | 102: 0 [] | 103: 0 [] | 
+--- matching 3d ---
+from 14 to 6
+initial for: 
+final for: 4 
+available for: 1 4 8 from 42 to 48
+initial for: 
+final for: 7 
+available for: 7 from 68 to 69
+initial for: 
+final for: 10 
+available for: 10 from 70 to 71
+initial for: 
+final for: 11 
+available for: 11 from 93 to 94
+initial for: 
+final for: 17 
+available for: 17 from 96 to 7
+initial for: 
+final for: 
+available for: 18 from 99 to 7
+initial for: 
+final for: 
+available for: 19 ---CURRENT MATCHING PATH---
+0: 0 [] | 1: 0 [] | 2: 0 [] | 3: 0 [] | 4: 0 [] | 5: 0 [] | 6: 0 [] | 7: 0 [] | 8: 0 [] | 9: 0 [] | 10: 0 [] | 11: 0 [] | 12: 0 [] | 13: 0 [] | 14: 0 [] | 15: 0 [] | 16: 0 [] | 17: 0 [] | 18: 0 [] | 19: 0 [] | 20: 0 [] | 21: 0 [] | 22: 0 [] | 23: 0 [] | 24: 0 [] | 25: 0 [] | 26: 0 [] | 27: 0 [] | 28: 0 [] | 29: 0 [] | 30: 0 [] | 31: 0 [] | 32: 0 [] | 33: 0 [] | 34: 0 [] | 35: 0 [] | 36: 0 [] | 37: 0 [] | 38: 0 [] | 39: 0 [] | 40: 0 [] | 41: 0 [] | 42: 0 [] | 43: 0 [] | 44: 0 [] | 45: 0 [] | 46: 0 [] | 47: 0 [] | 48: 0 [] | 49: 0 [] | 50: 0 [] | 51: 0 [] | 52: 0 [] | 53: 0 [] | 54: 0 [] | 55: 0 [] | 56: 0 [] | 57: 0 [] | 58: 0 [] | 59: 0 [] | 60: 0 [] | 61: 0 [] | 62: 0 [] | 63: 0 [] | 64: 0 [] | 65: 0 [] | 66: 0 [] | 67: 0 [] | 68: 0 [] | 69: 0 [] | 70: 0 [] | 71: 0 [] | 72: 0 [] | 73: 0 [] | 74: 0 [] | 75: 0 [] | 76: 0 [] | 77: 0 [] | 78: 0 [] | 79: 0 [] | 80: 0 [] | 81: 0 [] | 82: 0 [] | 83: 0 [] | 84: 0 [] | 85: 0 [] | 86: 0 [] | 87: 0 [] | 88: 0 [] | 89: 0 [] | 90: 0 [] | 91: 0 [] | 92: 0 [] | 93: 0 [] | 94: 0 [] | 95: 0 [] | 96: 0 [] | 97: 0 [] | 98: 0 [] | 99: 0 [] | 100: 0 [] | 101: 0 [] | 102: 0 [] | 103: 0 [] | 
+--- matching 3d ---
+from 14 to 6
+initial for: 
+final for: 4 
+available for: 1 4 8 from 42 to 48
+initial for: 
+final for: 7 
+available for: 7 from 68 to 69
+initial for: 
+final for: 10 
+available for: 10 from 70 to 71
+initial for: 
+final for: 11 
+available for: 11 from 93 to 94
+initial for: 
+final for: 17 
+available for: 17 from 96 to 7
+initial for: 
+final for: 
+available for: 18 from 99 to 7
+initial for: 
+final for: 
+available for: 19 ---CURRENT MATCHING PATH---
+0: 0 [] | 1: 0 [] | 2: 0 [] | 3: 0 [] | 4: 0 [] | 5: 0 [] | 6: 0 [] | 7: 0 [] | 8: 0 [] | 9: 0 [] | 10: 0 [] | 11: 0 [] | 12: 0 [] | 13: 0 [] | 14: 0 [] | 15: 0 [] | 16: 0 [] | 17: 0 [] | 18: 0 [] | 19: 0 [] | 20: 0 [] | 21: 0 [] | 22: 0 [] | 23: 0 [] | 24: 0 [] | 25: 0 [] | 26: 0 [] | 27: 0 [] | 28: 0 [] | 29: 0 [] | 30: 0 [] | 31: 0 [] | 32: 0 [] | 33: 0 [] | 34: 0 [] | 35: 0 [] | 36: 0 [] | 37: 0 [] | 38: 0 [] | 39: 0 [] | 40: 0 [] | 41: 0 [] | 42: 0 [] | 43: 0 [] | 44: 0 [] | 45: 0 [] | 46: 0 [] | 47: 0 [] | 48: 0 [] | 49: 0 [] | 50: 0 [] | 51: 0 [] | 52: 0 [] | 53: 0 [] | 54: 0 [] | 55: 0 [] | 56: 0 [] | 57: 0 [] | 58: 0 [] | 59: 0 [] | 60: 0 [] | 61: 0 [] | 62: 0 [] | 63: 0 [] | 64: 0 [] | 65: 0 [] | 66: 0 [] | 67: 0 [] | 68: 0 [] | 69: 0 [] | 70: 0 [] | 71: 0 [] | 72: 0 [] | 73: 0 [] | 74: 0 [] | 75: 0 [] | 76: 0 [] | 77: 0 [] | 78: 0 [] | 79: 0 [] | 80: 0 [] | 81: 0 [] | 82: 0 [] | 83: 0 [] | 84: 0 [] | 85: 0 [] | 86: 0 [] | 87: 0 [] | 88: 0 [] | 89: 0 [] | 90: 0 [] | 91: 0 [] | 92: 0 [] | 93: 0 [] | 94: 0 [] | 95: 0 [] | 96: 0 [] | 97: 0 [] | 98: 0 [] | 99: 0 [] | 100: 0 [] | 101: 0 [] | 102: 0 [] | 103: 0 [] | 
+--- matching 70 ---
+from 20 to 21
+initial for: 
+final for: 
+available for: 2 3 from 82 to 58
+initial for: 
+final for: 
+available for: 14 ---CURRENT MATCHING PATH---
+0: 0 [] | 1: 0 [] | 2: 0 [] | 3: 0 [] | 4: 0 [] | 5: 0 [] | 6: 0 [] | 7: 0 [] | 8: 0 [] | 9: 0 [] | 10: 0 [] | 11: 0 [] | 12: 0 [] | 13: 0 [] | 14: 0 [] | 15: 0 [] | 16: 0 [] | 17: 0 [] | 18: 0 [] | 19: 0 [] | 20: 0 [] | 21: 0 [] | 22: 0 [] | 23: 0 [] | 24: 0 [] | 25: 0 [] | 26: 0 [] | 27: 0 [] | 28: 0 [] | 29: 0 [] | 30: 0 [] | 31: 0 [] | 32: 0 [] | 33: 0 [] | 34: 0 [] | 35: 0 [] | 36: 0 [] | 37: 0 [] | 38: 0 [] | 39: 0 [] | 40: 0 [] | 41: 0 [] | 42: 0 [] | 43: 0 [] | 44: 0 [] | 45: 0 [] | 46: 0 [] | 47: 0 [] | 48: 0 [] | 49: 0 [] | 50: 0 [] | 51: 0 [] | 52: 0 [] | 53: 0 [] | 54: 0 [] | 55: 0 [] | 56: 0 [] | 57: 0 [] | 58: 0 [] | 59: 0 [] | 60: 0 [] | 61: 0 [] | 62: 0 [] | 63: 0 [] | 64: 0 [] | 65: 0 [] | 66: 0 [] | 67: 0 [] | 68: 0 [] | 69: 0 [] | 70: 0 [] | 71: 0 [] | 72: 0 [] | 73: 0 [] | 74: 0 [] | 75: 0 [] | 76: 0 [] | 77: 0 [] | 78: 0 [] | 79: 0 [] | 80: 0 [] | 81: 0 [] | 82: 0 [] | 83: 0 [] | 84: 0 [] | 85: 0 [] | 86: 0 [] | 87: 0 [] | 88: 0 [] | 89: 0 [] | 90: 0 [] | 91: 0 [] | 92: 0 [] | 93: 0 [] | 94: 0 [] | 95: 0 [] | 96: 0 [] | 97: 0 [] | 98: 0 [] | 99: 0 [] | 100: 0 [] | 101: 0 [] | 102: 0 [] | 103: 0 [] | 
+--- matching 63 ---
+from 0 to 1
+initial for: 0 1 
+final for: 
+available for: 0 1 from 7 to 1
+initial for: 
+final for: 
+available for: 3 from 43 to 27
+initial for: 
+final for: 
+available for: 6 from 49 to 14
+initial for: 
+final for: 
+available for: 8 from 49 to 51
+initial for: 
+final for: 
+available for: 9 from 49 to 62
+initial for: 
+final for: 
+available for: 10 from 37 to 72
+initial for: 
+final for: 
+available for: 12 from 77 to 35
+initial for: 
+final for: 
+available for: 12 from 37 to 79
+initial for: 
+final for: 
+available for: 13 from 37 to 81
+initial for: 
+final for: 
+available for: 14 from 37 to 85
+initial for: 
+final for: 
+available for: 15 ---CURRENT MATCHING PATH---
+0: 0 [] | 1: 1 [0,1,] | 2: 0 [] | 3: 0 [] | 4: 0 [] | 5: 0 [] | 6: 0 [] | 7: 0 [] | 8: 0 [] | 9: 0 [] | 10: 0 [] | 11: 0 [] | 12: 0 [] | 13: 0 [] | 14: 0 [] | 15: 0 [] | 16: 0 [] | 17: 0 [] | 18: 0 [] | 19: 0 [] | 20: 0 [] | 21: 0 [] | 22: 0 [] | 23: 0 [] | 24: 0 [] | 25: 0 [] | 26: 0 [] | 27: 0 [] | 28: 0 [] | 29: 0 [] | 30: 0 [] | 31: 0 [] | 32: 0 [] | 33: 0 [] | 34: 0 [] | 35: 0 [] | 36: 0 [] | 37: 0 [] | 38: 0 [] | 39: 0 [] | 40: 0 [] | 41: 0 [] | 42: 0 [] | 43: 0 [] | 44: 0 [] | 45: 0 [] | 46: 0 [] | 47: 0 [] | 48: 0 [] | 49: 0 [] | 50: 0 [] | 51: 0 [] | 52: 0 [] | 53: 0 [] | 54: 0 [] | 55: 0 [] | 56: 0 [] | 57: 0 [] | 58: 0 [] | 59: 0 [] | 60: 0 [] | 61: 0 [] | 62: 0 [] | 63: 0 [] | 64: 0 [] | 65: 0 [] | 66: 0 [] | 67: 0 [] | 68: 0 [] | 69: 0 [] | 70: 0 [] | 71: 0 [] | 72: 0 [] | 73: 0 [] | 74: 0 [] | 75: 0 [] | 76: 0 [] | 77: 0 [] | 78: 0 [] | 79: 0 [] | 80: 0 [] | 81: 0 [] | 82: 0 [] | 83: 0 [] | 84: 0 [] | 85: 0 [] | 86: 0 [] | 87: 0 [] | 88: 0 [] | 89: 0 [] | 90: 0 [] | 91: 0 [] | 92: 0 [] | 93: 0 [] | 94: 0 [] | 95: 0 [] | 96: 0 [] | 97: 0 [] | 98: 0 [] | 99: 0 [] | 100: 0 [] | 101: 0 [] | 102: 0 [] | 103: 0 [] | 
+--- matching 63 ---
+from 0 to 1
+initial for: 0 1 
+final for: 
+available for: 0 1 from 7 to 1
+initial for: 
+final for: 
+available for: 3 from 43 to 27
+initial for: 
+final for: 
+available for: 6 from 49 to 14
+initial for: 
+final for: 
+available for: 8 from 49 to 51
+initial for: 
+final for: 
+available for: 9 from 49 to 62
+initial for: 
+final for: 
+available for: 10 from 37 to 72
+initial for: 
+final for: 
+available for: 12 from 77 to 35
+initial for: 
+final for: 
+available for: 12 from 37 to 79
+initial for: 
+final for: 
+available for: 13 from 37 to 81
+initial for: 
+final for: 
+available for: 14 from 37 to 85
+initial for: 
+final for: 
+available for: 15 ---CURRENT MATCHING PATH---
+0: 0 [] | 1: 1 [0,1,] | 2: 0 [] | 3: 0 [] | 4: 0 [] | 5: 0 [] | 6: 0 [] | 7: 0 [] | 8: 0 [] | 9: 0 [] | 10: 0 [] | 11: 0 [] | 12: 0 [] | 13: 0 [] | 14: 0 [] | 15: 0 [] | 16: 0 [] | 17: 0 [] | 18: 0 [] | 19: 0 [] | 20: 0 [] | 21: 0 [] | 22: 0 [] | 23: 0 [] | 24: 0 [] | 25: 0 [] | 26: 0 [] | 27: 0 [] | 28: 0 [] | 29: 0 [] | 30: 0 [] | 31: 0 [] | 32: 0 [] | 33: 0 [] | 34: 0 [] | 35: 0 [] | 36: 0 [] | 37: 0 [] | 38: 0 [] | 39: 0 [] | 40: 0 [] | 41: 0 [] | 42: 0 [] | 43: 0 [] | 44: 0 [] | 45: 0 [] | 46: 0 [] | 47: 0 [] | 48: 0 [] | 49: 0 [] | 50: 0 [] | 51: 0 [] | 52: 0 [] | 53: 0 [] | 54: 0 [] | 55: 0 [] | 56: 0 [] | 57: 0 [] | 58: 0 [] | 59: 0 [] | 60: 0 [] | 61: 0 [] | 62: 0 [] | 63: 0 [] | 64: 0 [] | 65: 0 [] | 66: 0 [] | 67: 0 [] | 68: 0 [] | 69: 0 [] | 70: 0 [] | 71: 0 [] | 72: 0 [] | 73: 0 [] | 74: 0 [] | 75: 0 [] | 76: 0 [] | 77: 0 [] | 78: 0 [] | 79: 0 [] | 80: 0 [] | 81: 0 [] | 82: 0 [] | 83: 0 [] | 84: 0 [] | 85: 0 [] | 86: 0 [] | 87: 0 [] | 88: 0 [] | 89: 0 [] | 90: 0 [] | 91: 0 [] | 92: 0 [] | 93: 0 [] | 94: 0 [] | 95: 0 [] | 96: 0 [] | 97: 0 [] | 98: 0 [] | 99: 0 [] | 100: 0 [] | 101: 0 [] | 102: 0 [] | 103: 0 [] | 
+--- matching 53 ---
+from 16 to 42
+initial for: 
+final for: 
+available for: 6 14 15 from 37 to 42
+initial for: 
+final for: 
+available for: 7 from 46 to 36
+initial for: 
+final for: 
+available for: 8 from 42 to 83
+initial for: 
+final for: 
+available for: 14 ---CURRENT MATCHING PATH---
+0: 0 [] | 1: 0 [] | 2: 0 [] | 3: 0 [] | 4: 0 [] | 5: 0 [] | 6: 0 [] | 7: 0 [] | 8: 0 [] | 9: 0 [] | 10: 0 [] | 11: 0 [] | 12: 0 [] | 13: 0 [] | 14: 0 [] | 15: 0 [] | 16: 0 [] | 17: 0 [] | 18: 0 [] | 19: 0 [] | 20: 0 [] | 21: 0 [] | 22: 0 [] | 23: 0 [] | 24: 0 [] | 25: 0 [] | 26: 0 [] | 27: 0 [] | 28: 0 [] | 29: 0 [] | 30: 0 [] | 31: 0 [] | 32: 0 [] | 33: 0 [] | 34: 0 [] | 35: 0 [] | 36: 0 [] | 37: 0 [] | 38: 0 [] | 39: 0 [] | 40: 0 [] | 41: 0 [] | 42: 0 [] | 43: 0 [] | 44: 0 [] | 45: 0 [] | 46: 0 [] | 47: 0 [] | 48: 0 [] | 49: 0 [] | 50: 0 [] | 51: 0 [] | 52: 0 [] | 53: 0 [] | 54: 0 [] | 55: 0 [] | 56: 0 [] | 57: 0 [] | 58: 0 [] | 59: 0 [] | 60: 0 [] | 61: 0 [] | 62: 0 [] | 63: 0 [] | 64: 0 [] | 65: 0 [] | 66: 0 [] | 67: 0 [] | 68: 0 [] | 69: 0 [] | 70: 0 [] | 71: 0 [] | 72: 0 [] | 73: 0 [] | 74: 0 [] | 75: 0 [] | 76: 0 [] | 77: 0 [] | 78: 0 [] | 79: 0 [] | 80: 0 [] | 81: 0 [] | 82: 0 [] | 83: 0 [] | 84: 0 [] | 85: 0 [] | 86: 0 [] | 87: 0 [] | 88: 0 [] | 89: 0 [] | 90: 0 [] | 91: 0 [] | 92: 0 [] | 93: 0 [] | 94: 0 [] | 95: 0 [] | 96: 0 [] | 97: 0 [] | 98: 0 [] | 99: 0 [] | 100: 0 [] | 101: 0 [] | 102: 0 [] | 103: 0 [] | 
+--- matching 6d ---
+from 52 to 53
+initial for: 
+final for: 
+available for: 9 from 57 to 58
+initial for: 
+final for: 
+available for: 9 from 52 to 63
+initial for: 
+final for: 
+available for: 10 from 66 to 67
+initial for: 
+final for: 
+available for: 10 from 52 to 35
+initial for: 
+final for: 
+available for: 13 ---CURRENT MATCHING PATH---
+0: 0 [] | 1: 0 [] | 2: 0 [] | 3: 0 [] | 4: 0 [] | 5: 0 [] | 6: 0 [] | 7: 0 [] | 8: 0 [] | 9: 0 [] | 10: 0 [] | 11: 0 [] | 12: 0 [] | 13: 0 [] | 14: 0 [] | 15: 0 [] | 16: 0 [] | 17: 0 [] | 18: 0 [] | 19: 0 [] | 20: 0 [] | 21: 0 [] | 22: 0 [] | 23: 0 [] | 24: 0 [] | 25: 0 [] | 26: 0 [] | 27: 0 [] | 28: 0 [] | 29: 0 [] | 30: 0 [] | 31: 0 [] | 32: 0 [] | 33: 0 [] | 34: 0 [] | 35: 0 [] | 36: 0 [] | 37: 0 [] | 38: 0 [] | 39: 0 [] | 40: 0 [] | 41: 0 [] | 42: 0 [] | 43: 0 [] | 44: 0 [] | 45: 0 [] | 46: 0 [] | 47: 0 [] | 48: 0 [] | 49: 0 [] | 50: 0 [] | 51: 0 [] | 52: 0 [] | 53: 0 [] | 54: 0 [] | 55: 0 [] | 56: 0 [] | 57: 0 [] | 58: 0 [] | 59: 0 [] | 60: 0 [] | 61: 0 [] | 62: 0 [] | 63: 0 [] | 64: 0 [] | 65: 0 [] | 66: 0 [] | 67: 0 [] | 68: 0 [] | 69: 0 [] | 70: 0 [] | 71: 0 [] | 72: 0 [] | 73: 0 [] | 74: 0 [] | 75: 0 [] | 76: 0 [] | 77: 0 [] | 78: 0 [] | 79: 0 [] | 80: 0 [] | 81: 0 [] | 82: 0 [] | 83: 0 [] | 84: 0 [] | 85: 0 [] | 86: 0 [] | 87: 0 [] | 88: 0 [] | 89: 0 [] | 90: 0 [] | 91: 0 [] | 92: 0 [] | 93: 0 [] | 94: 0 [] | 95: 0 [] | 96: 0 [] | 97: 0 [] | 98: 0 [] | 99: 0 [] | 100: 0 [] | 101: 0 [] | 102: 0 [] | 103: 0 [] | 
 --- matching 79 ---
 ---CURRENT MATCHING PATH---
-0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 
---- matching 65 ---
+0: 0 [] | 1: 0 [] | 2: 0 [] | 3: 0 [] | 4: 0 [] | 5: 0 [] | 6: 0 [] | 7: 0 [] | 8: 0 [] | 9: 0 [] | a: 0 [] | b: 0 [] | c: 0 [] | d: 0 [] | e: 0 [] | f: 0 [] | 10: 0 [] | 11: 0 [] | 12: 0 [] | 13: 0 [] | 14: 0 [] | 15: 0 [] | 16: 0 [] | 17: 0 [] | 18: 0 [] | 19: 0 [] | 1a: 0 [] | 1b: 0 [] | 1c: 0 [] | 1d: 0 [] | 1e: 0 [] | 1f: 0 [] | 20: 0 [] | 21: 0 [] | 22: 0 [] | 23: 0 [] | 24: 0 [] | 25: 0 [] | 26: 0 [] | 27: 0 [] | 28: 0 [] | 29: 0 [] | 2a: 0 [] | 2b: 0 [] | 2c: 0 [] | 2d: 0 [] | 2e: 0 [] | 2f: 0 [] | 30: 0 [] | 31: 0 [] | 32: 0 [] | 33: 0 [] | 34: 0 [] | 35: 0 [] | 36: 0 [] | 37: 0 [] | 38: 0 [] | 39: 0 [] | 3a: 0 [] | 3b: 0 [] | 3c: 0 [] | 3d: 0 [] | 3e: 0 [] | 3f: 0 [] | 40: 0 [] | 41: 0 [] | 42: 0 [] | 43: 0 [] | 44: 0 [] | 45: 0 [] | 46: 0 [] | 47: 0 [] | 48: 0 [] | 49: 0 [] | 4a: 0 [] | 4b: 0 [] | 4c: 0 [] | 4d: 0 [] | 4e: 0 [] | 4f: 0 [] | 50: 0 [] | 51: 0 [] | 52: 0 [] | 53: 0 [] | 54: 0 [] | 55: 0 [] | 56: 0 [] | 57: 0 [] | 58: 0 [] | 59: 0 [] | 5a: 0 [] | 5b: 0 [] | 5c: 0 [] | 5d: 0 [] | 5e: 0 [] | 5f: 0 [] | 60: 0 [] | 61: 0 [] | 62: 0 [] | 63: 0 [] | 64: 0 [] | 65: 0 [] | 66: 0 [] | 67: 0 [] | 
+--- matching 73 ---
+from 5 to 20
+initial for: 
+final for: 
+available for: 2 from 22 to 23
+initial for: 
+final for: 
+available for: 2 from 1 to 20
+initial for: 
+final for: 
+available for: 3 from 16 to 42
+initial for: 
+final for: 
+available for: 6 14 15 from 37 to 42
+initial for: 
+final for: 
+available for: 7 from 46 to 36
+initial for: 
+final for: 
+available for: 8 from 42 to 83
+initial for: 
+final for: 
+available for: 14 ---CURRENT MATCHING PATH---
+0: 0 [] | 1: 0 [] | 2: 0 [] | 3: 0 [] | 4: 0 [] | 5: 0 [] | 6: 0 [] | 7: 0 [] | 8: 0 [] | 9: 0 [] | 10: 0 [] | 11: 0 [] | 12: 0 [] | 13: 0 [] | 14: 0 [] | 15: 0 [] | 16: 0 [] | 17: 0 [] | 18: 0 [] | 19: 0 [] | 20: 0 [] | 21: 0 [] | 22: 0 [] | 23: 0 [] | 24: 0 [] | 25: 0 [] | 26: 0 [] | 27: 0 [] | 28: 0 [] | 29: 0 [] | 30: 0 [] | 31: 0 [] | 32: 0 [] | 33: 0 [] | 34: 0 [] | 35: 0 [] | 36: 0 [] | 37: 0 [] | 38: 0 [] | 39: 0 [] | 40: 0 [] | 41: 0 [] | 42: 0 [] | 43: 0 [] | 44: 0 [] | 45: 0 [] | 46: 0 [] | 47: 0 [] | 48: 0 [] | 49: 0 [] | 50: 0 [] | 51: 0 [] | 52: 0 [] | 53: 0 [] | 54: 0 [] | 55: 0 [] | 56: 0 [] | 57: 0 [] | 58: 0 [] | 59: 0 [] | 60: 0 [] | 61: 0 [] | 62: 0 [] | 63: 0 [] | 64: 0 [] | 65: 0 [] | 66: 0 [] | 67: 0 [] | 68: 0 [] | 69: 0 [] | 70: 0 [] | 71: 0 [] | 72: 0 [] | 73: 0 [] | 74: 0 [] | 75: 0 [] | 76: 0 [] | 77: 0 [] | 78: 0 [] | 79: 0 [] | 80: 0 [] | 81: 0 [] | 82: 0 [] | 83: 0 [] | 84: 0 [] | 85: 0 [] | 86: 0 [] | 87: 0 [] | 88: 0 [] | 89: 0 [] | 90: 0 [] | 91: 0 [] | 92: 0 [] | 93: 0 [] | 94: 0 [] | 95: 0 [] | 96: 0 [] | 97: 0 [] | 98: 0 [] | 99: 0 [] | 100: 0 [] | 101: 0 [] | 102: 0 [] | 103: 0 [] | 
+--- matching 71 ---
 ---CURRENT MATCHING PATH---
-0 [] | 1 [0,] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 
---- matching 116 ---
----CURRENT MATCHING PATH---
-0 [] | 0 [] | 1 [0,] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 
---- matching 116 ---
----CURRENT MATCHING PATH---
-0 [] | 0 [] | 0 [] | 1 [0,] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 
---- matching 97 ---
----CURRENT MATCHING PATH---
-0 [] | 0 [] | 0 [] | 0 [] | 1 [0,] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 
---- matching 99 ---
----CURRENT MATCHING PATH---
-0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 1 [0,] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 
---- matching 104 ---
----CURRENT MATCHING PATH---
-0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 1 [0,] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 
---- matching 101 ---
----CURRENT MATCHING PATH---
-0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 1 [0,] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 
---- matching 100 ---
----CURRENT MATCHING PATH---
-0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 1 [0,] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 
---- matching 10 ---
----CURRENT MATCHING PATH---
-0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 1 [0,] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 
---- matching 102 ---
----CURRENT MATCHING PATH---
-0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 1 [0,] | 1 [0,] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 
---- matching 105 ---
----CURRENT MATCHING PATH---
-0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 1 [0,] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 
---- matching 108 ---
----CURRENT MATCHING PATH---
-0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 1 [0,] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 
---- matching 101 ---
----CURRENT MATCHING PATH---
-0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 1 [0,] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 
---- matching 32 ---
----CURRENT MATCHING PATH---
-0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 1 [0,] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 
---- matching 105 ---
----CURRENT MATCHING PATH---
-0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 1 [0,] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 
---- matching 115 ---
----CURRENT MATCHING PATH---
-0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 1 [0,] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 
---- matching 32 ---
----CURRENT MATCHING PATH---
-0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 1 [0,] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 
---- matching 80 ---
----CURRENT MATCHING PATH---
-0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 1 [0,] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 
---- matching 67 ---
----CURRENT MATCHING PATH---
-0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 1 [0,] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 
---- matching 12 ---
----CURRENT MATCHING PATH---
-0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 
---- matching 65 ---
----CURRENT MATCHING PATH---
-0 [] | 1 [0,] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 
---- matching 99 ---
----CURRENT MATCHING PATH---
-0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 
---- matching 109 ---
----CURRENT MATCHING PATH---
-0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 
---- matching 101 ---
----CURRENT MATCHING PATH---
-0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 
---- matching 9 ---
----CURRENT MATCHING PATH---
-0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 
---- matching 114 ---
----CURRENT MATCHING PATH---
-0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 
---- matching 101 ---
----CURRENT MATCHING PATH---
-0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 
---- matching 112 ---
----CURRENT MATCHING PATH---
-0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 
---- matching 111 ---
----CURRENT MATCHING PATH---
-0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 
---- matching 114 ---
----CURRENT MATCHING PATH---
-0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 
---- matching 116 ---
----CURRENT MATCHING PATH---
-0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 
---- matching 72 ---
----CURRENT MATCHING PATH---
-0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 
---- matching 101 ---
----CURRENT MATCHING PATH---
-0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 
---- matching 108 ---
----CURRENT MATCHING PATH---
-0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 
---- matching 108 ---
----CURRENT MATCHING PATH---
-0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 
---- matching 111 ---
----CURRENT MATCHING PATH---
-0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 
---- matching 46 ---
----CURRENT MATCHING PATH---
-0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 
---- matching 12 ---
----CURRENT MATCHING PATH---
-0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 
---- matching 84 ---
----CURRENT MATCHING PATH---
-0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 
---- matching 104 ---
----CURRENT MATCHING PATH---
-0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 
---- matching 105 ---
----CURRENT MATCHING PATH---
-0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 
---- matching 115 ---
----CURRENT MATCHING PATH---
-0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 
---- matching 32 ---
----CURRENT MATCHING PATH---
-0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 
---- matching 156 ---
----CURRENT MATCHING PATH---
-0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 
---- matching 84 ---
----CURRENT MATCHING PATH---
-0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 
---- matching 104 ---
----CURRENT MATCHING PATH---
-0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 
---- matching 241 ---
----CURRENT MATCHING PATH---
-0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 
---- matching 79 ---
----CURRENT MATCHING PATH---
-0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 0 [] | 
---- matching 185 ---
-MFSA DIR: ../mfsa/tcp_1/
+0: 0 [] | 1: 0 [] | 2: 0 [] | 3: 0 [] | 4: 0 [] | 5: 0 [] | 6: 0 [] | 7: 0 [] | 8: 0 [] | 9: 0 [] | a: 0 [] | b: 0 [] | c: 0 [] | d: 0 [] | e: 0 [] | f: 0 [] | 10: 0 [] | 11: 0 [] | 12: 0 [] | 13: 0 [] | 14: 0 [] | 15: 0 [] | 16: 0 [] | 17: 0 [] | 18: 0 [] | 19: 0 [] | 1a: 0 [] | 1b: 0 [] | 1c: 0 [] | 1d: 0 [] | 1e: 0 [] | 1f: 0 [] | 20: 0 [] | 21: 0 [] | 22: 0 [] | 23: 0 [] | 24: 0 [] | 25: 0 [] | 26: 0 [] | 27: 0 [] | 28: 0 [] | 29: 0 [] | 2a: 0 [] | 2b: 0 [] | 2c: 0 [] | 2d: 0 [] | 2e: 0 [] | 2f: 0 [] | 30: 0 [] | 31: 0 [] | 32: 0 [] | 33: 0 [] | 34: 0 [] | 35: 0 [] | 36: 0 [] | 37: 0 [] | 38: 0 [] | 39: 0 [] | 3a: 0 [] | 3b: 0 [] | 3c: 0 [] | 3d: 0 [] | 3e: 0 [] | 3f: 0 [] | 40: 0 [] | 41: 0 [] | 42: 0 [] | 43: 0 [] | 44: 0 [] | 45: 0 [] | 46: 0 [] | 47: 0 [] | 48: 0 [] | 49: 0 [] | 4a: 0 [] | 4b: 0 [] | 4c: 0 [] | 4d: 0 [] | 4e: 0 [] | 4f: 0 [] | 50: 0 [] | 51: 0 [] | 52: 0 [] | 53: 0 [] | 54: 0 [] | 55: 0 [] | 56: 0 [] | 57: 0 [] | 58: 0 [] | 59: 0 [] | 5a: 0 [] | 5b: 0 [] | 5c: 0 [] | 5d: 0 [] | 5e: 0 [] | 5f: 0 [] | 60: 0 [] | 61: 0 [] | 62: 0 [] | 63: 0 [] | 64: 0 [] | 65: 0 [] | 66: 0 [] | 67: 0 [] | 
+--- matching a ---
+MFSA DIR: ../mfsa/bro_20/

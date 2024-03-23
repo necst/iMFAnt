@@ -1,0 +1,933 @@
+make: Nothing to be done for 'all'.
+../mfsa/bro_20/automaton3.anml
+structure created
+repetition 0
+automata 0
+PRINTING NFA
+character 20 enables the following transitions:
+from 38 to 39
+final for: 5 
+initial for: 
+active for: 5 
+character 26 enables the following transitions:
+from 40 to 32
+final for: 
+initial for: 6 
+active for: 6 
+character 28 enables the following transitions:
+from 60 to 61
+final for: 9 
+initial for: 
+active for: 9 
+character 2a enables the following transitions:
+from 44 to 6
+final for: 
+initial for: 
+active for: 6 
+from 7 to 45
+final for: 6 
+initial for: 
+active for: 6 
+character 2b enables the following transitions:
+from 41 to 15
+final for: 
+initial for: 
+active for: 6 
+from 42 to 43
+final for: 
+initial for: 
+active for: 6 
+character 2d enables the following transitions:
+from 18 to 19
+final for: 
+initial for: 
+active for: 2 
+character 2e enables the following transitions:
+from 6 to 7
+final for: 
+initial for: 3 16 
+active for: 0 1 3 6 16 
+from 7 to 15
+final for: 
+initial for: 
+active for: 1 18 19 
+from 21 to 29
+final for: 3 
+initial for: 
+active for: 3 
+from 6 to 55
+final for: 
+initial for: 
+active for: 9 
+from 76 to 77
+final for: 
+initial for: 
+active for: 12 
+from 90 to 91
+final for: 16 
+initial for: 
+active for: 16 
+from 15 to 97
+final for: 
+initial for: 
+active for: 18 
+from 15 to 100
+final for: 
+initial for: 
+active for: 19 
+from 16 to 101
+final for: 
+initial for: 
+active for: 19 
+from 101 to 102
+final for: 
+initial for: 
+active for: 19 
+character 2f enables the following transitions:
+from 15 to 16
+final for: 1 
+initial for: 
+active for: 1 6 
+from 15 to 33
+final for: 
+initial for: 12 13 14 15 
+active for: 12 13 14 15 
+from 72 to 73
+final for: 
+initial for: 
+active for: 12 
+from 79 to 52
+final for: 
+initial for: 
+active for: 13 
+from 81 to 82
+final for: 
+initial for: 
+active for: 14 
+from 85 to 16
+final for: 
+initial for: 
+active for: 15 
+from 97 to 16
+final for: 18 
+initial for: 
+active for: 18 
+from 100 to 16
+final for: 
+initial for: 
+active for: 19 
+from 102 to 103
+final for: 19 
+initial for: 
+active for: 19 
+character 3a enables the following transitions:
+from 27 to 28
+final for: 2 
+initial for: 
+active for: 2 6 
+character 3b enables the following transitions:
+from 6 to 50
+final for: 8 
+initial for: 
+active for: 8 
+character 3d enables the following transitions:
+from 14 to 6
+final for: 4 
+initial for: 
+active for: 1 4 8 
+from 42 to 48
+final for: 7 
+initial for: 
+active for: 7 
+from 68 to 69
+final for: 10 
+initial for: 
+active for: 10 
+from 70 to 71
+final for: 11 
+initial for: 
+active for: 11 
+from 93 to 94
+final for: 17 
+initial for: 
+active for: 17 
+from 96 to 7
+final for: 
+initial for: 
+active for: 18 
+from 99 to 7
+final for: 
+initial for: 
+active for: 19 
+character 41 enables the following transitions:
+from 58 to 59
+final for: 
+initial for: 
+active for: 9 
+from 54 to 66
+final for: 
+initial for: 
+active for: 10 
+from 58 to 16
+final for: 
+initial for: 
+active for: 14 
+from 86 to 32
+final for: 
+initial for: 
+active for: 15 
+character 43 enables the following transitions:
+from 17 to 1
+final for: 
+initial for: 2 
+active for: 2 
+from 43 to 27
+final for: 
+initial for: 
+active for: 6 
+from 49 to 14
+final for: 
+initial for: 
+active for: 8 
+from 49 to 51
+final for: 
+initial for: 
+active for: 9 
+from 49 to 62
+final for: 
+initial for: 
+active for: 10 
+from 37 to 72
+final for: 
+initial for: 
+active for: 12 
+from 77 to 35
+final for: 
+initial for: 
+active for: 12 
+from 37 to 79
+final for: 
+initial for: 
+active for: 13 
+from 37 to 81
+final for: 
+initial for: 
+active for: 14 
+from 37 to 85
+final for: 
+initial for: 
+active for: 15 
+character 44 enables the following transitions:
+from 19 to 4
+final for: 
+initial for: 
+active for: 2 
+from 32 to 33
+final for: 
+initial for: 5 7 8 9 10 
+active for: 5 6 7 8 9 10 
+from 55 to 56
+final for: 
+initial for: 
+active for: 9 
+from 32 to 76
+final for: 
+initial for: 
+active for: 12 
+from 32 to 80
+final for: 13 
+initial for: 
+active for: 13 
+from 32 to 84
+final for: 14 
+initial for: 
+active for: 14 
+from 32 to 87
+final for: 
+initial for: 
+active for: 15 
+character 45 enables the following transitions:
+from 33 to 34
+final for: 
+initial for: 
+active for: 5 6 12 13 14 15 17 18 19 
+from 35 to 36
+final for: 
+initial for: 
+active for: 5 13 
+from 37 to 38
+final for: 
+initial for: 
+active for: 5 
+from 53 to 34
+final for: 
+initial for: 
+active for: 9 
+from 63 to 34
+final for: 
+initial for: 
+active for: 10 
+from 67 to 68
+final for: 
+initial for: 
+active for: 10 
+from 74 to 75
+final for: 
+initial for: 
+active for: 12 
+from 92 to 93
+final for: 
+initial for: 
+active for: 17 
+from 95 to 96
+final for: 
+initial for: 
+active for: 18 
+from 98 to 99
+final for: 
+initial for: 
+active for: 19 
+character 46 enables the following transitions:
+from 54 to 78
+final for: 12 
+initial for: 
+active for: 12 
+from 54 to 33
+final for: 
+initial for: 17 18 19 
+active for: 17 18 19 
+character 47 enables the following transitions:
+from 46 to 47
+final for: 
+initial for: 
+active for: 7 
+character 48 enables the following transitions:
+from 42 to 86
+final for: 
+initial for: 
+active for: 15 
+character 49 enables the following transitions:
+from 33 to 46
+final for: 
+initial for: 
+active for: 7 8 
+from 47 to 36
+final for: 
+initial for: 
+active for: 7 
+from 59 to 46
+final for: 
+initial for: 
+active for: 9 
+from 73 to 46
+final for: 
+initial for: 
+active for: 12 
+character 4c enables the following transitions:
+from 34 to 35
+final for: 
+initial for: 
+active for: 5 8 
+from 34 to 41
+final for: 
+initial for: 
+active for: 6 
+from 34 to 92
+final for: 
+initial for: 
+active for: 17 
+from 34 to 95
+final for: 
+initial for: 
+active for: 18 
+from 34 to 98
+final for: 
+initial for: 
+active for: 19 
+character 4d enables the following transitions:
+from 52 to 53
+final for: 
+initial for: 
+active for: 9 
+from 57 to 58
+final for: 
+initial for: 
+active for: 9 
+from 52 to 63
+final for: 
+initial for: 
+active for: 10 
+from 66 to 67
+final for: 
+initial for: 
+active for: 10 
+from 52 to 35
+final for: 
+initial for: 
+active for: 13 
+character 4e enables the following transitions:
+from 34 to 54
+final for: 
+initial for: 
+active for: 9 
+from 46 to 60
+final for: 
+initial for: 
+active for: 9 
+from 34 to 64
+final for: 
+initial for: 
+active for: 10 
+from 65 to 54
+final for: 
+initial for: 
+active for: 10 
+from 46 to 74
+final for: 
+initial for: 
+active for: 12 
+from 49 to 54
+final for: 
+initial for: 
+active for: 12 
+character 4f enables the following transitions:
+from 35 to 49
+final for: 
+initial for: 
+active for: 8 12 
+from 33 to 49
+final for: 
+initial for: 
+active for: 9 10 
+from 56 to 57
+final for: 
+initial for: 
+active for: 9 
+from 87 to 49
+final for: 
+initial for: 
+active for: 15 
+character 50 enables the following transitions:
+from 82 to 58
+final for: 
+initial for: 
+active for: 14 
+character 53 enables the following transitions:
+from 16 to 42
+final for: 
+initial for: 
+active for: 6 14 15 
+from 37 to 42
+final for: 
+initial for: 
+active for: 7 
+from 46 to 36
+final for: 
+initial for: 
+active for: 8 
+from 42 to 83
+final for: 
+initial for: 
+active for: 14 
+character 54 enables the following transitions:
+from 36 to 37
+final for: 
+initial for: 
+active for: 5 7 
+from 36 to 34
+final for: 
+initial for: 
+active for: 8 
+from 54 to 6
+final for: 
+initial for: 
+active for: 9 
+from 64 to 65
+final for: 
+initial for: 
+active for: 10 
+from 34 to 37
+final for: 
+initial for: 
+active for: 12 13 14 15 
+from 75 to 32
+final for: 
+initial for: 
+active for: 12 
+from 36 to 32
+final for: 
+initial for: 
+active for: 13 
+character 55 enables the following transitions:
+from 51 to 52
+final for: 
+initial for: 
+active for: 9 
+from 62 to 52
+final for: 
+initial for: 
+active for: 10 
+character 57 enables the following transitions:
+from 83 to 32
+final for: 
+initial for: 
+active for: 14 
+from 49 to 88
+final for: 15 
+initial for: 
+active for: 15 
+character 5c enables the following transitions:
+from 28 to 44
+final for: 
+initial for: 
+active for: 6 
+character 61 enables the following transitions:
+from 58 to 59
+final for: 
+initial for: 
+active for: 9 
+from 54 to 66
+final for: 
+initial for: 
+active for: 10 
+from 58 to 16
+final for: 
+initial for: 
+active for: 14 
+from 86 to 32
+final for: 
+initial for: 
+active for: 15 
+character 62 enables the following transitions:
+from 31 to 14
+final for: 
+initial for: 
+active for: 4 
+character 63 enables the following transitions:
+from 0 to 1
+final for: 
+initial for: 0 1 
+active for: 0 1 
+from 7 to 1
+final for: 
+initial for: 
+active for: 3 
+from 43 to 27
+final for: 
+initial for: 
+active for: 6 
+from 49 to 14
+final for: 
+initial for: 
+active for: 8 
+from 49 to 51
+final for: 
+initial for: 
+active for: 9 
+from 49 to 62
+final for: 
+initial for: 
+active for: 10 
+from 37 to 72
+final for: 
+initial for: 
+active for: 12 
+from 77 to 35
+final for: 
+initial for: 
+active for: 12 
+from 37 to 79
+final for: 
+initial for: 
+active for: 13 
+from 37 to 81
+final for: 
+initial for: 
+active for: 14 
+from 37 to 85
+final for: 
+initial for: 
+active for: 15 
+character 64 enables the following transitions:
+from 30 to 31
+final for: 
+initial for: 4 11 
+active for: 4 11 
+from 32 to 33
+final for: 
+initial for: 5 7 8 9 10 
+active for: 5 6 7 8 9 10 
+from 55 to 56
+final for: 
+initial for: 
+active for: 9 
+from 32 to 76
+final for: 
+initial for: 
+active for: 12 
+from 32 to 80
+final for: 13 
+initial for: 
+active for: 13 
+from 32 to 84
+final for: 14 
+initial for: 
+active for: 14 
+from 32 to 87
+final for: 
+initial for: 
+active for: 15 
+character 65 enables the following transitions:
+from 11 to 12
+final for: 
+initial for: 
+active for: 1 
+from 14 to 12
+final for: 
+initial for: 
+active for: 2 
+from 7 to 12
+final for: 
+initial for: 
+active for: 16 
+from 89 to 90
+final for: 
+initial for: 
+active for: 16 
+from 33 to 34
+final for: 
+initial for: 
+active for: 5 6 12 13 14 15 17 18 19 
+from 35 to 36
+final for: 
+initial for: 
+active for: 5 13 
+from 37 to 38
+final for: 
+initial for: 
+active for: 5 
+from 53 to 34
+final for: 
+initial for: 
+active for: 9 
+from 63 to 34
+final for: 
+initial for: 
+active for: 10 
+from 67 to 68
+final for: 
+initial for: 
+active for: 10 
+from 74 to 75
+final for: 
+initial for: 
+active for: 12 
+from 92 to 93
+final for: 
+initial for: 
+active for: 17 
+from 95 to 96
+final for: 
+initial for: 
+active for: 18 
+from 98 to 99
+final for: 
+initial for: 
+active for: 19 
+character 66 enables the following transitions:
+from 3 to 4
+final for: 
+initial for: 
+active for: 0 
+from 54 to 78
+final for: 12 
+initial for: 
+active for: 12 
+from 54 to 33
+final for: 
+initial for: 17 18 19 
+active for: 17 18 19 
+character 67 enables the following transitions:
+from 5 to 6
+final for: 
+initial for: 
+active for: 0 
+from 46 to 47
+final for: 
+initial for: 
+active for: 7 
+character 68 enables the following transitions:
+from 42 to 86
+final for: 
+initial for: 
+active for: 15 
+character 69 enables the following transitions:
+from 4 to 5
+final for: 
+initial for: 
+active for: 0 2 
+from 7 to 8
+final for: 
+initial for: 
+active for: 0 
+from 9 to 10
+final for: 0 
+initial for: 
+active for: 0 
+from 23 to 24
+final for: 
+initial for: 
+active for: 2 
+from 11 to 25
+final for: 
+initial for: 
+active for: 2 
+from 31 to 5
+final for: 
+initial for: 
+active for: 11 
+from 33 to 46
+final for: 
+initial for: 
+active for: 7 8 
+from 47 to 36
+final for: 
+initial for: 
+active for: 7 
+from 59 to 46
+final for: 
+initial for: 
+active for: 9 
+from 73 to 46
+final for: 
+initial for: 
+active for: 12 
+character 6c enables the following transitions:
+from 34 to 35
+final for: 
+initial for: 
+active for: 5 8 
+from 34 to 41
+final for: 
+initial for: 
+active for: 6 
+from 34 to 92
+final for: 
+initial for: 
+active for: 17 
+from 34 to 95
+final for: 
+initial for: 
+active for: 18 
+from 34 to 98
+final for: 
+initial for: 
+active for: 19 
+character 6d enables the following transitions:
+from 52 to 53
+final for: 
+initial for: 
+active for: 9 
+from 57 to 58
+final for: 
+initial for: 
+active for: 9 
+from 52 to 63
+final for: 
+initial for: 
+active for: 10 
+from 66 to 67
+final for: 
+initial for: 
+active for: 10 
+from 52 to 35
+final for: 
+initial for: 
+active for: 13 
+character 6e enables the following transitions:
+from 2 to 3
+final for: 
+initial for: 
+active for: 0 1 2 
+from 8 to 9
+final for: 
+initial for: 
+active for: 0 
+from 12 to 13
+final for: 
+initial for: 
+active for: 1 2 
+from 26 to 27
+final for: 
+initial for: 
+active for: 2 
+from 34 to 54
+final for: 
+initial for: 
+active for: 9 
+from 46 to 60
+final for: 
+initial for: 
+active for: 9 
+from 34 to 64
+final for: 
+initial for: 
+active for: 10 
+from 65 to 54
+final for: 
+initial for: 
+active for: 10 
+from 46 to 74
+final for: 
+initial for: 
+active for: 12 
+from 49 to 54
+final for: 
+initial for: 
+active for: 12 
+character 6f enables the following transitions:
+from 1 to 2
+final for: 
+initial for: 
+active for: 0 1 2 
+from 21 to 22
+final for: 
+initial for: 
+active for: 2 
+from 25 to 26
+final for: 
+initial for: 
+active for: 2 
+from 35 to 49
+final for: 
+initial for: 
+active for: 8 12 
+from 33 to 49
+final for: 
+initial for: 
+active for: 9 10 
+from 56 to 57
+final for: 
+initial for: 
+active for: 9 
+from 87 to 49
+final for: 
+initial for: 
+active for: 15 
+character 70 enables the following transitions:
+from 20 to 21
+final for: 
+initial for: 
+active for: 2 3 
+from 82 to 58
+final for: 
+initial for: 
+active for: 14 
+character 72 enables the following transitions:
+from 5 to 70
+final for: 
+initial for: 
+active for: 11 
+character 73 enables the following transitions:
+from 5 to 20
+final for: 
+initial for: 
+active for: 2 
+from 22 to 23
+final for: 
+initial for: 
+active for: 2 
+from 1 to 20
+final for: 
+initial for: 
+active for: 3 
+from 16 to 42
+final for: 
+initial for: 
+active for: 6 14 15 
+from 37 to 42
+final for: 
+initial for: 
+active for: 7 
+from 46 to 36
+final for: 
+initial for: 
+active for: 8 
+from 42 to 83
+final for: 
+initial for: 
+active for: 14 
+character 74 enables the following transitions:
+from 3 to 11
+final for: 
+initial for: 
+active for: 1 
+from 13 to 14
+final for: 
+initial for: 
+active for: 1 
+from 3 to 14
+final for: 
+initial for: 
+active for: 2 
+from 13 to 18
+final for: 
+initial for: 
+active for: 2 
+from 24 to 11
+final for: 
+initial for: 
+active for: 2 
+from 36 to 37
+final for: 
+initial for: 
+active for: 5 7 
+from 36 to 34
+final for: 
+initial for: 
+active for: 8 
+from 54 to 6
+final for: 
+initial for: 
+active for: 9 
+from 64 to 65
+final for: 
+initial for: 
+active for: 10 
+from 34 to 37
+final for: 
+initial for: 
+active for: 12 13 14 15 
+from 75 to 32
+final for: 
+initial for: 
+active for: 12 
+from 36 to 32
+final for: 
+initial for: 
+active for: 13 
+character 75 enables the following transitions:
+from 51 to 52
+final for: 
+initial for: 
+active for: 9 
+from 62 to 52
+final for: 
+initial for: 
+active for: 10 
+character 77 enables the following transitions:
+from 83 to 32
+final for: 
+initial for: 
+active for: 14 
+from 49 to 88
+final for: 15 
+initial for: 
+active for: 15 
+character 78 enables the following transitions:
+from 12 to 89
+final for: 
+initial for: 
+active for: 16 
+ancored sol states: 
+MFSA DIR: ../mfsa/bro_20/

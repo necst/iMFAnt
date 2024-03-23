@@ -270,9 +270,9 @@
 	<activate-on-match element="84"/> <available-re="1"/>
 </state-transition-element>
 <state-transition-element id="84" symbol-set="[\x6d]" start="-1">
-	<activate-on-match element="85"/> <available-re="1"/>
+	<activate-on-match element="70"/> <available-re="1"/>
 </state-transition-element>
-<state-transition-element id="85" symbol-set="[\x3a]" start="-1">
+<state-transition-element id="70" symbol-set="[\x3a]" start="-1">
 	<activate-on-match element="31"/> <available-re="1"/>
 </state-transition-element>
 <state-transition-element id="81" symbol-set="[\x46]" start="-1">

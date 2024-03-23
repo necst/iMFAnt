@@ -116,12 +116,12 @@
 	<activate-on-match element="34"/> <available-re="1"/>
 </state-transition-element>
 <state-transition-element id="34" symbol-set="[\x69]" start="-1">
-	<activate-on-match element="13"/> <available-re="1"/>
-</state-transition-element>
-<state-transition-element id="13" symbol-set="[\x6e]" start="-1">
 	<activate-on-match element="35"/> <available-re="1"/>
 </state-transition-element>
-<state-transition-element id="35" symbol-set="[\x64]" start="-1">
+<state-transition-element id="35" symbol-set="[\x6e]" start="-1">
+	<activate-on-match element="36"/> <available-re="1"/>
+</state-transition-element>
+<state-transition-element id="36" symbol-set="[\x64]" start="-1">
 	<activate-on-match element="23"/> <available-re="1"/>
 	<report-on-match reportcode="1,"/>
 </state-transition-element>

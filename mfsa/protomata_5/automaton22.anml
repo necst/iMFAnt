@@ -138,15 +138,15 @@
 	<activate-on-match element="34"/> <available-re="3"/>
 </state-transition-range-element>
 <state-transition-range-element id="41" symbol-set="[\x4c\x49\x56\x4d\x4e\x42\x58]" start="4">
-	<activate-on-match element="30"/> <available-re="4"/>
+	<activate-on-match element="42"/> <available-re="4"/>
 </state-transition-range-element>
-<state-transition-range-element id="30" symbol-set="[\x4b\x52\x58]" start="-1">
+<state-transition-range-element id="42" symbol-set="[\x4b\x52\x58]" start="-1">
 	<activate-on-match element="13"/> <available-re="4"/>
 </state-transition-range-element>
 <state-transition-range-element id="1" symbol-set="[\x4e\x42\x58]" start="-1">
-	<activate-on-match element="42"/> <available-re="4"/>
+	<activate-on-match element="43"/> <available-re="4"/>
 </state-transition-range-element>
-<state-transition-range-element id="42" symbol-set="[\x48\x58]" start="-1">
+<state-transition-range-element id="43" symbol-set="[\x48\x58]" start="-1">
 	<activate-on-match element="35"/> <available-re="4"/>
 </state-transition-range-element>
 </automata-network>

@@ -98,15 +98,15 @@
 	<activate-on-match element="18"/> <available-re="1"/>
 </state-transition-element>
 <state-transition-element id="19" symbol-set="[\x6b]" start="-1">
+	<activate-on-match element="14"/> <available-re="1"/>
+</state-transition-element>
+<state-transition-element id="14" symbol-set="[\x2e]" start="-1">
 	<activate-on-match element="29"/> <available-re="1"/>
 </state-transition-element>
-<state-transition-element id="29" symbol-set="[\x2e]" start="-1">
+<state-transition-element id="29" symbol-set="[\x63]" start="-1">
 	<activate-on-match element="30"/> <available-re="1"/>
 </state-transition-element>
-<state-transition-element id="30" symbol-set="[\x63]" start="-1">
-	<activate-on-match element="31"/> <available-re="1"/>
-</state-transition-element>
-<state-transition-element id="31" symbol-set="[\x6f]" start="-1">
+<state-transition-element id="30" symbol-set="[\x6f]" start="-1">
 	<activate-on-match element="20"/> <available-re="1"/>
 </state-transition-element>
 </automata-network>

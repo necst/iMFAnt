@@ -74,10 +74,10 @@
 	<activate-on-match element="13"/> <available-re="1"/>
 </state-transition-element>
 <state-transition-element id="14" symbol-set="[\x56]" start="-1">
-	<activate-on-match element="24"/> <available-re="1"/>
+	<activate-on-match element="7"/> <available-re="1"/>
 </state-transition-element>
-<state-transition-element id="24" symbol-set="[\x65]" start="-1">
-	<activate-on-match element="25"/> <available-re="1"/>
+<state-transition-element id="7" symbol-set="[\x65]" start="-1">
+	<activate-on-match element="24"/> <available-re="1"/>
 	<report-on-match reportcode="1,"/>
 </state-transition-element>
 </automata-network>

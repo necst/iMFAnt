@@ -164,7 +164,7 @@
 	<activate-on-match element="39"/> <available-re="1"/>
 </state-transition-element>
 <state-transition-element id="40" symbol-set="[\x70]" start="-1">
-	<activate-on-match element="60"/> <available-re="1"/>
+	<activate-on-match element="59"/> <available-re="1"/>
 	<report-on-match reportcode="1,"/>
 </state-transition-element>
 <state-transition-element id="46" symbol-set="[\x68]" start="1">
@@ -207,10 +207,10 @@
 	<activate-on-match element="28"/> <available-re="1"/>
 </state-transition-element>
 <state-transition-element id="29" symbol-set="[\x41]" start="-1">
-	<activate-on-match element="59"/> <available-re="1"/>
+	<activate-on-match element="33"/> <available-re="1"/>
 </state-transition-element>
-<state-transition-element id="59" symbol-set="[\x52]" start="-1">
-	<activate-on-match element="60"/> <available-re="1"/>
+<state-transition-element id="33" symbol-set="[\x52]" start="-1">
+	<activate-on-match element="59"/> <available-re="1"/>
 	<report-on-match reportcode="1,"/>
 </state-transition-element>
 <state-transition-element id="50" symbol-set="[\x50]" start="-1">

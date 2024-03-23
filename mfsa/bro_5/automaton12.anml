@@ -104,19 +104,19 @@
 	<report-on-match reportcode="2,"/>
 </state-transition-element>
 <state-transition-element id="7" symbol-set="[\x63]" start="-1">
-	<activate-on-match element="29"/> <available-re="3"/>
+	<activate-on-match element="1"/> <available-re="3"/>
 </state-transition-element>
-<state-transition-element id="29" symbol-set="[\x73]" start="-1">
+<state-transition-element id="1" symbol-set="[\x73]" start="-1">
 	<activate-on-match element="20"/> <available-re="3"/>
 </state-transition-element>
 <state-transition-element id="21" symbol-set="[\x2e]" start="-1">
-	<activate-on-match element="30"/> <available-re="3"/>
+	<activate-on-match element="29"/> <available-re="3"/>
 	<report-on-match reportcode="3,"/>
 </state-transition-element>
-<state-transition-element id="31" symbol-set="[\x64]" start="4">
-	<activate-on-match element="32"/> <available-re="4"/>
+<state-transition-element id="30" symbol-set="[\x64]" start="4">
+	<activate-on-match element="31"/> <available-re="4"/>
 </state-transition-element>
-<state-transition-element id="32" symbol-set="[\x62]" start="-1">
+<state-transition-element id="31" symbol-set="[\x62]" start="-1">
 	<activate-on-match element="14"/> <available-re="4"/>
 </state-transition-element>
 </automata-network>
