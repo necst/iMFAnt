@@ -203,12 +203,13 @@ Contributors: Luisa Cicolini, Filippo Carloni, Marco Domenico Santambrogio, Conf
 If you find this repository useful, please use the following citation(s):
 
 ```
-@inproceedings{cicolini24one,
-  title={One Automaton To Rule Them All: Beyond Multiple Regular Expressions Execution},
-  author={Cicolini, Luisa, and Carloni, Filippo and Santambrogio, Marco D and Conficconi, Davide },
-  booktitle={Proceedings of ACM/IEEE International Symposium on Code Generation and Optimization},
-  year="2024",
-  series = {CGO 2024}
+@inproceedings{cicolini2024one,
+  title={One Automaton to Rule Them All: Beyond Multiple Regular Expressions Execution},
+  author={Cicolini, Luisa and Carloni, Filippo and Santambrogio, Marco D and Conficconi, Davide},
+  booktitle={2024 IEEE/ACM International Symposium on Code Generation and Optimization (CGO)},
+  pages={193--206},
+  year={2024},
+  organization={IEEE}
 }
 
 ```
