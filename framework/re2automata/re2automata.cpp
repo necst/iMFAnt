@@ -23,7 +23,7 @@
 #define HEX 16
 #define V 0
 #define ALPHA_SIZE 256
-#define REPS 10
+#define REPS 1
 
 using namespace std;
 
@@ -407,11 +407,11 @@ void printAutomaton(singleCOO *matrix)
 {
     std::cout<<"AUTOMATA TRANSITIONS\n";
 
-    cout<<"initial state is "<<dec<<matrix->initialState<<endl;
+    cout<<"initial state is "<<matrix->initialState<<endl;
 
     for (int i = 0; i < matrix->nonzeroValues.size(); i++)
     {
-        std::cout<<dec<< matrix->rowIdx[i]<<"--"<<hex<< matrix->nonzeroValues[i]<< "->"<<dec<< matrix->colIdx[i]<<endl;
+        std::cout<< matrix->rowIdx[i]<<"--"<< matrix->nonzeroValues[i]<< "->"<< matrix->colIdx[i]<<endl;
     }
 
     std::cout<<"BOUNDED LOOPS:\n";
@@ -420,7 +420,7 @@ void printAutomaton(singleCOO *matrix)
     else {
         for (int i = 0; i < matrix->loops.size(); i++)
         {
-            std::cout<<"lb = "<<dec<<matrix->loops[i].lowerBound<<", ub = "<<dec<<matrix->loops[i].upperBound;
+            std::cout<<"lb = "<<matrix->loops[i].lowerBound<<", ub = "<<matrix->loops[i].upperBound;
             std::cout<<"\n from "<< matrix->loops[i].init <<" to "<<matrix->loops[i].end<<endl;
             std::cout<<"involving states "; 
             for(int k=0;k<matrix->loops[i].path->states.size();k++)
@@ -434,10 +434,10 @@ void printAutomaton(singleCOO *matrix)
 
     std::cout<<"\nRANGE STRINGS\n";
     for(int i=0;i<matrix->ranges.size();i++){
-        std::cout<<"RANGE chars from state "<<dec<<matrix->ranges[i].start<<" to state "<<dec<<matrix->ranges[i].end<<" with length "<<matrix->ranges[i].ref.size()<<":\nchars: ";
+        std::cout<<"RANGE chars from state "<<matrix->ranges[i].start<<" to state "<<matrix->ranges[i].end<<" with length "<<matrix->ranges[i].ref.size()<<":\nchars: ";
 
         for(int j=0;j<matrix->ranges[i].len;j++){
-            cout<<hex<<matrix->ranges[i].ref[j]<<" ";
+            printf("%c,", (char)matrix->ranges[i].ref[j]);
             // std::cout<< matrix->ranges[i].ref[j];
         }
         if(matrix->ranges[i].neg){
@@ -448,7 +448,7 @@ void printAutomaton(singleCOO *matrix)
     }
     std::cout<<"\nFINAL STATES:\n";
     for(int i=0;i<matrix->finalStates.size();i++)
-        std::cout<<dec<<matrix->finalStates[i];
+        std::cout<<matrix->finalStates[i];
     std::cout<<endl;
 };
 
@@ -461,12 +461,12 @@ void printAutomaton_multi(mergedCOO* matrix)
 {
     std::cout<<"initial states"<<endl;
     for(int i=0;i<matrix->initialStates.size();i++){
-        std::cout<<matrix->initialStates[i]<<" belongs to "<<dec<<matrix->IbelongsTo[i]<<endl;
+        std::cout<<matrix->initialStates[i]<<" belongs to "<<matrix->IbelongsTo[i]<<endl;
     }
     std::cout<<"\ntransitions:"<<endl;
     for(int i=0;i<matrix->nonzeroValues.size();i++){
-        std::cout<<endl<<matrix->rowIdx[i]<<"--"<<hex<<matrix->nonzeroValues[i]<<"->"<<matrix->colIdx[i]<<endl;
-        std::cout<<"belongs to: "<<dec<<endl; 
+        std::cout<<endl<<matrix->rowIdx[i]<<"--"<<matrix->nonzeroValues[i]<<"->"<<matrix->colIdx[i]<<endl;
+        std::cout<<"belongs to: "<<endl; 
         for(int j=0;j<matrix->belongsTo[i].size();j++)
             std::cout<<matrix->belongsTo[i][j]<<" ";
     }
@@ -474,19 +474,19 @@ void printAutomaton_multi(mergedCOO* matrix)
     for(int i=0;i<matrix->finalStates.size();i++){
         std::cout<<matrix->finalStates[i]<<" belongs to ";
         for(int j=0;j<matrix->FbelongsTo[i].size();j++)
-            std::cout<<dec<<matrix->FbelongsTo[i][j]<<" ";
+            std::cout<<matrix->FbelongsTo[i][j]<<" ";
         std::cout<<endl;
     }
     
     
     std::cout<<"\nrange expressions"<<endl;
     for(int i=0;i<matrix->ranges.size();i++){
-        std::cout<<"from "<<dec<<matrix->ranges[i].start<<" to "<<dec <<matrix->ranges[i].end<<", neg = "<<matrix->ranges[i].neg<<" with reference: ";
+        std::cout<<"from "<<matrix->ranges[i].start<<" to " <<matrix->ranges[i].end<<", neg = "<<matrix->ranges[i].neg<<" with reference: ";
         for(int j=0;j<matrix->ranges[i].len;j++)
-            std::cout<<hex<<matrix->ranges[i].ref[j];
+            std::cout<<matrix->ranges[i].ref[j];
         std::cout<<" belongs to: ";
         for(int j=0;j<matrix->rangeBelongsTo[i].size();j++)
-            std::cout<<dec<<matrix->rangeBelongsTo[i][j]<<" ";
+            std::cout<<matrix->rangeBelongsTo[i][j]<<" ";
         std::cout<<endl;
     }
     if(matrix->ranges.size()==0) std::cout<<"\nno range expressions\n";
@@ -559,18 +559,6 @@ singleCOO* addAutomaton(AstNodePtr ast, int st){
     return m;
 }
 
-int merged(mergingSet *ms, int state){
-    for(int i=0;i<ms->size(); i++){
-        for(int j=0; j<ms->at(i).oldStates.size(); j++){
-            if (ms->at(i).oldStates[j] == state)
-                return 1;
-        }
-    }
-    return 0;
-}
-
-
-
 /**
  * Look for common character classess between a FSA and a MFSA
  * @param m is the MFSA
@@ -581,26 +569,18 @@ int merged(mergingSet *ms, int state){
  */
 int findCommonRange_multi(mergedCOO* m, singleCOO* a, mergingSet *ms, int prevFound){
     if(V){
-        // cout<<"\n\nmulti"<<endl;
-        // printAutomaton_multi(m);
-        // cout<<"\n\nsingle"<<endl;
-        // printAutomaton(a);
+        cout<<"\n\nmulti"<<endl;
+        printAutomaton_multi(m);
+        cout<<"\n\nsingle"<<endl;
+        printAutomaton(a);
     }
-
       
     for(int i=0;i<m->ranges.size();i++){
         for(int j=0;j<a->ranges.size();j++){
             // compare all ranges in the FSA and MFSA
             if(a->ranges[j].neg==m->ranges[i].neg
-            && a->ranges[j].len==m->ranges[i].len
-            && !merged(ms, a->ranges[j].start)&& !merged(ms, a->ranges[j].end)){
-
-                cout<<"\ncomparing ";
-                for(auto i: a->ranges[j].ref)
-                    cout<<i<<" ";
-                cout<<" and ";
-                for(auto i: m->ranges[i].ref)
-                    cout<<i<<" ";
+            && a->ranges[j].len==m->ranges[i].len){
+                cout<<"comparing ranges: "<<i<<" and "<<j<<endl;
 
                 int cnt = 0;
                 int flag = 0;
@@ -623,6 +603,7 @@ int findCommonRange_multi(mergedCOO* m, singleCOO* a, mergingSet *ms, int prevFo
                     if(a->ranges[j].ref[k] == (mask_rg | MINUS)){
                         for(int l=a->ranges[j].ref[k-1]+1; l<a->ranges[j].ref[k+1]; l++){
                             visited1.set(l);
+                            cout<<"range "<<j<<" set char "<<l<<endl;
                         }
                     } else {
                         visited1.set(a->ranges[j].ref[k]);
@@ -636,6 +617,7 @@ int findCommonRange_multi(mergedCOO* m, singleCOO* a, mergingSet *ms, int prevFo
                     if(m->ranges[i].ref[k] == (mask_rg | MINUS)){
                         for(int l=m->ranges[i].ref[k-1]+1; l<m->ranges[i].ref[k+1]; l++){
                             visited2.set(l);
+                            cout<<"range "<<i<<" set char "<<l<<endl;
                         }
                     } else {
                         visited2.set(m->ranges[i].ref[k]);
@@ -653,15 +635,14 @@ int findCommonRange_multi(mergedCOO* m, singleCOO* a, mergingSet *ms, int prevFo
                     flag = 1;
 
 
-
+                int cfrState = -1;
+                // if (ms->size()>0){
+                //     cfrState = ms->at(ms->size()-1).oldStates[ms->at(ms->size()-1).oldStates.size()-1];
+                // }
                 
-                if(flag && !existsArc(a, a->ranges[j].start, ms)){
+                if(flag && !existsArc(a, ms, a->ranges[j].start)){
                     // if so, save starting and final states to merge the transition described by the character class
                     mergingTab mt;
-                    cout<<"MERGED"<<endl;
-                    cout<<"replacing "<<dec<<a->ranges[j].start<<" with "<<m->ranges[i].start<<endl;
-                    cout<<"replacing "<<dec<<a->ranges[j].end<<" with "<<m->ranges[i].end<<endl;
-
                     mt.newStates.push_back(m->ranges[i].start);
                     mt.oldStates.push_back(a->ranges[j].start);
                     mt.newStates.push_back(m->ranges[i].end);
@@ -805,8 +786,72 @@ void addTwin(mergedCOO *m, int id){
     }
     for(int i=0;i<m->rangeBelongsTo.size();i++){
         m->rangeBelongsTo[i].push_back(id);
-    }
+ }
     m->mergedSoFar++;
+}
+
+int compareTransitions(mergedCOO* m, singleCOO* a, int i, int j){
+    if (m->nonzeroValues[i] == a->nonzeroValues[j] && a->nonzeroValues[j]!= EPS){
+        return 1;
+    } else if (m->nonzeroValues[i] == a->nonzeroValues[j] && a->nonzeroValues[j]== EPS) {
+        int r1, r2;
+        for(int r = 0; r< m->ranges.size(); r++){
+            if (m->ranges[r].start == m->rowIdx[i] && m->ranges[r].end == m->colIdx[i]){
+                r1 = r;
+            }
+        }
+
+        for(int r = 0; r< a->ranges.size(); r++){
+            if (a->ranges[r].start == a->rowIdx[j] && a->ranges[r].end == a->colIdx[j]){
+                r2 = r;
+            }
+        }
+
+        if (m->ranges[r1].len != a->ranges[r2].len)
+            return 0;
+
+
+         
+
+        bitset<ALPHA_SIZE> visited1;
+        uint16_t mask_rg = 1 << 8;
+        uint16_t mask_sol = 1 << 9;
+
+        for(int k=0; k<a->ranges[r2].len; k++){
+            if(a->ranges[r2].ref[k] == (mask_rg | MINUS)){
+                for(int l=a->ranges[r2].ref[k-1]+1; l<a->ranges[r2].ref[k+1]; l++){
+                    visited1.set(l);
+                    cout<<"range "<<j<<" set char "<<l<<endl;
+                }
+            } else {
+                visited1.set(a->ranges[r2].ref[k]);
+            }
+        }
+
+
+        bitset<ALPHA_SIZE> visited2;
+
+        for(int k=0; k<m->ranges[r1].len; k++){
+            if(m->ranges[r1].ref[k] == (mask_rg | MINUS)){
+                for(int l=m->ranges[r1].ref[k-1]+1; l<m->ranges[r1].ref[k+1]; l++){
+                    visited2.set(l);
+                    cout<<"range "<<i<<" set char "<<l<<endl;
+                }
+            } else {
+                visited2.set(m->ranges[r1].ref[k]);
+            }
+        }
+
+                    
+
+        if ((visited1 & visited2).count() == m->ranges[r1].len)
+            return 1;
+
+        return 0;
+
+
+    }
+    return 0;
 }
 
 /**
@@ -854,24 +899,17 @@ int findCommonSub_multi(mergedCOO* m, singleCOO* a, mergingSet *ms, int tmpFound
                 // find subsequence 
                 while(i+eqChar<a->nonzeroValues.size()
                 && j+eqChar<m->nonzeroValues.size()
-                && notInRange_multi(m, m->rowIdx[j+eqChar], m->colIdx[j+eqChar])
-                && notInRange(a, a->rowIdx[i+eqChar], a->colIdx[i+eqChar])
+                // && notInRange_multi(m, m->rowIdx[j+eqChar], m->colIdx[j+eqChar])
+                // && notInRange(a, a->rowIdx[i+eqChar], a->colIdx[i+eqChar])
                 && (computeMult(a, a->rowIdx[i+eqChar], a->colIdx[i+eqChar]).size()==1)
                 && (computeMult_m(m, m->rowIdx[j+eqChar], m->colIdx[j+eqChar]).size()==1)
-            
-                && (a->nonzeroValues[i+eqChar]==m->nonzeroValues[j+eqChar])
+                && compareTransitions(m, a, j+eqChar, i+eqChar)
+                // && (a->nonzeroValues[i+eqChar]==m->nonzeroValues[j+eqChar])
                 && checkStatesCompatibility_multi(m, a, i, j, eqChar)
                 // && path
                 ){
                     eqChar++;
-                    // if(a->nonzeroValues[i]!=EPS) notNull++;
-                    // if(eqChar>0){
-                    //     if((m->colIdx[j+eqChar-1]!=m->rowIdx[j+eqChar])
-                    //         ||(a->colIdx[i+eqChar-1]!=a->rowIdx[i+eqChar]))
-                    //             path = 0;
-                    // } else {
-                    //     path = 1;
-                    // }
+
                 }
 
                 // check diag compatibility (i.e. connected path)
@@ -895,12 +933,12 @@ int findCommonSub_multi(mergedCOO* m, singleCOO* a, mergingSet *ms, int tmpFound
 
                     int cfrState = -1;
                     
-                    // if (ms->size()>0){
-                    //     cfrState = ms->at(ms->size()-1).oldStates[ms->at(ms->size()-1).oldStates.size()-1];
-                    // }
+                    if (ms->size()>0){
+                        cfrState = ms->at(ms->size()-1).oldStates[ms->at(ms->size()-1).oldStates.size()-1];
+                    }
                     // std::cout<<"merging automata "<<a->id<<endl;
 
-                    if(!existsArc(a, a->rowIdx[i], ms)){
+                    if(!existsArc(a, ms, a->rowIdx[i])){
                         int flag=1;
                         // for(int j=0;j<ms->size();j++){
                         //     for(int k=0;k<ms->at(j).oldStates.size();k++){
@@ -970,14 +1008,20 @@ int findCommonSub_multi(mergedCOO* m, singleCOO* a, mergingSet *ms, int tmpFound
  * @param a is the FSA
  * @return 1 if one such arc exists, 0 otherwise
  */  
-int existsArc(singleCOO* a, int state2, mergingSet *ms){
+int existsArc(singleCOO* a, mergingSet *ms, int state2){
+
+    // if the arc I am trying to merge starts from a state connected by a single arc to sth merged already
+
     for(int j=0;j<ms->size();j++){
-        for(int l=0;l<a->nonzeroValues.size();l++){
-            if(a->rowIdx[l]==ms->at(j).oldStates[ms->at(j).oldStates.size()-1]&& a->colIdx[l]==state2){
-                return 1;
+        for(int k=0;k<ms->at(j).oldStates.size();k++){
+            for(int l=0;l<a->nonzeroValues.size();l++){
+                if(a->rowIdx[l]==ms->at(j).oldStates[k]&& a->colIdx[l]==state2){
+                    return 1;
+                }
             }
         }
     }
+
     // std::cout<<"compatible"<<endl;
     return 0;
 }
@@ -1016,6 +1060,8 @@ int checkStatesCompatibility_multi(mergedCOO* m, singleCOO* a, int idx1, int idx
         if(a->colIdx[idx1+i]!=a->rowIdx[idx1+i+1]) return 0;
         if(m->colIdx[idx2+i]!=m->rowIdx[idx2+i+1]) return 0;
     }
+ 
+
     
     return 1; 
 }
@@ -1049,32 +1095,24 @@ void buildSwappingTable_multi(swapTable* t, mergingSet *ms, mergedCOO* m, single
     mergingTab *mtb = new mergingTab; 
     // remove useless elements
     int idx=0;
-    // cout<<"swa swa swapping"<<endl;
     for(int i=0;i<ms->size();i++){
         for(int j=0;j<ms->at(i).newStates.size();j++){
             mtb->newStates.push_back(ms->at(i).newStates[j]);
             mtb->oldStates.push_back(ms->at(i).oldStates[j]);
-
-            // cout<<ms->at(i).oldStates[j]<<" with "<<ms->at(i).newStates[j]<<endl;
         }
     }
     for(int i=0;i<a->rowIdx.size();i++){
         if(!checkedAlready(t, a->rowIdx[i])){
             t->oldComplete.push_back(a->rowIdx[i]);
-            // cout<<"replacing bis "<<a->rowIdx[i];
             if(involvedInMerging(mtb, a->rowIdx[i])!=-1){
                 if(!alreadySwapped(t, mtb->newStates[involvedInMerging(mtb, a->rowIdx[i])])){
                     t->newComplete.push_back(mtb->newStates[involvedInMerging(mtb, a->rowIdx[i])]);
-                    // cout<<" 1 with "<<mtb->newStates[involvedInMerging(mtb, a->rowIdx[i])]<<endl;
                 } else{
                     t->newComplete.push_back(next);
-                    // cout<<" 2 with "<<next<<endl;
                     next++;
                 }
             } else {
                 t->newComplete.push_back(next);
-                // cout<<" 3 with "<<next<<endl;
-
                 next++;
             }
         }
@@ -1083,9 +1121,6 @@ void buildSwappingTable_multi(swapTable* t, mergingSet *ms, mergedCOO* m, single
         if(!checkedAlready(t, a->colIdx[i])){
             t->oldComplete.push_back(a->colIdx[i]);
             if(involvedInMerging(mtb, a->colIdx[i])!=-1){
-
-                // IL PROBLEMA E QUA
-                
                 if(!alreadySwapped(t, mtb->newStates[involvedInMerging(mtb, a->colIdx[i])])){
                     t->newComplete.push_back(mtb->newStates[involvedInMerging(mtb, a->colIdx[i])]);
                 } else {
@@ -1098,11 +1133,6 @@ void buildSwappingTable_multi(swapTable* t, mergingSet *ms, mergedCOO* m, single
             }
         }
     }
-
-    // cout<<"\nREPLACING:\n";
-    // for(int i=0; i<t->newComplete.size(); i++){
-    //     cout<<"old "<<dec<<t->oldComplete[i]<<" new "<<dec<<t->newComplete[i]<<endl;
-    // }
     delete mtb;    
 }
 
@@ -1335,15 +1365,15 @@ mergedCOO* merge_multi(toBeMerged *set){
         mergingSet *ms = new mergingSet;
         // find common ranges 
 
-        
-        int foundSub = findCommonRange_multi(mrg, set->at(i), ms, 0);
-
-        // cout<<endl<<dec<<i<<" after merging ranges: "<<endl;
+        // cout<<"before merging ranges: "<<endl;
         // printAutomaton_multi(mrg);
+        // int foundSub = findCommonRange_multi(mrg, set->at(i), ms, 0);
+
+        
 
         // cout<<"found "<<foundSub<<" common ranges"<<endl;
         // find common substrings
-        foundSub = findCommonSub_multi(mrg, set->at(i), ms, foundSub);
+        int foundSub = findCommonSub_multi(mrg, set->at(i), ms, foundSub);
 
         // cout<<"found "<<foundSub<<" common transitions"<<endl;
 
@@ -1361,9 +1391,6 @@ mergedCOO* merge_multi(toBeMerged *set){
             buildSwappingTable_multi(t, ms, mrg, set->at(i), mrg->nextFree);
             
             swap(t, set->at(i));
-
-            // cout<<"\nafter swap: "<<endl;
-            // printAutomaton(set->at(i));
      
             generateNew_multi(mrg, set->at(i));
 
@@ -1383,9 +1410,6 @@ mergedCOO* merge_multi(toBeMerged *set){
         delete ms;
         
     }
-
-    // cout<<"final"<<endl;
-    // printAutomaton_multi(mrg);
 
 
     return mrg;
@@ -1508,9 +1532,9 @@ void loopExpansion_s(singleCOO *m){
                     m->colIdx.push_back(m->colIdx[j]);
                     m->nonzeroValues.push_back(m->nonzeroValues[j]);
                     int tmpR = correspondingRange_s(m, to, m->colIdx[j]);
-                    std::cout<<"bypassing from "<<from;
-                    std::cout<<" to "<<m->colIdx[j];
-                    std::cout<<" with "<<m->nonzeroValues[j]<<endl;
+                    // std::cout<<"bypassing from "<<from;
+                    // std::cout<<" to "<<m->colIdx[j];
+                    // std::cout<<" with "<<m->nonzeroValues[j]<<endl;
                     if(tmpR!=-1){
                         range newrange = m->ranges[tmpR];
                         newrange.start=from;
@@ -2485,7 +2509,6 @@ void printANML_infant(mergedCOO *m, char* output, int offset){
             fprintf(fPtr, "\n</state-transition-element>\n");
         } else if(correspondingRange(m, m->rowIdx[i], m->colIdx[i])!=-1){
             uint16_t curr_mask = 0;
-            cout<<"\nprinting range from "<<dec<<m->rowIdx[i]<<" to "<<m->colIdx[i]<<endl;
 
             if(m->nonzeroValues[i] != EPS)
                 curr_mask = mask_sol;
@@ -2496,7 +2519,6 @@ void printANML_infant(mergedCOO *m, char* output, int offset){
                 fprintf(fPtr, "^");
             // might have two masks 
             for(int k=0;k<m->ranges[idx].len;k++){
-                cout<<hex<<m->ranges[idx].ref[k]<<" ";
                 uint16_t c = m->ranges[idx].ref[k]|curr_mask;
                 // if((int) c!=MINUS){
                 if ((int)c<HEX)
@@ -2510,7 +2532,6 @@ void printANML_infant(mergedCOO *m, char* output, int offset){
                 // }
                 
             }
-            
             fprintf(fPtr, "]\"");
             // possibly initial 
             vector<int> in = isInit_trans(m, i);

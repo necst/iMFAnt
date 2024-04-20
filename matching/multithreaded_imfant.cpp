@@ -4,7 +4,6 @@
 #include <vector>
 #include <thread>
 #include <chrono>
-#include <omp.h>
 #include "iMFAnt.hpp"
 
 

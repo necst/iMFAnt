@@ -29,14 +29,14 @@
 	<report-on-match reportcode="0,"/>
 </state-transition-element>
 <state-transition-element id="8" symbol-set="[\x7a]" start="-1">
-	<activate-on-match element="10"/> <available-re="1"/>
+	<activate-on-match element="9"/> <available-re="1"/>
 	<report-on-match reportcode="1,"/>
 </state-transition-element>
-<state-transition-element id="10" symbol-set="[\x50]" start="-1">
-	<activate-on-match element="11"/> <available-re="1"/>
+<state-transition-element id="9" symbol-set="[\x50]" start="-1">
+	<activate-on-match element="10"/> <available-re="1"/>
 </state-transition-element>
-<state-transition-element id="11" symbol-set="[\x43]" start="-1">
-	<activate-on-match element="12"/> <available-re="1"/>
+<state-transition-element id="10" symbol-set="[\x43]" start="-1">
+	<activate-on-match element="11"/> <available-re="1"/>
 	<report-on-match reportcode="1,"/>
 </state-transition-element>
 </automata-network>

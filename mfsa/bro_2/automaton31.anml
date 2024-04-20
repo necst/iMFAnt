@@ -68,7 +68,7 @@
 	<activate-on-match element="10"/> <available-re="1"/>
 </state-transition-element>
 <state-transition-element id="12" symbol-set="[\x2e]" start="-1">
-	<activate-on-match element="23"/> <available-re="1"/>
+	<activate-on-match element="13"/> <available-re="1"/>
 	<report-on-match reportcode="1,"/>
 </state-transition-element>
 </automata-network>

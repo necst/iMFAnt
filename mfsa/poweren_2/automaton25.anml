@@ -65,13 +65,13 @@
 	<activate-on-match element="17"/> <available-re="1"/>
 </state-transition-element>
 <state-transition-element id="18" symbol-set="[\x4e]" start="-1">
-	<activate-on-match element="23"/> <available-re="1"/>
+	<activate-on-match element="19"/> <available-re="1"/>
 </state-transition-element>
-<state-transition-element id="23" symbol-set="[\x43]" start="-1">
-	<activate-on-match element="24"/> <available-re="1"/>
+<state-transition-element id="19" symbol-set="[\x43]" start="-1">
+	<activate-on-match element="20"/> <available-re="1"/>
 </state-transition-element>
-<state-transition-element id="24" symbol-set="[\x7a]" start="-1">
-	<activate-on-match element="25"/> <available-re="1"/>
+<state-transition-element id="20" symbol-set="[\x7a]" start="-1">
+	<activate-on-match element="21"/> <available-re="1"/>
 	<report-on-match reportcode="1,"/>
 </state-transition-element>
 </automata-network>

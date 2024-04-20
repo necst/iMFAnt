@@ -13,8 +13,7 @@
 	<activate-on-match element="159"/> <available-re="0"/>
 </state-transition-range-element>
 <state-transition-range-element id="6" symbol-set="[\x46\x57\x59\x58]" start="-1">
-	<activate-on-match element="7"/> <available-re="0,1"/>
-	<report-on-match reportcode="1,"/>
+	<activate-on-match element="7"/> <available-re="0"/>
 </state-transition-range-element>
 <state-transition-range-element id="7" symbol-set="[\x51\x5a\x4e\x42\x59\x44\x42\x49\x58]" start="-1">
 	<activate-on-match element="8"/> <available-re="0"/>
@@ -29,7 +28,7 @@
 	<activate-on-match element="12"/> <available-re="0"/>
 </state-transition-range-element>
 <state-transition-range-element id="12" symbol-set="[\x50\x58]" start="-1">
-	<activate-on-match element="13"/> <available-re="0,1"/>
+	<activate-on-match element="13"/> <available-re="0"/>
 </state-transition-range-element>
 <state-transition-range-element id="13" symbol-set="[\x43\x58]" start="-1">
 	<activate-on-match element="14"/> <available-re="0"/>
@@ -136,10 +135,17 @@
 	<activate-on-match element="166"/> <available-re="1"/>
 </state-transition-range-element>
 <state-transition-range-element id="166" symbol-set="[\x44\x42\x4e\x42\x58]" start="-1">
-	<activate-on-match element="12"/> <available-re="1"/>
+	<activate-on-match element="167"/> <available-re="1"/>
 </state-transition-range-element>
-<state-transition-range-element id="13" symbol-set="[\x50\x58]" start="-1">
-	<activate-on-match element="6"/> <available-re="1"/>
+<state-transition-range-element id="167" symbol-set="[\x50\x58]" start="-1">
+	<activate-on-match element="168"/> <available-re="1"/>
+</state-transition-range-element>
+<state-transition-range-element id="168" symbol-set="[\x50\x58]" start="-1">
+	<activate-on-match element="169"/> <available-re="1"/>
+</state-transition-range-element>
+<state-transition-range-element id="169" symbol-set="[\x46\x59\x57\x58]" start="-1">
+	<activate-on-match element="170"/> <available-re="1"/>
+	<report-on-match reportcode="1,"/>
 </state-transition-range-element>
 </automata-network>
 </anml>

@@ -40,7 +40,7 @@ def compile_file(inputFile, outputLog, outputFilename, batch, time_dir):
     if(batch==0):
         batch=-1
     compilerCommand = "./compiler -i "+ inputFile + " -b "+str(batch)+" -o "+ outputFilename + " -t " + "\""+ time_dir +"\""
-    # print(compilerCommand)
+    print(compilerCommand)
     p = subprocess.Popen(compilerCommand, stdout=subprocess.PIPE, shell=True)
     output, error = p.communicate()
 

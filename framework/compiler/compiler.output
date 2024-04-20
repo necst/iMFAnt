@@ -2,7 +2,7 @@ Grammar
 
     0 $accept: Input $end
 
-    1 Input: %empty
+    1 Input: ε
     2      | Input Line
 
     3 Line: END
@@ -107,7 +107,7 @@ Nonterminals, with rules where they appear
 
 State 0
 
-    0 $accept: . Input $end
+    0 $accept: • Input $end
 
     $default  reduce using rule 1 (Input)
 
@@ -116,8 +116,8 @@ State 0
 
 State 1
 
-    0 $accept: Input . $end
-    2 Input: Input . Line
+    0 $accept: Input • $end
+    2 Input: Input • Line
 
     $end        shift, and go to state 2
     CHAR        shift, and go to state 3
@@ -139,28 +139,28 @@ State 1
 
 State 2
 
-    0 $accept: Input $end .
+    0 $accept: Input $end •
 
     $default  accept
 
 
 State 3
 
-   25 AndExpression: CHAR .
+   25 AndExpression: CHAR •
 
     $default  reduce using rule 25 (AndExpression)
 
 
 State 4
 
-   26 AndExpression: DOT .
+   26 AndExpression: DOT •
 
     $default  reduce using rule 26 (AndExpression)
 
 
 State 5
 
-   27 OpCpExpression: OP . OrExpression CP
+   27 OpCpExpression: OP • OrExpression CP
 
     CHAR        shift, and go to state 3
     DOT         shift, and go to state 4
@@ -179,8 +179,8 @@ State 5
 
 State 6
 
-   30 RangeExpression: OR . Range CR
-   31                | OR . NOT_OP Range CR
+   30 RangeExpression: OR • Range CR
+   31                | OR • NOT_OP Range CR
 
     CHAR    shift, and go to state 18
     NOT_OP  shift, and go to state 19
@@ -190,7 +190,7 @@ State 6
 
 State 7
 
-    6 Expressions: ANCHOR_SOL . Expression
+    6 Expressions: ANCHOR_SOL • Expression
 
     CHAR  shift, and go to state 3
     DOT   shift, and go to state 4
@@ -206,24 +206,24 @@ State 7
 
 State 8
 
-    3 Line: END .
+    3 Line: END •
 
     $default  reduce using rule 3 (Line)
 
 
 State 9
 
-    2 Input: Input Line .
+    2 Input: Input Line •
 
     $default  reduce using rule 2 (Input)
 
 
 State 10
 
-    9 Expressions: Expressions . Expression LAZY_OP LAZY_OP
-   10            | Expressions . Expression LAZY_OP
-   11            | Expressions . Expression
-   28 OrExpression: Expressions .
+    9 Expressions: Expressions • Expression LAZY_OP LAZY_OP
+   10            | Expressions • Expression LAZY_OP
+   11            | Expressions • Expression
+   28 OrExpression: Expressions •
 
     CHAR  shift, and go to state 3
     DOT   shift, and go to state 4
@@ -241,9 +241,9 @@ State 10
 
 State 11
 
-    5 Expressions: Expression .
-    7            | Expression . LAZY_OP
-    8            | Expression . LAZY_OP LAZY_OP
+    5 Expressions: Expression •
+    7            | Expression • LAZY_OP
+    8            | Expression • LAZY_OP LAZY_OP
 
     LAZY_OP  shift, and go to state 23
 
@@ -252,17 +252,17 @@ State 11
 
 State 12
 
-   21 Expression: QuantifiedExpression .
+   21 Expression: QuantifiedExpression •
 
     $default  reduce using rule 21 (Expression)
 
 
 State 13
 
-   12 Expression: AndExpression .
-   13           | AndExpression . PLUS_OP
-   14           | AndExpression . STAR_OP
-   22 QuantifiedExpression: AndExpression . QUANTIFIER
+   12 Expression: AndExpression •
+   13           | AndExpression • PLUS_OP
+   14           | AndExpression • STAR_OP
+   22 QuantifiedExpression: AndExpression • QUANTIFIER
 
     STAR_OP     shift, and go to state 24
     PLUS_OP     shift, and go to state 25
@@ -273,10 +273,10 @@ State 13
 
 State 14
 
-   18 Expression: OpCpExpression .
-   19           | OpCpExpression . PLUS_OP
-   20           | OpCpExpression . STAR_OP
-   23 QuantifiedExpression: OpCpExpression . QUANTIFIER
+   18 Expression: OpCpExpression •
+   19           | OpCpExpression • PLUS_OP
+   20           | OpCpExpression • STAR_OP
+   23 QuantifiedExpression: OpCpExpression • QUANTIFIER
 
     STAR_OP     shift, and go to state 27
     PLUS_OP     shift, and go to state 28
@@ -287,8 +287,8 @@ State 14
 
 State 15
 
-    4 Line: OrExpression . END
-   29 OrExpression: OrExpression . OR_OP Expressions
+    4 Line: OrExpression • END
+   29 OrExpression: OrExpression • OR_OP Expressions
 
     OR_OP  shift, and go to state 30
     END    shift, and go to state 31
@@ -296,10 +296,10 @@ State 15
 
 State 16
 
-   15 Expression: RangeExpression .
-   16           | RangeExpression . PLUS_OP
-   17           | RangeExpression . STAR_OP
-   24 QuantifiedExpression: RangeExpression . QUANTIFIER
+   15 Expression: RangeExpression •
+   16           | RangeExpression • PLUS_OP
+   17           | RangeExpression • STAR_OP
+   24 QuantifiedExpression: RangeExpression • QUANTIFIER
 
     STAR_OP     shift, and go to state 32
     PLUS_OP     shift, and go to state 33
@@ -310,8 +310,8 @@ State 16
 
 State 17
 
-   27 OpCpExpression: OP OrExpression . CP
-   29 OrExpression: OrExpression . OR_OP Expressions
+   27 OpCpExpression: OP OrExpression • CP
+   29 OrExpression: OrExpression • OR_OP Expressions
 
     OR_OP  shift, and go to state 30
     CP     shift, and go to state 35
@@ -319,8 +319,8 @@ State 17
 
 State 18
 
-   32 Range: CHAR . RANGE_OP CHAR
-   34      | CHAR .
+   32 Range: CHAR • RANGE_OP CHAR
+   34      | CHAR •
 
     RANGE_OP  shift, and go to state 36
 
@@ -329,7 +329,7 @@ State 18
 
 State 19
 
-   31 RangeExpression: OR NOT_OP . Range CR
+   31 RangeExpression: OR NOT_OP • Range CR
 
     CHAR  shift, and go to state 18
 
@@ -338,9 +338,9 @@ State 19
 
 State 20
 
-   30 RangeExpression: OR Range . CR
-   33 Range: Range . CHAR RANGE_OP CHAR
-   35      | Range . CHAR
+   30 RangeExpression: OR Range • CR
+   33 Range: Range • CHAR RANGE_OP CHAR
+   35      | Range • CHAR
 
     CHAR  shift, and go to state 38
     CR    shift, and go to state 39
@@ -348,16 +348,16 @@ State 20
 
 State 21
 
-    6 Expressions: ANCHOR_SOL Expression .
+    6 Expressions: ANCHOR_SOL Expression •
 
     $default  reduce using rule 6 (Expressions)
 
 
 State 22
 
-    9 Expressions: Expressions Expression . LAZY_OP LAZY_OP
-   10            | Expressions Expression . LAZY_OP
-   11            | Expressions Expression .
+    9 Expressions: Expressions Expression • LAZY_OP LAZY_OP
+   10            | Expressions Expression • LAZY_OP
+   11            | Expressions Expression •
 
     LAZY_OP  shift, and go to state 40
 
@@ -366,8 +366,8 @@ State 22
 
 State 23
 
-    7 Expressions: Expression LAZY_OP .
-    8            | Expression LAZY_OP . LAZY_OP
+    7 Expressions: Expression LAZY_OP •
+    8            | Expression LAZY_OP • LAZY_OP
 
     LAZY_OP  shift, and go to state 41
 
@@ -376,49 +376,49 @@ State 23
 
 State 24
 
-   14 Expression: AndExpression STAR_OP .
+   14 Expression: AndExpression STAR_OP •
 
     $default  reduce using rule 14 (Expression)
 
 
 State 25
 
-   13 Expression: AndExpression PLUS_OP .
+   13 Expression: AndExpression PLUS_OP •
 
     $default  reduce using rule 13 (Expression)
 
 
 State 26
 
-   22 QuantifiedExpression: AndExpression QUANTIFIER .
+   22 QuantifiedExpression: AndExpression QUANTIFIER •
 
     $default  reduce using rule 22 (QuantifiedExpression)
 
 
 State 27
 
-   20 Expression: OpCpExpression STAR_OP .
+   20 Expression: OpCpExpression STAR_OP •
 
     $default  reduce using rule 20 (Expression)
 
 
 State 28
 
-   19 Expression: OpCpExpression PLUS_OP .
+   19 Expression: OpCpExpression PLUS_OP •
 
     $default  reduce using rule 19 (Expression)
 
 
 State 29
 
-   23 QuantifiedExpression: OpCpExpression QUANTIFIER .
+   23 QuantifiedExpression: OpCpExpression QUANTIFIER •
 
     $default  reduce using rule 23 (QuantifiedExpression)
 
 
 State 30
 
-   29 OrExpression: OrExpression OR_OP . Expressions
+   29 OrExpression: OrExpression OR_OP • Expressions
 
     CHAR        shift, and go to state 3
     DOT         shift, and go to state 4
@@ -436,51 +436,51 @@ State 30
 
 State 31
 
-    4 Line: OrExpression END .
+    4 Line: OrExpression END •
 
     $default  reduce using rule 4 (Line)
 
 
 State 32
 
-   17 Expression: RangeExpression STAR_OP .
+   17 Expression: RangeExpression STAR_OP •
 
     $default  reduce using rule 17 (Expression)
 
 
 State 33
 
-   16 Expression: RangeExpression PLUS_OP .
+   16 Expression: RangeExpression PLUS_OP •
 
     $default  reduce using rule 16 (Expression)
 
 
 State 34
 
-   24 QuantifiedExpression: RangeExpression QUANTIFIER .
+   24 QuantifiedExpression: RangeExpression QUANTIFIER •
 
     $default  reduce using rule 24 (QuantifiedExpression)
 
 
 State 35
 
-   27 OpCpExpression: OP OrExpression CP .
+   27 OpCpExpression: OP OrExpression CP •
 
     $default  reduce using rule 27 (OpCpExpression)
 
 
 State 36
 
-   32 Range: CHAR RANGE_OP . CHAR
+   32 Range: CHAR RANGE_OP • CHAR
 
     CHAR  shift, and go to state 43
 
 
 State 37
 
-   31 RangeExpression: OR NOT_OP Range . CR
-   33 Range: Range . CHAR RANGE_OP CHAR
-   35      | Range . CHAR
+   31 RangeExpression: OR NOT_OP Range • CR
+   33 Range: Range • CHAR RANGE_OP CHAR
+   35      | Range • CHAR
 
     CHAR  shift, and go to state 38
     CR    shift, and go to state 44
@@ -488,8 +488,8 @@ State 37
 
 State 38
 
-   33 Range: Range CHAR . RANGE_OP CHAR
-   35      | Range CHAR .
+   33 Range: Range CHAR • RANGE_OP CHAR
+   35      | Range CHAR •
 
     RANGE_OP  shift, and go to state 45
 
@@ -498,15 +498,15 @@ State 38
 
 State 39
 
-   30 RangeExpression: OR Range CR .
+   30 RangeExpression: OR Range CR •
 
     $default  reduce using rule 30 (RangeExpression)
 
 
 State 40
 
-    9 Expressions: Expressions Expression LAZY_OP . LAZY_OP
-   10            | Expressions Expression LAZY_OP .
+    9 Expressions: Expressions Expression LAZY_OP • LAZY_OP
+   10            | Expressions Expression LAZY_OP •
 
     LAZY_OP  shift, and go to state 46
 
@@ -515,17 +515,17 @@ State 40
 
 State 41
 
-    8 Expressions: Expression LAZY_OP LAZY_OP .
+    8 Expressions: Expression LAZY_OP LAZY_OP •
 
     $default  reduce using rule 8 (Expressions)
 
 
 State 42
 
-    9 Expressions: Expressions . Expression LAZY_OP LAZY_OP
-   10            | Expressions . Expression LAZY_OP
-   11            | Expressions . Expression
-   29 OrExpression: OrExpression OR_OP Expressions .
+    9 Expressions: Expressions • Expression LAZY_OP LAZY_OP
+   10            | Expressions • Expression LAZY_OP
+   11            | Expressions • Expression
+   29 OrExpression: OrExpression OR_OP Expressions •
 
     CHAR  shift, and go to state 3
     DOT   shift, and go to state 4
@@ -543,34 +543,34 @@ State 42
 
 State 43
 
-   32 Range: CHAR RANGE_OP CHAR .
+   32 Range: CHAR RANGE_OP CHAR •
 
     $default  reduce using rule 32 (Range)
 
 
 State 44
 
-   31 RangeExpression: OR NOT_OP Range CR .
+   31 RangeExpression: OR NOT_OP Range CR •
 
     $default  reduce using rule 31 (RangeExpression)
 
 
 State 45
 
-   33 Range: Range CHAR RANGE_OP . CHAR
+   33 Range: Range CHAR RANGE_OP • CHAR
 
     CHAR  shift, and go to state 47
 
 
 State 46
 
-    9 Expressions: Expressions Expression LAZY_OP LAZY_OP .
+    9 Expressions: Expressions Expression LAZY_OP LAZY_OP •
 
     $default  reduce using rule 9 (Expressions)
 
 
 State 47
 
-   33 Range: Range CHAR RANGE_OP CHAR .
+   33 Range: Range CHAR RANGE_OP CHAR •
 
     $default  reduce using rule 33 (Range)

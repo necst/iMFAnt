@@ -41,10 +41,10 @@
 	<activate-on-match element="7"/> <available-re="1"/>
 </state-transition-element>
 <state-transition-element id="8" symbol-set="[\x57]" start="-1">
-	<activate-on-match element="14"/> <available-re="1"/>
+	<activate-on-match element="9"/> <available-re="1"/>
 </state-transition-element>
-<state-transition-element id="14" symbol-set="[\x53]" start="-1">
-	<activate-on-match element="15"/> <available-re="1"/>
+<state-transition-element id="9" symbol-set="[\x53]" start="-1">
+	<activate-on-match element="10"/> <available-re="1"/>
 	<report-on-match reportcode="1,"/>
 </state-transition-element>
 </automata-network>

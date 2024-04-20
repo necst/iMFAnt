@@ -77,14 +77,14 @@
 	<activate-on-match element="4"/> <available-re="1"/>
 </state-transition-element>
 <state-transition-element id="14" symbol-set="[\x6b]" start="-1">
-	<activate-on-match element="27"/> <available-re="1"/>
+	<activate-on-match element="15"/> <available-re="1"/>
 	<report-on-match reportcode="1,"/>
 </state-transition-element>
-<state-transition-element id="27" symbol-set="[\x51]" start="-1">
-	<activate-on-match element="28"/> <available-re="1"/>
+<state-transition-element id="15" symbol-set="[\x51]" start="-1">
+	<activate-on-match element="16"/> <available-re="1"/>
 </state-transition-element>
-<state-transition-element id="28" symbol-set="[\x32]" start="-1">
-	<activate-on-match element="29"/> <available-re="1"/>
+<state-transition-element id="16" symbol-set="[\x32]" start="-1">
+	<activate-on-match element="27"/> <available-re="1"/>
 	<report-on-match reportcode="1,"/>
 </state-transition-element>
 </automata-network>

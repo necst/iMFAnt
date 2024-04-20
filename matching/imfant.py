@@ -24,7 +24,6 @@ streams = [
     "../input_streams/input_dotstar_1Mb.input",
     "../input_streams/input_tcp_1Mb.input",
     "../input_streams/input_bro_1Mb.input", 
-    "test_input"
     "../input_streams/input_ranges_1Mb.input",
 ]
 

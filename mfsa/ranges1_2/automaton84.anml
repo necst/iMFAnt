@@ -197,10 +197,10 @@
 	<activate-on-match element="15"/> <available-re="1"/>
 </state-transition-element>
 <state-transition-element id="16" symbol-set="[\x61]" start="-1">
-	<activate-on-match element="49"/> <available-re="1"/>
+	<activate-on-match element="17"/> <available-re="1"/>
 </state-transition-element>
-<state-transition-element id="49" symbol-set="[\x78]" start="-1">
-	<activate-on-match element="65"/> <available-re="1"/>
+<state-transition-element id="17" symbol-set="[\x78]" start="-1">
+	<activate-on-match element="18"/> <available-re="1"/>
 	<report-on-match reportcode="1,"/>
 </state-transition-element>
 </automata-network>

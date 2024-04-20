@@ -102,13 +102,13 @@
 	<activate-on-match element="4"/> <available-re="1"/>
 </state-transition-element>
 <state-transition-element id="5" symbol-set="[\x56]" start="-1">
-	<activate-on-match element="32"/> <available-re="1"/>
+	<activate-on-match element="6"/> <available-re="1"/>
 </state-transition-element>
-<state-transition-element id="32" symbol-set="[\x53]" start="-1">
-	<activate-on-match element="33"/> <available-re="1"/>
+<state-transition-element id="6" symbol-set="[\x53]" start="-1">
+	<activate-on-match element="7"/> <available-re="1"/>
 </state-transition-element>
-<state-transition-element id="33" symbol-set="[\x67]" start="-1">
-	<activate-on-match element="34"/> <available-re="1"/>
+<state-transition-element id="7" symbol-set="[\x67]" start="-1">
+	<activate-on-match element="8"/> <available-re="1"/>
 	<report-on-match reportcode="1,"/>
 </state-transition-element>
 </automata-network>
