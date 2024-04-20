@@ -814,6 +814,8 @@ int compareTransitions(mergedCOO* m, singleCOO* a, int i, int j){
          
 
         bitset<ALPHA_SIZE> visited1;
+        bitset<ALPHA_SIZE> visited2;
+
         uint16_t mask_rg = 1 << 8;
         uint16_t mask_sol = 1 << 9;
 
@@ -826,12 +828,7 @@ int compareTransitions(mergedCOO* m, singleCOO* a, int i, int j){
             } else {
                 visited1.set(a->ranges[r2].ref[k]);
             }
-        }
 
-
-        bitset<ALPHA_SIZE> visited2;
-
-        for(int k=0; k<m->ranges[r1].len; k++){
             if(m->ranges[r1].ref[k] == (mask_rg | MINUS)){
                 for(int l=m->ranges[r1].ref[k-1]+1; l<m->ranges[r1].ref[k+1]; l++){
                     visited2.set(l);
@@ -840,9 +837,8 @@ int compareTransitions(mergedCOO* m, singleCOO* a, int i, int j){
             } else {
                 visited2.set(m->ranges[r1].ref[k]);
             }
-        }
 
-                    
+        }           
 
         if ((visited1 & visited2).count() == m->ranges[r1].len)
             return 1;
